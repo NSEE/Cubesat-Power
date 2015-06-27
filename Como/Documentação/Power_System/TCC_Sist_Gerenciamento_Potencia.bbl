@@ -1,0 +1,140 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.3 }
+
+\bibitem{CubeSat}
+\abntrefinfo{MEHRPARVAR A.;~PIGnATELLI}{MEHRPARVAR A.;~PIGNATELLI}{2014}
+{MEHRPARVAR A.;~PIGNATELLI, D. \emph{CubeSat Design Specification}.
+13. ed. Califórnia, 2014.}
+
+\bibitem{NASA}
+\abntrefinfo{NASA}{NASA}{2014}
+{NASA. \emph{NASA's CubeSat Launch Initiative}.
+Washington, D.C, 2014. Dispon{\'\i}vel em:
+  \url{http://www.nasa.gov/directorates/somd/home/CubeSats\_initiative.html}.
+  Acesso em: 06 dez. 2014.}
+
+\bibitem{Corsi}
+\abntrefinfo{FERRÃO}{FERRÃO}{2014}
+{FERRÃO, R.~C. \emph{Especificação do produto CubeSat}.
+1. ed. São Caetano do Sul, 2014.}
+
+\bibitem{UbatubaSat}
+\abntrefinfo{ETEC TANCREDO NEVES}{ETEC TANCREDO NEVES}{2014}
+{ETEC TANCREDO NEVES. \emph{Projeto UbatubaSat}.
+Ubatuba, 2014. Dispon{\'\i}vel em:
+  \url{http://www.tancredoubatuba.com.br/ubatubasat/index.php}. Acesso em: 24
+  out. 2014.}
+
+\bibitem{AESP14}
+\abntrefinfo{ITA}{ITA}{2014}
+{ITA. \emph{AESP14}.
+São José dos Campos, 2014. Dispon{\'\i}vel em:
+  \url{http://www.aer.ita.br/~aesp14/}. Acesso em: 24 out. 2014.}
+
+\bibitem{INPE}
+\abntrefinfo{INPE}{INPE}{2014}
+{INPE. \emph{NanoSatC-BR2}.
+São José dos Campos, 2014. Dispon{\'\i}vel em:
+  \url{http://www.inpe.br/crs/nanosat/NanoSatCBR2.php}. Acesso em: 24 out.
+  2014.}
+
+\bibitem{IFF}
+\abntrefinfo{INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA
+  FLUMINENSE}{INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA
+  FLUMINENSE}{2014}
+{INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA FLUMINENSE.
+  \emph{Programas e Projetos desenvolvidos pelo IFF}.
+Campos dos Goytacazes, 2014. Dispon{\'\i}vel em:
+  \url{http://portal.iff.edu.br/projetos}. Acesso em: 24 out. 2014.}
+
+\bibitem{ITASAT}
+\abntrefinfo{ITA}{ITA}{2014}
+{ITA. \emph{Satélite ITASAT-1}.
+São José dos Campos, 2014. Dispon{\'\i}vel em:
+  \url{http://www.ita.br/noticias/itasat1}. Acesso em: 09 out. 2014.}
+
+\bibitem{LEO}
+\abntrefinfo{THE TECH}{THE TECH}{2014}
+{THE TECH. \emph{Low Earth Orbit}.
+[S.l.], 2014. Dispon{\'\i}vel em:
+  \url{https://www.thetech.org/exhibits/online/satellite/4/4a/4a.1.html}.
+  Acesso em: 23 de nov. de 2014.}
+
+\bibitem{NASA2}
+\abntrefinfo{NASA}{NASA}{2014}
+{NASA. \emph{Rocket Aerodynamics}.
+Washington, D.C, 2014. Dispon{\'\i}vel em:
+  \url{http://microgravity.grc.nasa.gov/education/rocket/rktaero.html}. Acesso
+  em: 23 de nov. de 2014.}
+
+\bibitem{CAP}
+\abntrefinfo{CIVIL AIR PATROL}{CIVIL AIR PATROL}{2015}
+{CIVIL AIR PATROL. \emph{Satellites}.
+[S.l.], 2015. Dispon{\'\i}vel em:
+  \url{http://www.cap-ny153.org/satellites.htm}. Acesso em: 05 de jun. de
+  2015.}
+
+\bibitem{BraEsc}
+\abntrefinfo{Fogaça}{FOGAçA}{2015}
+{FOGAçA, J. \emph{Pilhas e bateria de lítio}.
+[S.l.], 2015. Dispon{\'\i}vel em:
+  \url{http://www.brasilescola.com/quimica/pilhas-baterias-litio.htm}. Acesso
+  em: 08 de jun. de 2015.}
+
+\bibitem{TecMundo}
+\abntrefinfo{Karasinski}{KARASINSKI}{2015}
+{KARASINSKI, L. \emph{Como são produzidas as baterias de lítio}.
+[S.l.], 2015. Dispon{\'\i}vel em:
+  \url{http://www.tecmundo.com.br/bateria/42123-como-sao-produzidas-as-baterias-de-litio-.htm}.
+  Acesso em: 08 de jun. de 2015.}
+
+\bibitem{SpectroLab}
+\abntrefinfo{SPECTROLAB}{SPECTROLAB}{2015}
+{SPECTROLAB. \emph{Company profile}.
+Los Angeles, 2015. Dispon{\'\i}vel em:
+  \url{http://www.spectrolab.com/company.htm}. Acesso em: 17 de jun. de 2015.}
+
+\bibitem{SpectroLab2}
+\abntrefinfo{SpectroLab}{SPECTROLAB}{2009?}
+{SPECTROLAB. \emph{High Efficiency Space Solar Cells}.
+Califórnia, 2009?}
+
+\bibitem{Emcore}
+\abntrefinfo{English}{ENGLISH}{2015}
+{ENGLISH, M. \emph{Emcore completes sale to SolAero}.
+Albuquerque, NM, 2015. Dispon{\'\i}vel em:
+  \url{http://www.bizjournals.com/albuquerque/blog/morning-edition/2014/12/emcore-completes-sale-to-solaero.html}.
+  Acesso em: 17 de jun. de 2015.}
+
+\bibitem{Emcore2}
+\abntrefinfo{SolAero Technologies}{SOLAERO TECHNOLOGIES}{2015a}
+{SOLAERO TECHNOLOGIES. \emph{About us}.
+Albuquerque, NM, 2015. Dispon{\'\i}vel em:
+  \url{http://solaerotech.com/about-us/}. Acesso em: 17 de jun. de 2015.}
+
+\bibitem{Emcore3}
+\abntrefinfo{SolAero Technologies}{SOLAERO TECHNOLOGIES}{2015b}
+{SOLAERO TECHNOLOGIES. \emph{ZTJ Space Solar Cell - Datasheet}.
+Albuquerque, NM, 2015.}
+
+\bibitem{AzurSpace}
+\abntrefinfo{AzurSpace Solar Power GMBH}{AZURSPACE SOLAR POWER GMBH}{2015a}
+{AZURSPACE SOLAR POWER GMBH. \emph{We develop future from space to Earth}.
+Heilbronn, 2015. Dispon{\'\i}vel em:
+  \url{http://www.azurspace.com/index.php/en/}. Acesso em: 17 de jun. de 2015.}
+
+\bibitem{AzurSpace2}
+\abntrefinfo{AzurSpace Solar Power GMBH}{AZURSPACE SOLAR POWER GMBH}{2015b}
+{AZURSPACE SOLAR POWER GMBH. \emph{3G30C - Advanced}.
+Heilbronn, 2015.}
+
+\bibitem{TrisolX}
+\abntrefinfo{TrisolX}{TRISOLX}{2015}
+{TRISOLX. \emph{TrisolX Solar Wings}.
+Nova Iorque, 2015.}
+
+\end{thebibliography}
