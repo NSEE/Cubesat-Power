@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.3)  27 JUN 2015 14:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.3)  27 JUN 2015 16:36
 entering extended mode
 **TCC_Sist_Gerenciamento_Potencia.tex
 
@@ -942,34 +942,34 @@ LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 862.
 \ABCItoken=\toks28
 )
-Package color Info: Redefining color blue on input line 121.
-Package hyperref Info: Option `colorlinks' set `true' on input line 138.
+Package color Info: Redefining color blue on input line 100.
+Package hyperref Info: Option `colorlinks' set `true' on input line 117.
 \TCC_Sist_Gerenciamento_Potencia@idxfile=\write4
 
 Writing index file TCC_Sist_Gerenciamento_Potencia.idx 
 
 (D:\GitHub\Cubesat-Power\Como\Documentação\Power_System\TCC_Sist_Gerenciament
 o_Potencia.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 161.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 140.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 161.
+Package hyperref Info: Link coloring ON on input line 140.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -981,23 +981,23 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 161.
-LaTeX Info: Redefining \ref on input line 161.
-LaTeX Info: Redefining \pageref on input line 161.
-LaTeX Info: Redefining \nameref on input line 161.
-LaTeX Info: Redefining \degres on input line 161.
+LaTeX Info: Redefining \nameref on input line 140.
+LaTeX Info: Redefining \ref on input line 140.
+LaTeX Info: Redefining \pageref on input line 140.
+LaTeX Info: Redefining \nameref on input line 140.
+LaTeX Info: Redefining \degres on input line 140.
 
 Package frenchb.ldf Warning: The definition of \@makecaption has been changed,
 (frenchb.ldf)                frenchb will NOT customise it;
-(frenchb.ldf)                reported on input line 161.
+(frenchb.ldf)                reported on input line 140.
 
-LaTeX Info: Redefining \dots on input line 161.
-LaTeX Info: Redefining \up on input line 161.
+LaTeX Info: Redefining \dots on input line 140.
+LaTeX Info: Redefining \up on input line 140.
 \myptabbox=\box32
 \myptabboxwidth=\skip200
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 161.
+(lastpage)             ! on input line 140.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count175
@@ -1012,7 +1012,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 \makeMPintoPDFobject=\count180
 \everyMPtoPDFconversion=\toks30
 )
-LaTeX Info: Redefining \microtypecontext on input line 161.
+LaTeX Info: Redefining \microtypecontext on input line 140.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1026,7 +1026,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 173.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 152.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
@@ -1039,81 +1039,81 @@ Package microtype Info: Loading generic settings for font family
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 182.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 161.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 182.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 161.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 182
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 161
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 182
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 161
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 182.
+(Font)              <12> on input line 161.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 182.
+(Font)              <8> on input line 161.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 182.
+(Font)              <6> on input line 161.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.182 
+l.161 
        [1
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
 
-Overfull \hbox (16.44858pt too wide) in paragraph at lines 210--213
+Overfull \hbox (16.44858pt too wide) in paragraph at lines 189--192
 []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--213
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--223
+Underfull \hbox (badness 10000) in paragraph at lines 195--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 226.
+(Font)              <10> on input line 205.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 226.
+(Font)              <7> on input line 205.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 226.
+(Font)              <5> on input line 205.
 [2] [3
 
 ] [4
@@ -1140,7 +1140,7 @@ o_Potencia.lot) [9
 (D:\GitHub\Cubesat-Power\Como\Documentação\Power_System\TCC_Sist_Gerenciament
 o_Potencia.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 44.
+(Font)              <14.4> on input line 46.
 ) [11
 
 ] [12
@@ -1148,162 +1148,162 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ] [13]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 439.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 418.
 
-<./figs/cubesat_01.jpg, id=172, 351.3125pt x 214.8025pt>
+<./figs/cubesat_01.jpg, id=176, 351.3125pt x 214.8025pt>
 File: ./figs/cubesat_01.jpg Graphic file (type jpg)
 
 <use ./figs/cubesat_01.jpg>
-Package pdftex.def Info: ./figs/cubesat_01.jpg used on input line 448.
+Package pdftex.def Info: ./figs/cubesat_01.jpg used on input line 427.
 (pdftex.def)             Requested size: 364.00139pt x 222.57976pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 451.
+(Font)              <10.95> on input line 430.
 
-<./figs/cubesat_02.png, id=174, 387.4475pt x 344.0855pt>
+<./figs/cubesat_02.png, id=178, 387.4475pt x 344.0855pt>
 File: ./figs/cubesat_02.png Graphic file (type png)
 
 <use ./figs/cubesat_02.png>
-Package pdftex.def Info: ./figs/cubesat_02.png used on input line 460.
+Package pdftex.def Info: ./figs/cubesat_02.png used on input line 439.
 (pdftex.def)             Requested size: 181.99722pt x 161.63095pt.
  [14
 
  <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/cubesat_01.jpg>
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 479.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 458.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 479.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 458.
  [15 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/cubesat_02.
 png>] [16]
-<./figs/cubesat_03.png, id=209, 264.99pt x 170.13562pt>
+<./figs/cubesat_03.png, id=217, 264.99pt x 170.13562pt>
 File: ./figs/cubesat_03.png Graphic file (type png)
 
 <use ./figs/cubesat_03.png>
-Package pdftex.def Info: ./figs/cubesat_03.png used on input line 525.
+Package pdftex.def Info: ./figs/cubesat_03.png used on input line 510.
 (pdftex.def)             Requested size: 227.5pt x 146.06714pt.
  [17
 
-] [18 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/cubesat_03
-.png>]
-Underfull \hbox (badness 2538) in paragraph at lines 554--554
+]
+Underfull \hbox (badness 2538) in paragraph at lines 542--542
 []|\T1/lmr/m/n/12 (+20) Boa ca-pa-ci-dade de ar-ma-ze-na-
  []
 
 
-Overfull \hbox (8.59131pt too wide) in paragraph at lines 549--561
+Overfull \hbox (8.59131pt too wide) in paragraph at lines 537--549
 [][] 
  []
 
-<./figs/cubesat_04.png, id=223, 471.26062pt x 315.42844pt>
+[18 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/cubesat_03.p
+ng>] <./figs/cubesat_04.png, id=232, 471.26062pt x 315.42844pt>
 File: ./figs/cubesat_04.png Graphic file (type png)
 
 <use ./figs/cubesat_04.png>
-Package pdftex.def Info: ./figs/cubesat_04.png used on input line 573.
+Package pdftex.def Info: ./figs/cubesat_04.png used on input line 561.
 (pdftex.def)             Requested size: 273.00278pt x 182.73203pt.
 
-<./figs/cubesat_05.png, id=225, 252.945pt x 190.46156pt>
+<./figs/cubesat_05.png, id=234, 252.945pt x 190.46156pt>
 File: ./figs/cubesat_05.png Graphic file (type png)
 
 <use ./figs/cubesat_05.png>
-Package pdftex.def Info: ./figs/cubesat_05.png used on input line 585.
+Package pdftex.def Info: ./figs/cubesat_05.png used on input line 573.
 (pdftex.def)             Requested size: 273.00278pt x 205.56752pt.
  [19 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/cubesat_04.
 png>]
-<./figs/setup.jpg, id=233, 963.6pt x 1284.8pt>
+<./figs/setup.jpg, id=242, 963.6pt x 1284.8pt>
 File: ./figs/setup.jpg Graphic file (type jpg)
  <use ./figs/setup.jpg>
-Package pdftex.def Info: ./figs/setup.jpg used on input line 605.
+Package pdftex.def Info: ./figs/setup.jpg used on input line 593.
 (pdftex.def)             Requested size: 136.50139pt x 181.98805pt.
  [20 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/cubesat_05.
 png>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 616.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 604.
 
-Overfull \hbox (4.36517pt too wide) in paragraph at lines 627--627
+Overfull \hbox (4.36517pt too wide) in paragraph at lines 615--615
 []|\T1/lmr/m/n/12 (-20) GaInP2/GaAs/Ge| 
  []
 
 
-Overfull \hbox (4.36517pt too wide) in paragraph at lines 627--627
+Overfull \hbox (4.36517pt too wide) in paragraph at lines 615--615
 []|\T1/lmr/m/n/12 (-20) GaInP2/GaAs/Ge| 
  []
 
 
-Overfull \hbox (4.36517pt too wide) in paragraph at lines 627--627
+Overfull \hbox (4.36517pt too wide) in paragraph at lines 615--615
 []|\T1/lmr/m/n/12 (-20) GaInP2/GaAs/Ge| 
  []
 
 
-Overfull \hbox (4.36517pt too wide) in paragraph at lines 627--628
+Overfull \hbox (4.36517pt too wide) in paragraph at lines 615--616
 []|\T1/lmr/m/n/12 (-20) GaInP2/GaAs/Ge| 
  []
 
 
-Overfull \hbox (1.52792pt too wide) in paragraph at lines 633--633
+Overfull \hbox (1.52792pt too wide) in paragraph at lines 621--621
 []|\T1/lmr/bx/n/12 Dimensional| 
  []
 
 
-Overfull \hbox (30.54668pt too wide) in paragraph at lines 622--637
+Overfull \hbox (30.54668pt too wide) in paragraph at lines 610--625
 [][] 
  []
 
 [21 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/setup.jpg>]
-<./figs/UTJ.png, id=248, 304.88907pt x 105.39375pt>
+<./figs/UTJ.png, id=257, 304.88907pt x 105.39375pt>
 File: ./figs/UTJ.png Graphic file (type png)
  <use ./figs/UTJ.png>
-Package pdftex.def Info: ./figs/UTJ.png used on input line 653.
+Package pdftex.def Info: ./figs/UTJ.png used on input line 641.
 (pdftex.def)             Requested size: 455.0pt x 157.28934pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 667--667
+Underfull \hbox (badness 10000) in paragraph at lines 655--655
 []|\T1/lmr/bx/it/12 BTJM PV
  []
 
 
-Overfull \hbox (1.52792pt too wide) in paragraph at lines 677--677
+Overfull \hbox (1.52792pt too wide) in paragraph at lines 665--665
 []|\T1/lmr/bx/n/12 Dimensional| 
  []
 
 
-Overfull \hbox (30.54668pt too wide) in paragraph at lines 666--681
+Overfull \hbox (30.54668pt too wide) in paragraph at lines 654--669
 [][] 
  []
 
 [22 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/UTJ.png>]
-<./figs/ZTJ.png, id=260, 161.10187pt x 83.5622pt>
+<./figs/ZTJ.png, id=269, 161.10187pt x 83.5622pt>
 File: ./figs/ZTJ.png Graphic file (type png)
  <use ./figs/ZTJ.png>
-Package pdftex.def Info: ./figs/ZTJ.png used on input line 697.
+Package pdftex.def Info: ./figs/ZTJ.png used on input line 685.
 (pdftex.def)             Requested size: 227.5pt x 118.00757pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--711
+Underfull \hbox (badness 10000) in paragraph at lines 699--699
 []|\T1/lmr/bx/it/12 3G30C-Large-
  []
 
 
-Overfull \hbox (1.52792pt too wide) in paragraph at lines 721--721
+Overfull \hbox (1.52792pt too wide) in paragraph at lines 709--709
 []|\T1/lmr/bx/n/12 Dimensional| 
  []
 
 
-Overfull \hbox (30.54668pt too wide) in paragraph at lines 710--725
+Overfull \hbox (30.54668pt too wide) in paragraph at lines 698--713
 [][] 
  []
 
 File: ./figs/ZTJ.png Graphic file (type png)
 <use ./figs/ZTJ.png>
-Package pdftex.def Info: ./figs/ZTJ.png used on input line 740.
+Package pdftex.def Info: ./figs/ZTJ.png used on input line 728.
 (pdftex.def)             Requested size: 227.5pt x 118.00757pt.
  [23 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/ZTJ.png>] <
-./figs/TrisolX.png, id=271, 185.94469pt x 84.315pt>
+./figs/TrisolX.png, id=280, 185.94469pt x 84.315pt>
 File: ./figs/TrisolX.png Graphic file (type png)
 
 <use ./figs/TrisolX.png>
-Package pdftex.def Info: ./figs/TrisolX.png used on input line 784.
+Package pdftex.def Info: ./figs/TrisolX.png used on input line 772.
 (pdftex.def)             Requested size: 227.5pt x 103.16132pt.
  [24] [25 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/Trisol
 X.png>] [26
@@ -1335,7 +1335,7 @@ bibitemlist
 ]) [33]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 863.
+(hyperref)                removing `\uppercase' on input line 855.
 
 [34
 
@@ -1350,30 +1350,30 @@ AED: lastpage setting LastPage
 \tf@lof=\write6
 \tf@lot=\write7
 \tf@toc=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 894.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 894.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 886.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 886.
 
 (D:\GitHub\Cubesat-Power\Como\Documentação\Power_System\TCC_Sist_Gerenciament
 o_Potencia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 894.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 894.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 886.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 886.
 Package rerunfilecheck Info: File `TCC_Sist_Gerenciamento_Potencia.brf' has not
  changed.
-(rerunfilecheck)             Checksum: EC33D353B0E048BAC81B3D9A2D44623C;1060.
+(rerunfilecheck)             Checksum: 2AFE6B475A6714E44420284B37886B72;1224.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 894.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 886.
  ) 
 Here is how much of TeX's memory you used:
- 13876 strings out of 493921
- 206358 string characters out of 3144874
- 457012 words of memory out of 3000000
- 16644 multiletter control sequences out of 15000+200000
- 111725 words of font info for 151 fonts, out of 3000000 for 9000
+ 13891 strings out of 493921
+ 206502 string characters out of 3144874
+ 457122 words of memory out of 3000000
+ 16651 multiletter control sequences out of 15000+200000
+ 111945 words of font info for 153 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,14n,35p,649b,634s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,14n,35p,678b,634s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files (x86)/MiKTe
@@ -1390,10 +1390,10 @@ fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on TCC_Sist_Gerenciamento_Potencia.pdf (36 pages, 1328524 bytes)
+Output written on TCC_Sist_Gerenciamento_Potencia.pdf (36 pages, 1335987 bytes)
 .
 PDF statistics:
- 581 PDF objects out of 1000 (max. 8388607)
- 139 named destinations out of 1000 (max. 500000)
- 38718 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 599 PDF objects out of 1000 (max. 8388607)
+ 143 named destinations out of 1000 (max. 500000)
+ 38734 words of extra memory for PDF output out of 42996 (max. 10000000)
 

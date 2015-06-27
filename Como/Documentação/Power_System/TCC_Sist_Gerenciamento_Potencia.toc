@@ -14,15 +14,17 @@
 \contentsline {section}{\numberline {2.3}No Brasil}{15}{section.2.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Materiais e M\IeC {\'e}todo}}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Conhecimento te\IeC {\'o}rico}{17}{section.3.1}
+\contentsline {section}{\numberline {3.1}Condi\IeC {\c c}\IeC {\~o}es do espa\IeC {\c c}o}{17}{section.3.1}
 \contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o dos componentes}{18}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Bateria}{18}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Fotoc\IeC {\'e}lulas}{20}{subsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.2.1}SpectroLab}{21}{subsubsection.3.2.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2.2}Emcore}{22}{subsubsection.3.2.2.2}
 \contentsline {subsubsection}{\numberline {3.2.2.3}AzurSpace}{23}{subsubsection.3.2.2.3}
-\contentsline {section}{\numberline {3.3}An\IeC {\'a}lise de pre\IeC {\c c}os}{24}{section.3.3}
-\contentsline {section}{\numberline {3.4}TrisolX}{24}{section.3.4}
+\contentsline {subsubsection}{\numberline {3.2.2.4}An\IeC {\'a}lise de pre\IeC {\c c}os}{24}{subsubsection.3.2.2.4}
+\contentsline {subsubsection}{\numberline {3.2.2.5}TrisolX}{24}{subsubsection.3.2.2.5}
+\contentsline {subsection}{\numberline {3.2.3}Componentes passivos}{25}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Semicondutores}{25}{subsection.3.2.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Prot\IeC {\'o}tipo}}{26}{chapter.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
