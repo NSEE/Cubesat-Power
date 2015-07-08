@@ -344,6 +344,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
   \item[\textit{AM}] \textit{Air Mass}
   \item[\textit{WRC}] \textit{World Radiation Center}
   \item[T] Temperatura
+  \item[\textit{SMD}] \textit{Superficial Monting Device}
   
 \end{siglas}
 % ---
@@ -379,7 +380,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 % ----------------------------------------------------------
 \chapter[Introdução]{Introdução}
 
-	Os satélites amplamente utilizados e essenciais no dia-a-dia para diversas tarefas, como por exemplo para as transmissões televisivas e previsões meteorológicas, são objetos que orbitam os planetas em trajetos circulares ou elípticos. Esses satélites, feitos pelo homem, são desenvolvidos especificamente para funções preestabelecidas que tornem possível alcançar objetivos maiores. 
+	Os satélites artificiais amplamente utilizados e essenciais no dia-a-dia para diversas tarefas, como por exemplo para as transmissões televisivas e previsões meteorológicas, são objetos que orbitam os planetas em trajetos circulares ou elípticos. Esses satélites, feitos pelo homem, são desenvolvidos especificamente para funções preestabelecidas que tornem possível alcançar objetivos maiores. 
 	
 	Esse formato de desenvolvimento individual faz o seu processo produtivo ser lento e com custos elevados, o que torna a alta tecnologia encontrada nos satélites restrita a pequenos grupos de engenheiros e cientistas. A combinação desses fatores acabou motivando, no final dos anos 90, os professores Jordi Puig-Suari e Bob Twiggs, a proporem o modelo do \textit{CubeSat}, que são satélites miniaturizados com tempo de desenvolvimento e custos bem abaixo dos satélites tradicionais.
 	
@@ -583,19 +584,31 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 
 	As fotocélulas são fundamental importância para o sistema, uma vez que elas são as responsáveis pela captação da luz solar que irá gerar a energia necessária para o funcionamento do \textit{CubeSat}. É importante que elas possuam rendimento elevado, pois devido as condições impostas pela órbita \textit{LEO}, na qual o \textit{CubeSat} irá ficar um terço do período de translação em regiões de sombra, ou seja, estará sem a incidência direta de luz solar.
 	
-	Inicialmente foi indicado pelo Engenheiro Rafael Corsi, do NSEE-IMT, o contato da empresa \textit{Vis Technology}, um empresa nacional, localizada em São Paulo, que desenvolve projetos com energias renováveis. Porém as fotocélulas utilizadas por eles são para aplicações industriais. Essas fotocélulas possuem um rendimento entre 10\% e 12\%, muito abaixo comparado ao rendimento com as próprias de aplicações aeroespaciais, além de terem um dimensional maior.
-	
-	Mesmo sabendo dessas limitações, foram obtidas algumas amostras. Essas amostras serviram para um primeiro contato com essa tecnologia, conseguindo realizar alguns ensaios a fim de se obter uma familiaridade maior com o componente, conforme pode ser visto na Figura 6.
+	Inicialmente foi indicado pelo Engenheiro Rafael Corsi, do NSEE-IMT, o contato da empresa \textit{Vis Technology}, um empresa nacional, localizada em São Paulo, que desenvolve projetos com energias renováveis. Porém as fotocélulas utilizadas por eles são para aplicações industriais. Essas fotocélulas possuem um rendimento entre 10\% e 12\%, muito abaixo comparado ao rendimento com as próprias de aplicações aeroespaciais, além de terem um dimensional maior, conforme pode ser visualizado na Figura 6.
 	
 	\begin{figure}[th]
-		\caption{\textit{SET UP} PARA TESTE DAS FOTOCÉLULAS DA \textit{VIS TECHNOLOGY}}
+		\caption{FOTOCÉLULAS DA \textit{VIS TECHNOLOGY}}
 		\centering
-		\includegraphics[width=0.3\linewidth]{./figs/setup}
+		\includegraphics[width=0.4\linewidth]{./figs/cell_vis}
 			
 		\begin{small}
 			FONTE: Foto tirada pelos autores
 		\end{small}		
 	\end{figure}
+	\pagebreak
+	
+	Mesmo sabendo dessas limitações, foram obtidas algumas amostras. Essas amostras serviram para um primeiro contato com essa tecnologia, conseguindo realizar alguns ensaios a fim de se obter uma familiaridade maior com o componente, conforme pode ser visto na Figura 7.
+	
+	\begin{figure}[th]
+		\caption{\textit{SET UP} PARA TESTE DAS FOTOCÉLULAS DA \textit{VIS TECHNOLOGY}}
+		\centering
+		\includegraphics[width=0.4\linewidth]{./figs/setup}
+			
+		\begin{small}
+			FONTE: Foto tirada pelos autores
+		\end{small}		
+	\end{figure}
+	\pagebreak
 	
 	Após uma breve familiarização com as fotocélulas, foram analisados diversos projetos de \textit{CubeSats} e identificados os principais fornecedores de fotocélulas (\textit{SpectroLab}, \textit{Emcore} e \textit{AzurSpace Solar}) para aplicações aeroespaciais.
 	
@@ -631,7 +644,6 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		NOTA: Condições de teste: \textit{AM} 0, \textit{WRC} = 135,3 mW/cm\textsuperscript{2}, T = 28ºC.
 	\end{footnotesize}
 	\end{table}
-	\pagebreak
 	
 	Avaliando os dados da Tabela 2, os modelos \textit{PV UTJ Cell} e \textit{PV XTJ Cell}, foram os mais indicados para a aplicação, devido ao alto rendimento (superior a 28\%) apresentado
 	
@@ -674,7 +686,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	\begin{footnotesize}
 		NOTA: Condições de teste: \textit{AM} 0, \textit{WRC} = 135,3 mW/cm\textsuperscript{2}, T = 28ºC.
 	\end{footnotesize}
-	\end{table}	
+	\end{table}
 	\pagebreak
 	
 	Avaliando os dados da Tabela 3, os modelos \textit{BTJ PV Cell}, \textit{BTJM PV Cell} e \textit{ZTJ PV Cell}, foram os mais indicados para a aplicação, devido ao alto rendimento (superior a 28\%) apresentado.
@@ -764,7 +776,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	A \textit{TrisolX} é uma pequena empresa, localizada em Nova Iorque, que oferece uma alternativa acessível para projetos com orçamentos reduzidos. A empresa, vende a \textit{TrisolX Solar Wings}, que são fotocélulas cortadas a partir do modelo \textit{3G28C} da \textit{AzurSpace}.
 	
-	É o mesmo produto da \textit{AzurSpace}, porém com tamanho e formato diferentes.
+	É o mesmo produto da \textit{AzurSpace}, porém com tamanho e formato diferentes, conforme Figura 11.
 	
 	\begin{figure}[th]
 		\caption{MODELO DE FOTOCÉLULA DA \textit{TRISOLX}}
@@ -803,7 +815,29 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 \subsection[Componentes passivos]{Componentes passivos}
 
+	Os componentes passivos, são os componentes eletrônicos que não aumentam a intensidade da tensão ou da corrente de um circuito eletrônico, ou seja, são os resistores, indutores, capacitores e memristores.\textsuperscript{\cite{Passivo}} No desenvolvimento do projeto não foram utilizados os memristores.
+	
+	Resistores são componentes utilizados para controlar a intensidade da corrente elétrica que passa no circuito. Capacitores são componentes que armazenam e liberam cargas elétricas por meio da tensão elétrica. Indutor são componentes que utilizam o magnetismo para armazenar e liberar cargas por meio da corrente elétrica.
+
+	É de extrema importância que os componentes passivos atendam algumas premissas para a utilização no projeto. Esses componentes precisam possuir uma grande faixa de temperatura de operação, uma certa tolerância a radiação e um dimensional pequeno (\textit{SMD}), conforme pode ser visto na Figura 12.
+	
+	\begin{figure}[th]
+		\caption{MODELO DE COMPONENTES \textit{SMD}}
+		\centering
+		\includegraphics[width=0.3\linewidth]{./figs/smd}
+			
+		\begin{small}
+			FONTE: \textit{Direct Industry}\textsuperscript{\cite{SMD}}
+		\end{small}		
+	\end{figure}
+
 \subsection[Semicondutores]{Semicondutores}
+	
+	
+	
+	
+	
+	
 	
 % ----------------------------------------------------------
 % PROTÓTIPO 

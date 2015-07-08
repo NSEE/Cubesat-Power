@@ -18,34 +18,34 @@
 \contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o dos componentes}{18}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Bateria}{18}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Fotoc\IeC {\'e}lulas}{20}{subsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.1}SpectroLab}{21}{subsubsection.3.2.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2.2}Emcore}{22}{subsubsection.3.2.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.3}AzurSpace}{23}{subsubsection.3.2.2.3}
-\contentsline {subsubsection}{\numberline {3.2.2.4}An\IeC {\'a}lise de pre\IeC {\c c}os}{24}{subsubsection.3.2.2.4}
-\contentsline {subsubsection}{\numberline {3.2.2.5}TrisolX}{24}{subsubsection.3.2.2.5}
-\contentsline {subsection}{\numberline {3.2.3}Componentes passivos}{25}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Semicondutores}{25}{subsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.2.1}SpectroLab}{22}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}Emcore}{23}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}AzurSpace}{24}{subsubsection.3.2.2.3}
+\contentsline {subsubsection}{\numberline {3.2.2.4}An\IeC {\'a}lise de pre\IeC {\c c}os}{25}{subsubsection.3.2.2.4}
+\contentsline {subsubsection}{\numberline {3.2.2.5}TrisolX}{25}{subsubsection.3.2.2.5}
+\contentsline {subsection}{\numberline {3.2.3}Componentes passivos}{26}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Semicondutores}{27}{subsection.3.2.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Prot\IeC {\'o}tipo}}{26}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Prot\IeC {\'o}tipo}}{28}{chapter.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados e discuss\IeC {\~o}es}}{27}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados e discuss\IeC {\~o}es}}{29}{chapter.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Plano de marketing}}{28}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Plano de marketing}}{30}{chapter.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Plano operacional}}{29}{chapter.7}
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Plano operacional}}{31}{chapter.7}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Planilha financeira}}{30}{chapter.8}
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Planilha financeira}}{32}{chapter.8}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Conclus\IeC {\~o}es}}{31}{chapter.9}
+\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Conclus\IeC {\~o}es}}{33}{chapter.9}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{32}{section*.11}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{34}{section*.11}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{34}{section*.12}
+\contentsline {part}{\uppercase {Anexos}}{36}{section*.12}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {primeiro anexo}}{35}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {primeiro anexo}}{37}{appendix.anexochapback.1}
 \vspace {\cftbeforechapterskip }
