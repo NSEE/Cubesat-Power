@@ -1,13 +1,15 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces MODELO DE UM CUBESAT DE 1U}}{14}{figure.2.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces ESTRUTURA DO CUBESAT PROPOSTA PELO NSEE-IMT}}{15}{figure.2.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces PRINCIPAIS TIPOS DE \IeC {\'O}RBITAS}}{18}{figure.3.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces BATERIA DE \IeC {\'I}ON-L\IeC {\'I}TIO SELECIONADA}}{19}{figure.3.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces PRINC\IeC {\'I}PIO DE FUNCIONAMENTO DA BATERIA DE \IeC {\'I}ON-L\IeC {\'I}TIO}}{20}{figure.3.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces FOTOC\IeC {\'E}LULAS DA \textit {VIS TECHNOLOGY}}}{21}{figure.3.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces \textit {SET UP} PARA TESTE DAS FOTOC\IeC {\'E}LULAS DA \textit {VIS TECHNOLOGY}}}{21}{figure.3.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces MODELO DE FOTOC\IeC {\'E}LULA DA \textit {SPECTROLAB}}}{22}{figure.3.8}
+\contentsline {figure}{\numberline {1}{\ignorespaces MODELO DE UM CUBESAT DE 1U}}{15}{figure.2.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces ESTRUTURA DO CUBESAT PROPOSTA PELO NSEE-IMT}}{16}{figure.2.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces PRINCIPAIS TIPOS DE \IeC {\'O}RBITAS}}{19}{figure.3.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces BATERIA DE \IeC {\'I}ON-L\IeC {\'I}TIO SELECIONADA}}{20}{figure.3.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces PRINC\IeC {\'I}PIO DE FUNCIONAMENTO DA BATERIA DE \IeC {\'I}ON-L\IeC {\'I}TIO}}{21}{figure.3.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces FOTOC\IeC {\'E}LULAS DA \textit {VIS TECHNOLOGY}}}{22}{figure.3.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces \textit {SET UP} PARA TESTE DAS FOTOC\IeC {\'E}LULAS DA \textit {VIS TECHNOLOGY}}}{22}{figure.3.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces MODELO DE FOTOC\IeC {\'E}LULA DA \textit {SPECTROLAB}}}{23}{figure.3.8}
 \contentsline {figure}{\numberline {9}{\ignorespaces MODELO DE FOTOC\IeC {\'E}LULA DA \textit {EMCORE}}}{24}{figure.3.9}
 \contentsline {figure}{\numberline {10}{\ignorespaces MODELO DE FOTOC\IeC {\'E}LULA DA \textit {AZURSPACE}}}{25}{figure.3.10}
 \contentsline {figure}{\numberline {11}{\ignorespaces MODELO DE FOTOC\IeC {\'E}LULA DA \textit {TRISOLX}}}{26}{figure.3.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces MODELO DE COMPONENTES \textit {SMD}}}{27}{figure.3.12}
+\contentsline {figure}{\numberline {12}{\ignorespaces COEFICIENTES DE TEMPERATURA DOS CAPACITORES CER\IeC {\^A}MICOS}}{27}{figure.3.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces VARIA\IeC {\c C}\IeC {\~A}O DA CAPACIT\IeC {\^A}NCIA EM FUN\IeC {\c C}\IeC {\~A}O DA TEMPERATURA}}{28}{figure.3.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces CIRCUITOS DOS SUBCONJUNTOS DO SISTEMA}}{29}{figure.3.14}

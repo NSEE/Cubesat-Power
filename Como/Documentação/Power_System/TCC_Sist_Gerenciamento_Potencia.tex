@@ -336,8 +336,8 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 % ---
 \begin{siglas}
 
-  \item[\textit{DPU}] \textit{Data Processing Unit}
   \item[\textit{Cal Poly}] \textit{California Polytechnic State University}
+  \item[\textit{NASA}] \textit{National Aeronautics and Space Administration}
   \item[NSEE-IMT] Núcleo de Sistemas Eletrônicos Embarcados do Instituto Mauá de Tecnologia
   \item[\textit{LEO}] \textit{Low Earth Orbit}
   \item[PV] \textit{Photovoltaic}
@@ -345,6 +345,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
   \item[\textit{WRC}] \textit{World Radiation Center}
   \item[T] Temperatura
   \item[\textit{SMD}] \textit{Superficial Monting Device}
+  \item[\textit{DF}] \textit{Dissipation Factor}
   
 \end{siglas}
 % ---
@@ -428,7 +429,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\includegraphics[width=0.8\linewidth]{./figs/cubesat_01}
 			
 		\begin{small}
-			FONTE: NASA\textsuperscript{\cite{NASA}}
+			FONTE: \textit{NASA}\textsuperscript{\cite{NASA}}
 		\end{small}		
 	\end{figure}
 		
@@ -488,7 +489,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 
 	Para auxiliar no projeto, as atividades foram divididas de forma a trazer, além do ganho teórico, uma maior dinâmica no desenvolvimento do mesmo. Essa etapa do projeto visou a máxima aquisição de dados possível sobre o tema proposto, foram abertas distintas frentes de trabalho para agilizar a aquisição teórica. Além do conhecimento adquirido foram definidos os principais componentes e equipamentos que foram utilizados no protótipo, como por exemplo as baterias, fotocélulas, componentes passivos e semicondutores.
 	
-	Também foi possível identificar e conhecer, de forma mais profunda, possíveis testes que podem ser realizados no Sistema de Gerenciamento de Energia para \textit{CubeSat}, como os testes de radiação, temperatura e pressão. Esses testes são de extrema importância para a detecção de possíveis problemas que possam ocorrer, pois uma vez que o \textit{CubeSat} for lançado nada mais poderá ser feito para reparar possíveis problemas.
+	Também foi possível identificar e conhecer, de forma mais profunda, possíveis testes que podem ser realizados no Sistema de Gerenciamento de Energia para \textit{CubeSat}, como os testes de radiação, temperatura e pressão. Esses testes são de extrema importância para a detecção de possíveis problemas que possam existir, pois uma vez que o \textit{CubeSat} for lançado nada mais poderá ser feito para reparar possíveis problemas.
 	
 % ----------------------------------------------------------
 % Etapas
@@ -687,7 +688,6 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		NOTA: Condições de teste: \textit{AM} 0, \textit{WRC} = 135,3 mW/cm\textsuperscript{2}, T = 28ºC.
 	\end{footnotesize}
 	\end{table}
-	\pagebreak
 	
 	Avaliando os dados da Tabela 3, os modelos \textit{BTJ PV Cell}, \textit{BTJM PV Cell} e \textit{ZTJ PV Cell}, foram os mais indicados para a aplicação, devido ao alto rendimento (superior a 28\%) apresentado.
 	
@@ -787,7 +787,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 			FONTE: \textit{TrisolX}\textsuperscript{\cite{TrisolX}}
 		\end{small}		
 	\end{figure}	
-	\pagebreak
+
 	Foi solicitado um orçamento à \textit{TrisolX}, que prontamente foi recebido conforme Tabela 6.
 	
 	\begin{table}[th]
@@ -819,22 +819,65 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	Resistores são componentes utilizados para controlar a intensidade da corrente elétrica que passa no circuito. Capacitores são componentes que armazenam e liberam cargas elétricas por meio da tensão elétrica. Indutor são componentes que utilizam o magnetismo para armazenar e liberar cargas por meio da corrente elétrica.
 
-	É de extrema importância que os componentes passivos atendam algumas premissas para a utilização no projeto. Esses componentes precisam possuir uma grande faixa de temperatura de operação, uma certa tolerância a radiação e um dimensional pequeno (\textit{SMD}), conforme pode ser visto na Figura 12.
+	É de extrema importância que os componentes passivos atendam algumas premissas para a utilização no projeto. Esses componentes precisam possuir uma grande faixa de temperatura de operação, uma certa tolerância a radiação e um dimensional pequeno (\textit{SMD}).
+	
+	Os capacitores, devido as baixas pressões encontradas no espaço, não podem ser do modelo eletrolítico, ou seja, precisam ser ou cerâmicos ou de tântalo. Os capacitores cerâmicos geralmente são de 0,5 pF até 470 nF com tensão de isolação de 25 V ou 50 V. Para esses capacitores tomou-se o cuidado de selecionar os capacitores com o coeficiente de temperatura X7R, devido a sua grande faixa de temperatura de operação, conforme indicado na Figura 12.\textsuperscript{\cite{x7r}}
 	
 	\begin{figure}[th]
-		\caption{MODELO DE COMPONENTES \textit{SMD}}
+		\caption{COEFICIENTES DE TEMPERATURA DOS CAPACITORES CERÂMICOS}
 		\centering
-		\includegraphics[width=0.3\linewidth]{./figs/smd}
+		\includegraphics[width=0.8\linewidth]{./figs/x7r}
 			
 		\begin{small}
-			FONTE: \textit{Direct Industry}\textsuperscript{\cite{SMD}}
+			FONTE: PY2BBS\textsuperscript{\cite{x7r}}
+		\end{small}		
+	\end{figure}	
+	
+	Além dessa característica, os capacitores X7R apresentam um bom comportamento com a variação de temperatura, comparado com os capacitores Y5V (outro modelo amplamente encontrado no mercado), conforme pode ser visto na Figura 13.
+	
+	\begin{figure}[th]
+		\caption{VARIAÇÃO DA CAPACITÂNCIA EM FUNÇÃO DA TEMPERATURA}
+		\centering
+		\includegraphics[width=0.8\linewidth]{./figs/y5v}
+			
+		\begin{small}
+			FONTE: Johanson Dielectrics\textsuperscript{\cite{y5v}}
 		\end{small}		
 	\end{figure}
+	\pagebreak
+	
+	Já os capacitores de tântalo apresentam valores de 0,22 pF até 100 $\mu$F, esse tipo de capacitor possui baixa corrente de fuga e baixas perdas, além de uma vida útil maior comparado aos eletrolíticos.\textsuperscript{\cite{x7r}}
 
 \subsection[Semicondutores]{Semicondutores}
+
+
+\subsection[Ensaios possíveis]{Ensaios possíveis}
 	
+	Durante a fase de aquisição teórica foram identificados possíveis ensaios que poderiam ser feitos no sistema para validação do circuito como um todo. Esses ensaios são de essencial importância para o projeto, pois dessa forma podem ser identificados possíveis problemas que devem ser corrigidos antes do lançamento da missão.
 	
+\subsubsection[Validação dos subconjuntos]{Validação dos subconjuntos}
+
+	Um dos ensaios identificados foi o de validação dos subconjuntos do Sistema de Gerenciamento de Energia para \textit{CubeSat}. O circuito do sistema como um todo foi dividido em vários subconjuntos de funções especificas para serem validados, ou seja, foi separada a parte do carregador de bateria, do conversor 3,3 V, do conversosr de 5 V, do conversosr de 12 V e do conversor \textit{backup}. Na Figura 14 pode ser visualizado um dos subconjuntos do sistema.
 	
+	\begin{figure}[th]
+		\caption{CIRCUITOS DOS SUBCONJUNTOS DO SISTEMA}
+		\centering
+		\includegraphics[width=0.5\linewidth]{./figs/placas_subconjuntos}
+			
+		\begin{small}
+			FONTE: Fotos tiradas pelos autores.
+		\end{small}		
+	\end{figure}
+	
+\subsubsection[Ensaio de radiação]{Ensaio de radiação}	
+
+	O ensaio de radiação consiste na emissão de radiação nos semicondutores a fim de se obter a assinatura da tensão e corrente após a exposição a radiação. Para esse ensaio é necessário que os semicondutores estivessem decapados, ou seja, é necessário que a eletrônica do semicondutor esteja visível para que a emissão da radiação seja direta no componente. Esse teste foi realizado em conjunto com o Centro Universitário da Faculdade de Engenharia Industrial (FEI), com a professora Marcilei da FEI.
+	
+\subsubsection[Ensaio térmico]{Ensaio térmico}
+
+\subsubsection[Ensaio de vácuo]{Ensaio de vácuo}	
+
+\subsubsection[Ensaio de termovácuo]{Ensaio de termovácuo}		
 	
 	
 	
