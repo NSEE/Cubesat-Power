@@ -346,6 +346,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
   \item[T] Temperatura
   \item[\textit{SMD}] \textit{Superficial Monting Device}
   \item[\textit{DF}] \textit{Dissipation Factor}
+  \item[\textit{OSSI}] \textit{Open Source Satellite Initiative}
   
 \end{siglas}
 % ---
@@ -567,6 +568,8 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\end{small}
 	\end{figure}
 	
+\subsubsection[Princípio de funcionamento]{Princípio de funcionamento}
+	
 	As baterias de íon-lítio, têm esse nome devido ao seu princípio de funcionamento o qual consiste no movimento dos íons de lítio (Li) que migram do ânodo para o cátodo por meio de um solvente não aquoso, conforme pode ser visto na Figura 5.\textsuperscript{\cite{BraEsc}}
 	
 	\begin{figure}[th]
@@ -578,19 +581,37 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 			FONTE: Brasil Escola\textsuperscript{\cite{BraEsc}}
 		\end{small}		
 	\end{figure}
-	\pagebreak
+
 	O lítio (Li) é considerado o metal mais leve existente na Terra (desconsiderando os feitos em laboratório), por essa razão que as baterias de íon-lítio possuem baixo peso, o que é de fundamental importância para o projeto do \textit{CubeSat}. Por se tratar de um dos tipos de bateria mais comuns, sendo amplamente encontrado em \textit{smartphones} e \textit{notebooks}, acaba tendo um impacto positivo nos custos de aquisição das mesmas.\textsuperscript{\cite{TecMundo}}
 	
 \subsection[Fotocélulas]{Fotocélulas}
 
 	As fotocélulas são fundamental importância para o sistema, uma vez que elas são as responsáveis pela captação da luz solar que irá gerar a energia necessária para o funcionamento do \textit{CubeSat}. É importante que elas possuam rendimento elevado, pois devido as condições impostas pela órbita \textit{LEO}, na qual o \textit{CubeSat} irá ficar um terço do período de translação em regiões de sombra, ou seja, estará sem a incidência direta de luz solar.
 	
-	Inicialmente foi indicado pelo Engenheiro Rafael Corsi, do NSEE-IMT, o contato da empresa \textit{Vis Technology}, um empresa nacional, localizada em São Paulo, que desenvolve projetos com energias renováveis. Porém as fotocélulas utilizadas por eles são para aplicações industriais. Essas fotocélulas possuem um rendimento entre 10\% e 12\%, muito abaixo comparado ao rendimento com as próprias de aplicações aeroespaciais, além de terem um dimensional maior, conforme pode ser visualizado na Figura 6.
+\subsubsection[Princípio de funcionamento]{Princípio de funcionamento}
+
+	As fotocélulas são um exemplo de aplicação prática do efeito fotoelétrico, descoberto por Heinrich Rudolf Hertz, em 1887 e explicado por Albert Einstein, em 1905.\textsuperscript{\cite{celula}}
+	
+	Quando uma grande quantidade de fótons é incidida em uma fotocélula a energia é absorvida. Essa absorção de energia permite que os átomos dos elementos que constituem a célula liberem elétrons, o espaço liberado é preenchido por outro elétron de uma camada inferior do semicondutor. Essa movimentação de elétrons, faz com que um dos lados da célula tenha uma concentração maior de elétrons, o que origina a diferença de potencial entre os lados, conforme pode ser visto na Figura 6.\textsuperscript{\cite{celula2}}
+	
+	\begin{figure}[th]
+		\caption{PRINCÍPIO DE FUNCIONAMENTO DE UMA FOTOCÉLULA}
+		\centering
+		\includegraphics[width=0.6\linewidth]{./figs/fotocelula}
+			
+		\begin{small}
+			FONTE: Sapa Solar\textsuperscript{\cite{celula2}}
+		\end{small}		
+	\end{figure}
+
+\subsubsection[VIS Technology]{\textit{VIS Technology}}
+	
+	Inicialmente foi indicado pelo Engenheiro Rafael Corsi, do NSEE-IMT, o contato da empresa \textit{Vis Technology}, um empresa nacional, localizada em São Paulo, que desenvolve projetos com energias renováveis. Porém as fotocélulas utilizadas por eles são para aplicações industriais. Essas fotocélulas possuem um rendimento entre 10\% e 12\%, muito abaixo comparado ao rendimento com as próprias de aplicações aeroespaciais, além de terem um dimensional maior, conforme pode ser visualizado na Figura 7.
 	
 	\begin{figure}[th]
 		\caption{FOTOCÉLULAS DA \textit{VIS TECHNOLOGY}}
 		\centering
-		\includegraphics[width=0.4\linewidth]{./figs/cell_vis}
+		\includegraphics[width=0.3\linewidth]{./figs/cell_vis}
 			
 		\begin{small}
 			FONTE: Foto tirada pelos autores
@@ -598,7 +619,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	\end{figure}
 	\pagebreak
 	
-	Mesmo sabendo dessas limitações, foram obtidas algumas amostras. Essas amostras serviram para um primeiro contato com essa tecnologia, conseguindo realizar alguns ensaios a fim de se obter uma familiaridade maior com o componente, conforme pode ser visto na Figura 7.
+	Mesmo sabendo dessas limitações, foram obtidas algumas amostras. Essas amostras serviram para um primeiro contato com essa tecnologia, conseguindo realizar alguns ensaios a fim de se obter uma familiaridade maior com o componente, conforme pode ser visto na Figura 8.
 	
 	\begin{figure}[th]
 		\caption{\textit{SET UP} PARA TESTE DAS FOTOCÉLULAS DA \textit{VIS TECHNOLOGY}}
@@ -609,7 +630,6 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 			FONTE: Foto tirada pelos autores
 		\end{small}		
 	\end{figure}
-	\pagebreak
 	
 	Após uma breve familiarização com as fotocélulas, foram analisados diversos projetos de \textit{CubeSats} e identificados os principais fornecedores de fotocélulas (\textit{SpectroLab}, \textit{Emcore} e \textit{AzurSpace Solar}) para aplicações aeroespaciais.
 	
@@ -776,7 +796,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	A \textit{TrisolX} é uma pequena empresa, localizada em Nova Iorque, que oferece uma alternativa acessível para projetos com orçamentos reduzidos. A empresa, vende a \textit{TrisolX Solar Wings}, que são fotocélulas cortadas a partir do modelo \textit{3G28C} da \textit{AzurSpace}.
 	
-	É o mesmo produto da \textit{AzurSpace}, porém com tamanho e formato diferentes, conforme Figura 11.
+	É o mesmo produto da \textit{AzurSpace}, porém com tamanho e formato diferentes, conforme Figura 12.
 	
 	\begin{figure}[th]
 		\caption{MODELO DE FOTOCÉLULA DA \textit{TRISOLX}}
@@ -821,7 +841,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 
 	É de extrema importância que os componentes passivos atendam algumas premissas para a utilização no projeto. Esses componentes precisam possuir uma grande faixa de temperatura de operação, uma certa tolerância a radiação e um dimensional pequeno (\textit{SMD}).
 	
-	Os capacitores, devido as baixas pressões encontradas no espaço, não podem ser do modelo eletrolítico, ou seja, precisam ser ou cerâmicos ou de tântalo. Os capacitores cerâmicos geralmente são de 0,5 pF até 470 nF com tensão de isolação de 25 V ou 50 V. Para esses capacitores tomou-se o cuidado de selecionar os capacitores com o coeficiente de temperatura X7R, devido a sua grande faixa de temperatura de operação, conforme indicado na Figura 12.\textsuperscript{\cite{x7r}}
+	Os capacitores, devido as baixas pressões encontradas no espaço, não podem ser do modelo eletrolítico, ou seja, precisam ser ou cerâmicos ou de tântalo. Os capacitores cerâmicos geralmente são de 0,5 pF até 470 nF com tensão de isolação de 25 V ou 50 V. Para esses capacitores tomou-se o cuidado de selecionar os capacitores com o coeficiente de temperatura X7R, devido a sua grande faixa de temperatura de operação, conforme indicado na Figura 13.\textsuperscript{\cite{x7r}}
 	
 	\begin{figure}[th]
 		\caption{COEFICIENTES DE TEMPERATURA DOS CAPACITORES CERÂMICOS}
@@ -832,8 +852,8 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 			FONTE: PY2BBS\textsuperscript{\cite{x7r}}
 		\end{small}		
 	\end{figure}	
-	
-	Além dessa característica, os capacitores X7R apresentam um bom comportamento com a variação de temperatura, comparado com os capacitores Y5V (outro modelo amplamente encontrado no mercado), conforme pode ser visto na Figura 13.
+	\pagebreak
+	Além dessa característica, os capacitores X7R apresentam um bom comportamento com a variação de temperatura, comparado com os capacitores Y5V (outro modelo amplamente encontrado no mercado), conforme pode ser visto na Figura 14.
 	
 	\begin{figure}[th]
 		\caption{VARIAÇÃO DA CAPACITÂNCIA EM FUNÇÃO DA TEMPERATURA}
@@ -844,20 +864,38 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 			FONTE: Johanson Dielectrics\textsuperscript{\cite{y5v}}
 		\end{small}		
 	\end{figure}
-	\pagebreak
 	
 	Já os capacitores de tântalo apresentam valores de 0,22 pF até 100 $\mu$F, esse tipo de capacitor possui baixa corrente de fuga e baixas perdas, além de uma vida útil maior comparado aos eletrolíticos.\textsuperscript{\cite{x7r}}
 
 \subsection[Semicondutores]{Semicondutores}
 
+\subsection[Lista de componentes]{Lista de componentes}
 
-\subsection[Ensaios possíveis]{Ensaios possíveis}
+	Seguindo as premissas apresentadas anteriormente, foi finalizada a lista de componentes necessárias para o seguimento do projeto, também foi levado em consideração a questão financeira, portanto alguns componentes apresentados nessa lista podem ser substituídos após a realização de todos os ensaios e validações.
+	
+	Na Figura 15 é possível visualizar a lista de componentes eletrônicos definida pelo grupo.
+	
+	\begin{figure}[th]
+		\caption{LISTA DE COMPONENTES ELETRÔNICOS}
+		\centering
+		\includegraphics[width=1.0\linewidth]{./figs/comp}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}		
+	\end{figure}
+	\pagebreak
+	
+	Foi solicitado um orçamento para a \textit{Farnell}, uma vez que o Instituto Mauá de Tecnologia tem a preferência de trabalhar com esse parceiro. O valor do orçamento, que tinha a disposição praticamente todos os componentes necessários com exceção do carregador de bateria (BQ24005PWP), ficou R\$ 2.065,66, conforme pode ser visto no Anexo A.
+	
+
+\section[Ensaios possíveis]{Ensaios possíveis}
 	
 	Durante a fase de aquisição teórica foram identificados possíveis ensaios que poderiam ser feitos no sistema para validação do circuito como um todo. Esses ensaios são de essencial importância para o projeto, pois dessa forma podem ser identificados possíveis problemas que devem ser corrigidos antes do lançamento da missão.
 	
-\subsubsection[Validação dos subconjuntos]{Validação dos subconjuntos}
+\subsection[Validação dos subconjuntos]{Validação dos subconjuntos}
 
-	Um dos ensaios identificados foi o de validação dos subconjuntos do Sistema de Gerenciamento de Energia para \textit{CubeSat}. O circuito do sistema como um todo foi dividido em vários subconjuntos de funções especificas para serem validados, ou seja, foi separada a parte do carregador de bateria, do conversor 3,3 V, do conversosr de 5 V, do conversosr de 12 V e do conversor \textit{backup}. Na Figura 14 pode ser visualizado um dos subconjuntos do sistema.
+	Um dos ensaios identificados foi o de validação dos subconjuntos do Sistema de Gerenciamento de Energia para \textit{CubeSat}. O circuito do sistema como um todo foi dividido em vários subconjuntos de funções especificas para serem validados, ou seja, foi separada a parte do carregador de bateria, do conversor 3,3 V, do conversosr de 5 V, do conversosr de 12 V e do conversor \textit{backup}. Na Figura 16 pode ser visualizado um dos subconjuntos do sistema.
 	
 	\begin{figure}[th]
 		\caption{CIRCUITOS DOS SUBCONJUNTOS DO SISTEMA}
@@ -869,15 +907,17 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\end{small}		
 	\end{figure}
 	
-\subsubsection[Ensaio de radiação]{Ensaio de radiação}	
+\subsection[Ensaio de radiação]{Ensaio de radiação}	
 
-	O ensaio de radiação consiste na emissão de radiação nos semicondutores a fim de se obter a assinatura da tensão e corrente após a exposição a radiação. Para esse ensaio é necessário que os semicondutores estivessem decapados, ou seja, é necessário que a eletrônica do semicondutor esteja visível para que a emissão da radiação seja direta no componente. Esse teste foi realizado em conjunto com o Centro Universitário da Faculdade de Engenharia Industrial (FEI), com a professora Marcilei da FEI.
+	O ensaio de radiação consiste na emissão de radiação nos semicondutores a fim de se obter a assinatura da tensão e corrente após a exposição a radiação. Para esse ensaio foi necessário que os semicondutores estivessem decapados, ou seja, é necessário que a eletrônica do semicondutor esteja visível para que a emissão da radiação seja direta no componente, fato que não ocorrerá no espaço, uma vez que a película do componente estará presente o que, por sua vez, acaba dando uma pequena filtrada na radiação. Esse teste foi realizado em conjunto com o Centro Universitário da Faculdade de Engenharia Industrial (FEI), com a professora Marcilei da FEI.
 	
-\subsubsection[Ensaio térmico]{Ensaio térmico}
+	Entre diversas pesquisas a respeito de possíveis testes de radiação, foi encontrado o projeto \textit{Open Source Satellite Initiative}\textsuperscript{\cite{OSSI}}. Na \textit{wikipage}\textsuperscript{\cite{OSSI2}} do projeto \textit{OSSI} é disponibilizado um \textit{link} para um \textit{data base} que contém dados de testes de radiação da \textit{NASA Goddard Space Flight Center}.\textsuperscript{\cite{OSSI3}}
+	
+\subsection[Ensaio térmico]{Ensaio térmico}
 
-\subsubsection[Ensaio de vácuo]{Ensaio de vácuo}	
+\subsection[Ensaio de vácuo]{Ensaio de vácuo}	
 
-\subsubsection[Ensaio de termovácuo]{Ensaio de termovácuo}		
+\subsection[Ensaio de termovácuo]{Ensaio de termovácuo}		
 	
 	
 	
@@ -931,10 +971,25 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 \partanexos
 
 % ---
-\chapter{primeiro anexo}
+\chapter[Orçamento dos componentes da Farnell]{Orçamento dos componentes da \textit{Farnell}}
 % ---
-desciçao do primeiro 
 
+Orçamento enviado pelo Sr. Helder Sant'ana Viana da \textit{Farnell Newark element14}.
+
+	\begin{figure}[th]
+		\centering
+		\includegraphics[width=0.85\linewidth]{./anexos/Pedido189845}	
+	\end{figure}
+	
+	\begin{figure}[th]
+		\centering
+		\includegraphics[width=0.9\linewidth]{./anexos/Pedido1898452}	
+	\end{figure}
+	
+	\begin{figure}[th]
+		\centering
+		\includegraphics[width=0.9\linewidth]{./anexos/Pedido1898453}	
+	\end{figure}
 \end{anexosenv}
 
 

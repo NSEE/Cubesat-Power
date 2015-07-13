@@ -17,41 +17,45 @@
 \contentsline {section}{\numberline {3.1}Condi\IeC {\c c}\IeC {\~o}es do espa\IeC {\c c}o}{18}{section.3.1}
 \contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o dos componentes}{19}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Bateria}{19}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}Princ\IeC {\'\i }pio de funcionamento}{20}{subsubsection.3.2.1.1}
 \contentsline {subsection}{\numberline {3.2.2}Fotoc\IeC {\'e}lulas}{21}{subsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.1}SpectroLab}{23}{subsubsection.3.2.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2.2}Emcore}{24}{subsubsection.3.2.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.3}AzurSpace}{24}{subsubsection.3.2.2.3}
-\contentsline {subsubsection}{\numberline {3.2.2.4}An\IeC {\'a}lise de pre\IeC {\c c}os}{25}{subsubsection.3.2.2.4}
-\contentsline {subsubsection}{\numberline {3.2.2.5}TrisolX}{25}{subsubsection.3.2.2.5}
-\contentsline {subsection}{\numberline {3.2.3}Componentes passivos}{26}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Semicondutores}{28}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Ensaios poss\IeC {\'\i }veis}{28}{subsection.3.2.5}
-\contentsline {subsubsection}{\numberline {3.2.5.1}Valida\IeC {\c c}\IeC {\~a}o dos subconjuntos}{28}{subsubsection.3.2.5.1}
-\contentsline {subsubsection}{\numberline {3.2.5.2}Ensaio de radia\IeC {\c c}\IeC {\~a}o}{29}{subsubsection.3.2.5.2}
-\contentsline {subsubsection}{\numberline {3.2.5.3}Ensaio t\IeC {\'e}rmico}{29}{subsubsection.3.2.5.3}
-\contentsline {subsubsection}{\numberline {3.2.5.4}Ensaio de v\IeC {\'a}cuo}{29}{subsubsection.3.2.5.4}
-\contentsline {subsubsection}{\numberline {3.2.5.5}Ensaio de termov\IeC {\'a}cuo}{29}{subsubsection.3.2.5.5}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Princ\IeC {\'\i }pio de funcionamento}{21}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}VIS Technology}{22}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}SpectroLab}{23}{subsubsection.3.2.2.3}
+\contentsline {subsubsection}{\numberline {3.2.2.4}Emcore}{23}{subsubsection.3.2.2.4}
+\contentsline {subsubsection}{\numberline {3.2.2.5}AzurSpace}{25}{subsubsection.3.2.2.5}
+\contentsline {subsubsection}{\numberline {3.2.2.6}An\IeC {\'a}lise de pre\IeC {\c c}os}{26}{subsubsection.3.2.2.6}
+\contentsline {subsubsection}{\numberline {3.2.2.7}TrisolX}{26}{subsubsection.3.2.2.7}
+\contentsline {subsection}{\numberline {3.2.3}Componentes passivos}{27}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Semicondutores}{29}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Lista de componentes}{29}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Ensaios poss\IeC {\'\i }veis}{30}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Valida\IeC {\c c}\IeC {\~a}o dos subconjuntos}{30}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Ensaio de radia\IeC {\c c}\IeC {\~a}o}{30}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Ensaio t\IeC {\'e}rmico}{31}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Ensaio de v\IeC {\'a}cuo}{31}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Ensaio de termov\IeC {\'a}cuo}{31}{subsection.3.3.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Prot\IeC {\'o}tipo}}{30}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Prot\IeC {\'o}tipo}}{32}{chapter.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados e discuss\IeC {\~o}es}}{31}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados e discuss\IeC {\~o}es}}{33}{chapter.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Plano de marketing}}{32}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Plano de marketing}}{34}{chapter.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Plano operacional}}{33}{chapter.7}
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Plano operacional}}{35}{chapter.7}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Planilha financeira}}{34}{chapter.8}
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Planilha financeira}}{36}{chapter.8}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Conclus\IeC {\~o}es}}{35}{chapter.9}
+\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Conclus\IeC {\~o}es}}{37}{chapter.9}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{36}{section*.11}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{38}{section*.11}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{38}{section*.12}
+\contentsline {part}{\uppercase {Anexos}}{41}{section*.12}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {primeiro anexo}}{39}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Or\IeC {\c c}amento dos componentes da Farnell}}{42}{appendix.anexochapback.1}
 \vspace {\cftbeforechapterskip }
