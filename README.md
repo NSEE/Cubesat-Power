@@ -31,7 +31,8 @@ As pastas desse projeto devem ser organizadas conforme exemplo a seguir:
 │   ├── Apresentações
 │   ├── Artigos
 │   │   └── Bibliografia
-│   ├── Datasheets
+|   ├── Datasheets
+│   ├── Documentação
 │   ├── Estudos
 │   ├── Manuais
 │   └── Wiki
