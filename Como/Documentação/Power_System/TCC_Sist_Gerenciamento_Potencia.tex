@@ -340,14 +340,19 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
   \item[\textit{NASA}] \textit{National Aeronautics and Space Administration}
   \item[NSEE-IMT] Núcleo de Sistemas Eletrônicos Embarcados do Instituto Mauá de Tecnologia
   \item[\textit{LEO}] \textit{Low Earth Orbit}
-  \item[PV] \textit{Photovoltaic}
+  \item[\textit{PV}] \textit{Photovoltaic}
   \item[\textit{AM}] \textit{Air Mass}
   \item[\textit{WRC}] \textit{World Radiation Center}
   \item[T] Temperatura
   \item[\textit{SMD}] \textit{Superficial Monting Device}
   \item[\textit{DF}] \textit{Dissipation Factor}
   \item[\textit{OSSI}] \textit{Open Source Satellite Initiative}
+  \item[\textit{SEL}]\textit{Single Event Latchup}
+  \item[\textit{SEE}]\textit{Single Event Effect}
+  \item[\textit{SET}]\textit{Single Event Transient}
   
+  
+    
 \end{siglas}
 % ---
 
@@ -886,7 +891,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	\end{figure}
 	\pagebreak
 	
-	Foi solicitado um orçamento para a \textit{Farnell}, uma vez que o Instituto Mauá de Tecnologia tem a preferência de trabalhar com esse parceiro. O valor do orçamento, que tinha a disposição praticamente todos os componentes necessários com exceção do carregador de bateria (BQ24005PWP), ficou R\$ 2.065,66, conforme pode ser visto no Anexo A.
+	Foi solicitado um orçamento para a \textit{Farnell}, que devido a sua grande estrutura e interligação entre os estoques nacionais e internacionais, tinha a disposição praticamente todos os componentes necessários com exceção do carregador de bateria (BQ24005PWP), ficou R\$ 2.065,66, conforme pode ser visto no Anexo A.
 	
 
 \section[Ensaios possíveis]{Ensaios possíveis}
@@ -912,6 +917,13 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	O ensaio de radiação consiste na emissão de radiação nos semicondutores a fim de se obter a assinatura da tensão e corrente após a exposição a radiação. Para esse ensaio foi necessário que os semicondutores estivessem decapados, ou seja, é necessário que a eletrônica do semicondutor esteja visível para que a emissão da radiação seja direta no componente, fato que não ocorrerá no espaço, uma vez que a película do componente estará presente o que, por sua vez, acaba dando uma pequena filtrada na radiação. Esse teste foi realizado em conjunto com o Centro Universitário da Faculdade de Engenharia Industrial (FEI), com a professora Marcilei da FEI.
 	
 	Entre diversas pesquisas a respeito de possíveis testes de radiação, foi encontrado o projeto \textit{Open Source Satellite Initiative}\textsuperscript{\cite{OSSI}}. Na \textit{wikipage}\textsuperscript{\cite{OSSI2}} do projeto \textit{OSSI} é disponibilizado um \textit{link} para um \textit{data base} que contém dados de testes de radiação da \textit{NASA Goddard Space Flight Center}.\textsuperscript{\cite{OSSI3}}
+	
+	Nesse \textit{data base} foram encontrados dois componentes que constavam na lista de componentes da Figura 15, sendo eles o TMP36, produzido pela \textit{Analog Devices}, e o LMP2012, produzido pela \textit{Texas Instruments}. Foi realizada uma tentativa de transformação da lista de componentes inicial por um contendo mais componentes presentes nesse \textit{data base}, porém o \textit{lead time} de muitos deles era elevadíssimos e poderia comprometer o desenvolvimento do projeto.
+	
+	O TMP36, que é um sensor de temperatura, foi testado para \textit{SEL}, pela \textit{NASA} em 2002, pelos engenheiros espaciais Christian Poivey e Hak Kim, chegando a conclusão que a sensibilidade \textit{SEL} do componente não era um fator preocupante para aplicações espaciais.\footnote{No Anexo B é possível realizar a verificação do relatório de teste.\textsuperscript{\cite{TMP36}}}
+	
+	O LMP2012, trata-se de um amplificador operacional, foi testado para \textit{SEE}, \textit{SEL}, \textit{SET} e \textit{Laser}, os testes foram realizados pelos engenheiros espaciais da \textit{NASA}, Michael Campola e Anthony Phan no final de 2012, concluindo que existem algumas áreas que param de funcionar após uma indução de \textit{laser} pulsado.\footnote{No Anexo C é possível realizar a verificação do relatório de teste.\textsuperscript{\cite{LMP2012}}}
+	
 	
 \subsection[Ensaio térmico]{Ensaio térmico}
 
@@ -974,7 +986,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 \chapter[Orçamento dos componentes da Farnell]{Orçamento dos componentes da \textit{Farnell}}
 % ---
 
-Orçamento enviado pelo Sr. Helder Sant'ana Viana da \textit{Farnell Newark element14}.
+	Orçamento enviado pelo Sr. Helder Sant'ana Viana da \textit{Farnell Newark element14}.
 
 	\begin{figure}[th]
 		\centering
@@ -990,6 +1002,57 @@ Orçamento enviado pelo Sr. Helder Sant'ana Viana da \textit{Farnell Newark elem
 		\centering
 		\includegraphics[width=0.9\linewidth]{./anexos/Pedido1898453}	
 	\end{figure}
+	
+\chapter[Relatório de teste do TMP36]{Relatório de teste do TMP36}	
+	
+	Relatório de teste do TMP36, realizado em 08 de Agosto de 2002 pelos engenheiros Christian Poivey e Hak Kim.\textsuperscript{\cite{TMP36}}
+	
+	\begin{figure}[th]
+		\centering
+		\includegraphics[width=0.85\linewidth]{./anexos/tmp36_1}	
+	\end{figure}	
+	
+	\begin{figure}[th]
+		\centering
+		\includegraphics[width=0.85\linewidth]{./anexos/tmp36_2}	
+	\end{figure}	
+	
+	\begin{figure}[th]
+		\centering
+		\includegraphics[width=0.85\linewidth]{./anexos/tmp36_3}	
+	\end{figure}	
+	
+	\begin{figure}[th]
+		\centering
+		\includegraphics[width=0.85\linewidth]{./anexos/tmp36_4}	
+	\end{figure}			
+	
+\chapter[Relatório de teste do LMP2012]{Relatório de teste do LMP2012}		
+	
+	Relatório de teste do LMP2012, realizado em 18 de Dezembro de 2012 pelos engenheiros Michael Campola e Anthony Phan.\textsuperscript{\cite{LMP2012}}
+	
+		\begin{figure}[th]
+		\centering
+		\includegraphics[width=0.85\linewidth]{./anexos/lmp2012_1}	
+	\end{figure}	
+	
+	\begin{figure}[th]
+		\centering
+		\includegraphics[width=0.85\linewidth]{./anexos/lmp2012_2}	
+	\end{figure}	
+	
+	\begin{figure}[th]
+		\centering
+		\includegraphics[width=0.85\linewidth]{./anexos/lmp2012_3}	
+	\end{figure}	
+	
+	\begin{figure}[th]
+		\centering
+		\includegraphics[width=0.85\linewidth]{./anexos/lmp2012_4}	
+	\end{figure}	
+	
+	
+	
 \end{anexosenv}
 
 

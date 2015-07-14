@@ -6,7 +6,7 @@
 \abntbstabout{v-1.9.3 }
 
 \bibitem{CubeSat}
-\abntrefinfo{MEHRPARVAR A.;~PIGnATELLI}{MEHRPARVAR A.;~PIGNATELLI}{2014}
+\abntrefinfo{MEHRPARVAR A.;~PIGNATELLI}{MEHRPARVAR A.;~PIGNATELLI}{2014}
 {MEHRPARVAR A.;~PIGNATELLI, D. \emph{CubeSat Design Specification}.
 13. ed. Califórnia, 2014.}
 
@@ -65,7 +65,7 @@ São José dos Campos, 2014. Dispon{\'\i}vel em:
   Acesso em: 23 de nov. de 2014.}
 
 \bibitem{GEO}
-\abntrefinfo{Howell}{HOWELL}{2015}
+\abntrefinfo{HOWELL}{HOWELL}{2015}
 {HOWELL, E. \emph{What Is a Geosynchronous Orbit?}
 [S.l.], 2015. Dispon{\'\i}vel em:
   \url{http://www.space.com/29222-geosynchronous-orbit.html}. Acesso em: 27 de
@@ -86,21 +86,21 @@ Washington, D.C, 2014. Dispon{\'\i}vel em:
   2015.}
 
 \bibitem{BraEsc}
-\abntrefinfo{Fogaça}{FOGAçA}{2015}
-{FOGAçA, J. \emph{Pilhas e bateria de lítio}.
+\abntrefinfo{FOGAÇA}{FOGAÇA}{2015}
+{FOGAÇA, J. \emph{Pilhas e bateria de lítio}.
 [S.l.], 2015. Dispon{\'\i}vel em:
   \url{http://www.brasilescola.com/quimica/pilhas-baterias-litio.htm}. Acesso
   em: 08 de jun. de 2015.}
 
 \bibitem{TecMundo}
-\abntrefinfo{Karasinski}{KARASINSKI}{2015}
+\abntrefinfo{KARASINSKI}{KARASINSKI}{2015}
 {KARASINSKI, L. \emph{Como são produzidas as baterias de lítio}.
 [S.l.], 2015. Dispon{\'\i}vel em:
   \url{http://www.tecmundo.com.br/bateria/42123-como-sao-produzidas-as-baterias-de-litio-.htm}.
   Acesso em: 08 de jun. de 2015.}
 
 \bibitem{celula}
-\abntrefinfo{Dias}{DIAS}{1988}
+\abntrefinfo{DIAS}{DIAS}{1988}
 {DIAS, C.~B. \emph{Como funciona uma célula fotovoltaica?}
 [S.l.], 1988. Dispon{\'\i}vel em:
   \url{http://super.abril.com.br/ciencia/celula-fotovoltaica}. Acesso em: 10 de
@@ -125,7 +125,7 @@ Los Angeles, 2015. Dispon{\'\i}vel em:
 Califórnia, 2009?}
 
 \bibitem{Emcore}
-\abntrefinfo{English}{ENGLISH}{2015}
+\abntrefinfo{ENGLISH}{ENGLISH}{2015}
 {ENGLISH, M. \emph{Emcore completes sale to SolAero}.
 Albuquerque, NM, 2015. Dispon{\'\i}vel em:
   \url{http://www.bizjournals.com/albuquerque/blog/morning-edition/2014/12/emcore-completes-sale-to-solaero.html}.
@@ -199,6 +199,22 @@ Nova Iorque, 2015.}
 {RADHOME. \emph{GSFC Radiation Data Base}.
 [S.l.], 2015. Dispon{\'\i}vel em:
   \url{http://radhome.gsfc.nasa.gov/radhome/RadDataBase/RadDataBase.html}.
+  Acesso em: 10 de jul. de 2015.}
+
+\bibitem{TMP36}
+\abntrefinfo{POIVEY C.;~KIM}{POIVEY C.;~KIM}{2002}
+{POIVEY C.;~KIM, H. \emph{Heavy ion Single Event Effects test of the
+  temperature sensor TMP36 from Analog Devices}.
+[S.l.], 2002. Dispon{\'\i}vel em:
+  \url{http://radhome.gsfc.nasa.gov/radhome/papers/B061702\_TMP36.pdf}. Acesso
+  em: 10 de jul. de 2015.}
+
+\bibitem{LMP2012}
+\abntrefinfo{CAMPOLA M.;~PHAN}{CAMPOLA M.;~PHAN}{2012}
+{CAMPOLA M.;~PHAN, A. \emph{Pulsed-laser Test Report of the LMP2012 Precision
+  Rail-to-Rail Input and Output Dual Operational Amplifier}.
+[S.l.], 2012. Dispon{\'\i}vel em:
+  \url{http://radhome.gsfc.nasa.gov/radhome/papers/12-085\_NRL20121218\_LMP2012\_laser.pdf}.
   Acesso em: 10 de jul. de 2015.}
 
 \end{thebibliography}
