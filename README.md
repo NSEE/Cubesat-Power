@@ -3,13 +3,17 @@
 ## Descrição
 Sistemas de Gerenciamento de Energia para Cubesat
 
-O Sistema de Gerenciamento de Energia é o subsistema responsável pela geração, transmissão e gerenciamento de energia de um cubesat. Este sistema deve ser capaz de fornecer energia elétrica suficiente para o funcionamento de todos os módulos (comunicação, controle de atitude, DPU, entre outros) de um cubesat.
+Os satélites artificiais amplamente utilizados e essenciais no dia-a-dia para diversas tarefas, como por exemplo para as transmissões televisivas e previsões meteorológicas, são objetos que orbitam os planetas em trajetos circulares ou elípticos. Esses satélites, feitos pelo homem, são desenvolvidos especificamente para funções preestabelecidas que tornem possível alcançar objetivos maiores.
 
-A geração de energia depende de fotocélulas que, além de suprir a demanda energética do cubesat, deverão fornecer energia suficiente para o carregamento de uma bateria alocada no interior do cubo. A bateria, que por sua vez, deve ser capaz de assumir o controle do fornecimento de energia para todos os subsistemas do cubesat, em momentos cuja a luz solar não estiver sendo incidida nas fotocélulas do cubesat, como por exemplo, em regiões de sombra.
+Esse formato de desenvolvimento individual faz o seu processo produtivo ser lento e com custos elevados, o que torna a alta tecnologia encontrada nos satélites restrita a pequenos grupos de engenheiros e cientistas. A combinação desses fatores acabou motivando, no final dos anos 90, os professores Jordi Puig-Suari e Bob Twiggs, a proporem o modelo do CubeSat, que são satélites miniaturizados com tempo de desenvolvimento e custos bem abaixo dos satélites tradicionais.
+	
+O presente trabalho apresenta o Sistema de Gerenciamento de Energia de um CubeSat, ele é o subsistema responsável pela geração, transmissão e gerenciamento de energia, tendo por finalidade fornecer energia elétrica suficiente para o funcionamento dos demais subsistemas pertencentes a este satélite miniaturizado, como por exemplo o subsistema de comunicação, controle de atitude e computador de bordo.
+	
+O processo de geração de energia depende da captação de luz solar suficiente para suprir a demanada energética do CubeSat, além de ser capaz de realizar o carregamento de uma bateria. Essa bateria, que por sua vez, tem a capacidade de assumir o fornecimento de energia para todo o sistema nos momentos nos quais o CubeSat estiver na região de sombra da Terra.
+	
+O Sistema de Gerenciamento de Energia foi totalmente dimensionado de forma a atender todos os pré-requisitos da construção de um CubeSat, que futuramente deverá ser enviado para a realização de uma missão espacial.
 
-Todo o gerenciamento é controlado de forma independente por um microcontrolador, com o auxílio de diversos sensores que são responsávei pelo monitoramento do subsistema, que reportará suas atividades executadas para a DPU, atráves de comunicação via rede CAN.
-
-O Sistema de Gerenciamento de Energia para Cubesat visa fornecer a energia necessária, com incidência direta ou não de luz solar, para garantir o sucesso de missões espaciais, além de ajudar a fomentar a pesquisa e desenvolvimento de projetos para formar e capacitar alunos e pesquisadores na área espacial, além de ser parte de um projeto de desenvolvimento um cubesat com tecnologia nacional.
+Esse subsistema visa fornecer a energia necessária, com incidência direta ou não de luz solar, para garantir o sucesso de missões espaciais, além de ajudar a fomentar a pesquisa e desenvolvimento de projetos para formar e capacitar alunos e pesquisadores na área espacial, além de ser parte de um projeto da Escola de Engenharia Mauá que objetiva o desenvolvimento de um CubeSat com tecnologia nacional.
 
 ## Envolvidos
 - Arnaldo Alves Viana Júnior
