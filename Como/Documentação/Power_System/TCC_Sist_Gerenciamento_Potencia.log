@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.3)  13 JUL 2015 21:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.3)  15 JUL 2015 21:22
 entering extended mode
 **TCC_Sist_Gerenciamento_Potencia.tex
 
@@ -1142,216 +1142,217 @@ o_Potencia.toc [11
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 56.
+(Font)              <14.4> on input line 57.
 ) [12] [13
 
 
 ] [14]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 426.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 433.
 
-<./figs/cubesat_01.jpg, id=217, 351.3125pt x 214.8025pt>
+<./figs/cubesat_01.jpg, id=219, 351.3125pt x 214.8025pt>
 File: ./figs/cubesat_01.jpg Graphic file (type jpg)
 
 <use ./figs/cubesat_01.jpg>
-Package pdftex.def Info: ./figs/cubesat_01.jpg used on input line 435.
+Package pdftex.def Info: ./figs/cubesat_01.jpg used on input line 442.
 (pdftex.def)             Requested size: 364.00139pt x 222.57976pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 438.
+(Font)              <10.95> on input line 445.
 
-<./figs/cubesat_02.png, id=219, 387.4475pt x 344.0855pt>
+<./figs/cubesat_02.png, id=221, 387.4475pt x 344.0855pt>
 File: ./figs/cubesat_02.png Graphic file (type png)
 
 <use ./figs/cubesat_02.png>
-Package pdftex.def Info: ./figs/cubesat_02.png used on input line 447.
+Package pdftex.def Info: ./figs/cubesat_02.png used on input line 454.
 (pdftex.def)             Requested size: 181.99722pt x 161.63095pt.
  [15
 
  <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/cubesat_01.jpg>
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 466.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 473.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 466.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 473.
  [16 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/cubesat_02.
 png>] [17]
-<./figs/cubesat_03.png, id=258, 264.99pt x 170.13562pt>
+<./figs/cubesat_03.png, id=256, 264.99pt x 170.13562pt>
 File: ./figs/cubesat_03.png Graphic file (type png)
 
 <use ./figs/cubesat_03.png>
-Package pdftex.def Info: ./figs/cubesat_03.png used on input line 518.
+Package pdftex.def Info: ./figs/cubesat_03.png used on input line 519.
 (pdftex.def)             Requested size: 227.5pt x 146.06714pt.
  [18
 
+ <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/cubesat_03.png>
 ]
-Underfull \hbox (badness 2538) in paragraph at lines 550--550
+Underfull \hbox (badness 2538) in paragraph at lines 554--554
 []|\T1/lmr/m/n/12 (+20) Boa ca-pa-ci-dade de ar-ma-ze-na-
  []
 
 
-Overfull \hbox (8.59131pt too wide) in paragraph at lines 545--557
+Overfull \hbox (8.59131pt too wide) in paragraph at lines 549--561
 [][] 
  []
 
-[19 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/cubesat_03.p
-ng>] <./figs/cubesat_04.png, id=273, 471.26062pt x 315.42844pt>
+[19] <./figs/cubesat_04.png, id=275, 471.26062pt x 315.42844pt>
 File: ./figs/cubesat_04.png Graphic file (type png)
 
 <use ./figs/cubesat_04.png>
-Package pdftex.def Info: ./figs/cubesat_04.png used on input line 569.
+Package pdftex.def Info: ./figs/cubesat_04.png used on input line 573.
 (pdftex.def)             Requested size: 273.00278pt x 182.73203pt.
 
-<./figs/cubesat_05.png, id=275, 252.945pt x 190.46156pt>
+<./figs/cubesat_05.png, id=277, 252.945pt x 190.46156pt>
 File: ./figs/cubesat_05.png Graphic file (type png)
 
 <use ./figs/cubesat_05.png>
-Package pdftex.def Info: ./figs/cubesat_05.png used on input line 583.
+Package pdftex.def Info: ./figs/cubesat_05.png used on input line 587.
 (pdftex.def)             Requested size: 273.00278pt x 205.56752pt.
  [20 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/cubesat_04.
 png>]
-<./figs/fotocelula.png, id=284, 502.12593pt x 335.75438pt>
+<./figs/fotocelula.png, id=286, 502.12593pt x 335.75438pt>
 File: ./figs/fotocelula.png Graphic file (type png)
 
 <use ./figs/fotocelula.png>
-Package pdftex.def Info: ./figs/fotocelula.png used on input line 605.
+Package pdftex.def Info: ./figs/fotocelula.png used on input line 609.
 (pdftex.def)             Requested size: 273.00278pt x 182.55472pt.
  [21 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/cubesat_05.
 png>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 612.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 616.
 
-<./figs/cell_vis.jpg, id=293, 963.6pt x 1284.8pt>
+<./figs/cell_vis.jpg, id=295, 963.6pt x 1284.8pt>
 File: ./figs/cell_vis.jpg Graphic file (type jpg)
  <use ./figs/cell_vis.jpg>
-Package pdftex.def Info: ./figs/cell_vis.jpg used on input line 619.
+Package pdftex.def Info: ./figs/cell_vis.jpg used on input line 623.
 (pdftex.def)             Requested size: 136.50139pt x 181.98805pt.
 
 [22 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/fotocelula.p
 ng> <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/cell_vis.jpg
->] <./figs/setup.jpg, id=301, 963.6pt x 1284.8pt>
+>] <./figs/setup.jpg, id=303, 963.6pt x 1284.8pt>
 File: ./figs/setup.jpg Graphic file (type jpg)
  <use ./figs/setup.jpg>
-Package pdftex.def Info: ./figs/setup.jpg used on input line 632.
+Package pdftex.def Info: ./figs/setup.jpg used on input line 636.
 (pdftex.def)             Requested size: 181.99722pt x 242.6638pt.
 
-Overfull \hbox (4.36517pt too wide) in paragraph at lines 654--654
+Overfull \hbox (4.36517pt too wide) in paragraph at lines 658--658
 []|\T1/lmr/m/n/12 (-20) GaInP2/GaAs/Ge| 
  []
 
 
-Overfull \hbox (4.36517pt too wide) in paragraph at lines 654--654
+Overfull \hbox (4.36517pt too wide) in paragraph at lines 658--658
 []|\T1/lmr/m/n/12 (-20) GaInP2/GaAs/Ge| 
  []
 
 
-Overfull \hbox (4.36517pt too wide) in paragraph at lines 654--654
+Overfull \hbox (4.36517pt too wide) in paragraph at lines 658--658
 []|\T1/lmr/m/n/12 (-20) GaInP2/GaAs/Ge| 
  []
 
 
-Overfull \hbox (4.36517pt too wide) in paragraph at lines 654--655
+Overfull \hbox (4.36517pt too wide) in paragraph at lines 658--659
 []|\T1/lmr/m/n/12 (-20) GaInP2/GaAs/Ge| 
  []
 
 
-Overfull \hbox (1.52792pt too wide) in paragraph at lines 660--660
+Overfull \hbox (1.52792pt too wide) in paragraph at lines 664--664
 []|\T1/lmr/bx/n/12 Dimensional| 
  []
 
 
-Overfull \hbox (30.54668pt too wide) in paragraph at lines 649--664
-[][] 
+Overfull \hbox (30.54668pt too wide) in paragraph at lines 653--676
+[][]
  []
 
-<./figs/UTJ.png, id=303, 304.88907pt x 105.39375pt>
+[23 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/setup.jpg>]
+<./figs/UTJ.png, id=310, 304.88907pt x 105.39375pt>
 File: ./figs/UTJ.png Graphic file (type png)
  <use ./figs/UTJ.png>
-Package pdftex.def Info: ./figs/UTJ.png used on input line 679.
+Package pdftex.def Info: ./figs/UTJ.png used on input line 683.
 (pdftex.def)             Requested size: 455.0pt x 157.28934pt.
 
-[23 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/setup.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 693--693
+Underfull \hbox (badness 10000) in paragraph at lines 697--697
 []|\T1/lmr/bx/it/12 BTJM PV
  []
 
 
-Overfull \hbox (1.52792pt too wide) in paragraph at lines 703--703
+Overfull \hbox (1.52792pt too wide) in paragraph at lines 707--707
 []|\T1/lmr/bx/n/12 Dimensional| 
  []
 
 
-Overfull \hbox (30.54668pt too wide) in paragraph at lines 692--707
+Overfull \hbox (30.54668pt too wide) in paragraph at lines 696--711
 [][] 
  []
 
-<./figs/ZTJ.png, id=312, 161.10187pt x 83.5622pt>
+[24 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/UTJ.png>]
+<./figs/ZTJ.png, id=325, 161.10187pt x 83.5622pt>
 File: ./figs/ZTJ.png Graphic file (type png)
  <use ./figs/ZTJ.png>
-Package pdftex.def Info: ./figs/ZTJ.png used on input line 722.
+Package pdftex.def Info: ./figs/ZTJ.png used on input line 726.
 (pdftex.def)             Requested size: 227.5pt x 118.00757pt.
- [24 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/UTJ.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 736--736
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--740
 []|\T1/lmr/bx/it/12 3G30C-Large-
  []
 
 
-Overfull \hbox (1.52792pt too wide) in paragraph at lines 746--746
+Overfull \hbox (1.52792pt too wide) in paragraph at lines 750--750
 []|\T1/lmr/bx/n/12 Dimensional| 
  []
 
 
-Overfull \hbox (30.54668pt too wide) in paragraph at lines 735--750
+Overfull \hbox (30.54668pt too wide) in paragraph at lines 739--754
 [][] 
  []
 
+[25 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/ZTJ.png>]
 File: ./figs/ZTJ.png Graphic file (type png)
+
 <use ./figs/ZTJ.png>
-Package pdftex.def Info: ./figs/ZTJ.png used on input line 765.
+Package pdftex.def Info: ./figs/ZTJ.png used on input line 769.
 (pdftex.def)             Requested size: 227.5pt x 118.00757pt.
- [25 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/ZTJ.png>] <
-./figs/TrisolX.png, id=335, 185.94469pt x 84.315pt>
+ <./figs/TrisolX.png, id=336, 185.94469pt x 84.315pt>
 File: ./figs/TrisolX.png Graphic file (type png)
 
 <use ./figs/TrisolX.png>
-Package pdftex.def Info: ./figs/TrisolX.png used on input line 809.
+Package pdftex.def Info: ./figs/TrisolX.png used on input line 812.
 (pdftex.def)             Requested size: 227.5pt x 103.16132pt.
- [26 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/TrisolX.png
->] <./figs/x7r.png, id=346, 361.35pt x 182.93344pt>
+ [26] [27 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/Trisol
+X.png>]
+<./figs/x7r.png, id=353, 361.35pt x 182.93344pt>
 File: ./figs/x7r.png Graphic file (type png)
+ <use ./figs/x7r.png>
+Package pdftex.def Info: ./figs/x7r.png used on input line 857.
+(pdftex.def)             Requested size: 273.00278pt x 138.2074pt.
 
-<use ./figs/x7r.png>
-Package pdftex.def Info: ./figs/x7r.png used on input line 854.
-(pdftex.def)             Requested size: 364.00139pt x 184.2784pt.
- [27] <./figs/y5v.png, id=354, 490.08093pt x 344.03531pt>
+<./figs/y5v.png, id=355, 490.08093pt x 344.03531pt>
 File: ./figs/y5v.png Graphic file (type png)
+ <use ./figs/y5v.png>
+Package pdftex.def Info: ./figs/y5v.png used on input line 869.
+(pdftex.def)             Requested size: 273.00278pt x 191.65054pt.
 
-<use ./figs/y5v.png>
-Package pdftex.def Info: ./figs/y5v.png used on input line 866.
-(pdftex.def)             Requested size: 364.00139pt x 255.5323pt.
- [28 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/x7r.png> <D
-:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/y5v.png>] <./figs/
-comp.png, id=363, 989.19562pt x 950.80219pt>
+[28 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/x7r.png> <D:
+/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/y5v.png>]
+<./figs/comp.png, id=365, 989.19562pt x 950.80219pt>
 File: ./figs/comp.png Graphic file (type png)
-
-<use ./figs/comp.png>
-Package pdftex.def Info: ./figs/comp.png used on input line 886.
+ <use ./figs/comp.png>
+Package pdftex.def Info: ./figs/comp.png used on input line 889.
 (pdftex.def)             Requested size: 455.0pt x 437.3308pt.
- [29 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/comp.png>]
-<./figs/placas_subconjuntos.jpg, id=369, 1589.94pt x 1365.1pt>
+
+[29 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/comp.png>]
+<./figs/placas_subconjuntos.jpg, id=371, 1589.94pt x 1365.1pt>
 File: ./figs/placas_subconjuntos.jpg Graphic file (type jpg)
 
 <use ./figs/placas_subconjuntos.jpg>
-Package pdftex.def Info: ./figs/placas_subconjuntos.jpg used on input line 908.
+Package pdftex.def Info: ./figs/placas_subconjuntos.jpg used on input line 911.
 
 (pdftex.def)             Requested size: 227.5pt x 195.3203pt.
  [30 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/placas_subc
-onjuntos.jpg>] [31] [32
-
-] [33
+onjuntos.jpg>] [31] [32] [33
 
 ] [34
 
@@ -1360,13 +1361,15 @@ onjuntos.jpg>] [31] [32
 ]
 [36
 
+] [37
+
 ]
 (D:\GitHub\Cubesat-Power\Como\Documentação\Power_System\TCC_Sist_Gerenciament
 o_Potencia.bbl
 (D:\GitHub\Cubesat-Power\Como\Documentação\Power_System\TCC_Sist_Gerenciament
 o_Potencia.brf)
 \tf@brf=\write5
- [37
+ [38
 
 ]
 
@@ -1374,145 +1377,145 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[38
+[39
 
-] [39]) [40]
+] [40]) [41]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 984.
+(hyperref)                removing `\uppercase' on input line 993.
 
-[41
+[42
 
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 986.
- <./anexos/Pedido189845.png, id=545, 710.655pt x 1026.83624pt>
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 995.
+ <./anexos/Pedido189845.png, id=553, 710.655pt x 1026.83624pt>
 File: ./anexos/Pedido189845.png Graphic file (type png)
 
 <use ./anexos/Pedido189845.png>
-Package pdftex.def Info: ./anexos/Pedido189845.png used on input line 993.
+Package pdftex.def Info: ./anexos/Pedido189845.png used on input line 1002.
 (pdftex.def)             Requested size: 386.75278pt x 558.8391pt.
 
-<./anexos/Pedido1898452.png, id=546, 713.66624pt x 971.12813pt>
+<./anexos/Pedido1898452.png, id=554, 713.66624pt x 971.12813pt>
 File: ./anexos/Pedido1898452.png Graphic file (type png)
 
 <use ./anexos/Pedido1898452.png>
-Package pdftex.def Info: ./anexos/Pedido1898452.png used on input line 998.
+Package pdftex.def Info: ./anexos/Pedido1898452.png used on input line 1007.
 (pdftex.def)             Requested size: 409.49722pt x 557.22371pt.
 
-<./anexos/Pedido1898453.png, id=547, 712.16063pt x 394.47375pt>
+<./anexos/Pedido1898453.png, id=555, 712.16063pt x 394.47375pt>
 File: ./anexos/Pedido1898453.png Graphic file (type png)
 
 <use ./anexos/Pedido1898453.png>
-Package pdftex.def Info: ./anexos/Pedido1898453.png used on input line 1003.
+Package pdftex.def Info: ./anexos/Pedido1898453.png used on input line 1012.
 (pdftex.def)             Requested size: 409.49722pt x 226.82063pt.
- [42
+ [43
 
  <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/Pedido189845.
-png>] [43 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/Pedi
-do1898452.png>] [44 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/a
+png>] [44 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/Pedi
+do1898452.png>] [45 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/a
 nexos/Pedido1898453.png>]
-<./anexos/tmp36_1.png, id=565, 819.06pt x 659.46375pt>
+<./anexos/tmp36_1.png, id=572, 819.06pt x 659.46375pt>
 File: ./anexos/tmp36_1.png Graphic file (type png)
 
 <use ./anexos/tmp36_1.png>
-Package pdftex.def Info: ./anexos/tmp36_1.png used on input line 1012.
+Package pdftex.def Info: ./anexos/tmp36_1.png used on input line 1021.
 (pdftex.def)             Requested size: 386.75278pt x 311.39702pt.
 
-<./anexos/tmp36_2.png, id=566, 733.23938pt x 414.04688pt>
+<./anexos/tmp36_2.png, id=573, 733.23938pt x 414.04688pt>
 File: ./anexos/tmp36_2.png Graphic file (type png)
 
 <use ./anexos/tmp36_2.png>
-Package pdftex.def Info: ./anexos/tmp36_2.png used on input line 1017.
+Package pdftex.def Info: ./anexos/tmp36_2.png used on input line 1026.
 (pdftex.def)             Requested size: 386.75278pt x 218.39503pt.
 
-<./anexos/tmp36_3.png, id=567, 737.75626pt x 1102.1175pt>
+<./anexos/tmp36_3.png, id=574, 737.75626pt x 1102.1175pt>
 File: ./anexos/tmp36_3.png Graphic file (type png)
 
 <use ./anexos/tmp36_3.png>
-Package pdftex.def Info: ./anexos/tmp36_3.png used on input line 1022.
+Package pdftex.def Info: ./anexos/tmp36_3.png used on input line 1031.
 (pdftex.def)             Requested size: 386.75278pt x 577.7627pt.
 
-<./anexos/tmp36_4.png, id=568, 740.7675pt x 882.29625pt>
+<./anexos/tmp36_4.png, id=575, 740.7675pt x 882.29625pt>
 File: ./anexos/tmp36_4.png Graphic file (type png)
 
 <use ./anexos/tmp36_4.png>
-Package pdftex.def Info: ./anexos/tmp36_4.png used on input line 1027.
+Package pdftex.def Info: ./anexos/tmp36_4.png used on input line 1036.
 (pdftex.def)             Requested size: 386.75278pt x 460.64108pt.
- [45
+ [46
 
  <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/tmp36_1.png> 
 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/tmp36_2.png>] 
-[46 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/tmp36_3.pn
-g>] [47 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/tmp36_
+[47 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/tmp36_3.pn
+g>] [48 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/tmp36_
 4.png>]
-<./anexos/lmp2012_1.png, id=585, 737.75626pt x 978.65625pt>
+<./anexos/lmp2012_1.png, id=593, 737.75626pt x 978.65625pt>
 File: ./anexos/lmp2012_1.png Graphic file (type png)
 
 <use ./anexos/lmp2012_1.png>
-Package pdftex.def Info: ./anexos/lmp2012_1.png used on input line 1036.
+Package pdftex.def Info: ./anexos/lmp2012_1.png used on input line 1045.
 (pdftex.def)             Requested size: 386.75278pt x 513.04065pt.
 
-<./anexos/lmp2012_2.png, id=586, 746.79pt x 900.36375pt>
+<./anexos/lmp2012_2.png, id=594, 746.79pt x 900.36375pt>
 File: ./anexos/lmp2012_2.png Graphic file (type png)
 
 <use ./anexos/lmp2012_2.png>
-Package pdftex.def Info: ./anexos/lmp2012_2.png used on input line 1041.
+Package pdftex.def Info: ./anexos/lmp2012_2.png used on input line 1050.
 (pdftex.def)             Requested size: 386.75278pt x 466.28221pt.
 
-<./anexos/lmp2012_3.png, id=587, 743.77875pt x 1014.79124pt>
+<./anexos/lmp2012_3.png, id=595, 743.77875pt x 1014.79124pt>
 File: ./anexos/lmp2012_3.png Graphic file (type png)
 
 <use ./anexos/lmp2012_3.png>
-Package pdftex.def Info: ./anexos/lmp2012_3.png used on input line 1046.
+Package pdftex.def Info: ./anexos/lmp2012_3.png used on input line 1055.
 (pdftex.def)             Requested size: 386.75278pt x 527.679pt.
 
-<./anexos/lmp2012_4.png, id=588, 746.79pt x 1026.83624pt>
+<./anexos/lmp2012_4.png, id=596, 746.79pt x 1026.83624pt>
 File: ./anexos/lmp2012_4.png Graphic file (type png)
 
 <use ./anexos/lmp2012_4.png>
-Package pdftex.def Info: ./anexos/lmp2012_4.png used on input line 1051.
+Package pdftex.def Info: ./anexos/lmp2012_4.png used on input line 1060.
 (pdftex.def)             Requested size: 386.75278pt x 531.78004pt.
 
 No file TCC_Sist_Gerenciamento_Potencia.ind.
 
 AED: lastpage setting LastPage
-[48
+[49
 
  <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/lmp2012_1.png
->] [49 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/lmp2012
-_2.png>] [50 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/l
-mp2012_3.png>] [51 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/an
+>] [50 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/lmp2012
+_2.png>] [51 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/l
+mp2012_3.png>] [52 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/an
 exos/lmp2012_4.png>]
 \tf@lof=\write6
 \tf@lot=\write7
 \tf@toc=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1081.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1081.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1090.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1090.
 
 (D:\GitHub\Cubesat-Power\Como\Documentação\Power_System\TCC_Sist_Gerenciament
 o_Potencia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1081.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1081.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1090.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1090.
 
 Package rerunfilecheck Info: File `TCC_Sist_Gerenciamento_Potencia.brf' has not
  changed.
-(rerunfilecheck)             Checksum: 3433ADC875AA63EF7F20786F14C6A9B7;1968.
+(rerunfilecheck)             Checksum: 74C4C5A45DAAE25DEA54B2802C9F084E;1964.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1081.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1090.
  ) 
 Here is how much of TeX's memory you used:
- 14156 strings out of 493921
- 210392 string characters out of 3144874
+ 14161 strings out of 493921
+ 210445 string characters out of 3144874
  461512 words of memory out of 3000000
- 16834 multiletter control sequences out of 15000+200000
- 115200 words of font info for 158 fonts, out of 3000000 for 9000
+ 16835 multiletter control sequences out of 15000+200000
+ 115291 words of font info for 159 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,14n,35p,726b,648s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,14n,35p,734b,648s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/MiKTeX 2.9/
@@ -1531,10 +1534,10 @@ x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/lm/lmsso17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmsy10.pfb>
-Output written on TCC_Sist_Gerenciamento_Potencia.pdf (52 pages, 4765401 bytes)
+Output written on TCC_Sist_Gerenciamento_Potencia.pdf (53 pages, 4768216 bytes)
 .
 PDF statistics:
- 854 PDF objects out of 1000 (max. 8388607)
- 199 named destinations out of 1000 (max. 500000)
- 39427 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 864 PDF objects out of 1000 (max. 8388607)
+ 201 named destinations out of 1000 (max. 500000)
+ 39435 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -198,7 +198,7 @@ TIAGO AUGUSTO ORCAJO DEMAY CORDEIRO}
 		I. Petito, Otávio Moreira.
 		II. Cordeiro, Tiago Augusto Orcajo Demay
 		III. Instituto Mauá de Tecnológia. Centro Universitário.
-		IV. Sistema de Gerenciamento de Energia para CubeSat\\ 			
+		IV. Título\\ 			
 	
 	\hspace{8.75cm} CDU \\
 	
@@ -271,9 +271,12 @@ Trabalho de Conclusão de Curso aprovado em \_\_\_ de \_\_\_\_\_\_\_\_\_\_\_\_\_
 % ---
 \begin{agradecimentos}
 
-A Escola de Engenharia Mauá por fornecer toda a gama de conhecimento e estrutura para um melhor aprendizado.\par
-Ao {\imprimirorientador}  pela assessoria prestada quanto ao desenvolvimento do tema.\par
-Ao Prof. Rafael Corsi por todo empenho dedicado auxiliando o projeto de distintas maneiras.\par
+A Escola de Engenharia Mauá por fornecer toda a gama de conhecimento e estrutura para um melhor aprendizado.
+
+Ao {\imprimirorientador}  pela assessoria prestada quanto ao desenvolvimento do tema.
+
+Ao Prof. Rafael Corsi por todo empenho dedicado auxiliando o projeto de distintas maneiras.
+
 E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre nos suportaram para o melhor desenvolvimento do projeto.
 
 \end{agradecimentos}
@@ -285,7 +288,9 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 \begin{epigrafe}
     \vspace*{\fill}
 	\begin{flushright}
-		\textit{O maior bem do homem é uma mente inquieta.\\(Isaac Asimov)}
+		\textit{To infinity... and beyond!\\(Buzz Lightyear)}
+		%\textit{Ao infinito... e além!\\(Buzz Lightyear}
+		%\textit{O maior bem do homem é uma mente inquieta.\\(Isaac Asimov)}
 	\end{flushright}
 \end{epigrafe}
 % ---
@@ -346,10 +351,12 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
   \item[T] Temperatura
   \item[\textit{SMD}] \textit{Superficial Monting Device}
   \item[\textit{DF}] \textit{Dissipation Factor}
+  \item[FEI] Faculdade de Engenharia Industrial
   \item[\textit{OSSI}] \textit{Open Source Satellite Initiative}
   \item[\textit{SEL}]\textit{Single Event Latchup}
   \item[\textit{SEE}]\textit{Single Event Effect}
   \item[\textit{SET}]\textit{Single Event Transient}
+  \item[USP] Universidade de São Paulo
   
   
     
@@ -421,7 +428,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 % ----------------------------------------------------------
 \chapter[Referencial Teórico]{Referencial Teórico}
 
-	A seguir será apresentado a definição de um \textit{CubeSat}, assim como as suas principais características de projeto, o seu surgimento e uma breve análise dos projetos brasileiros. 
+	Os \textit{CubeSats}, atualmente, estão ganhando grande atenção acadêmica ao redor mundo, o que está contribuindo para a difusão do conhecimento e da tecnologia aeroespacial. A seguir será apresentado a definição de um \textit{CubeSat}, assim como as suas principais características de projeto, o seu surgimento e uma breve análise dos projetos brasileiros. 
 
 \section[CubeSat]{\textit{CubeSat}}
 
@@ -439,7 +446,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\end{small}		
 	\end{figure}
 		
-	O \textit{CubeSat} Mauá, proposto no NSEE-IMT, é um equipamento do modelo 3U, sendo as unidades distribuídas em unidade de comunicação, unidade de controle de atitude e unidade de potência.
+	O \textit{CubeSat} Mauá, proposto no NSEE-IMT, é um equipamento do modelo 3U, sendo as unidades distribuídas em unidade de comunicação, unidade de controle de atitude e unidade de potência, como apresentado na Figura 2.
 	
 	\begin{figure}[th]
 		\caption{ESTRUTURA DO CUBESAT PROPOSTA PELO NSEE-IMT}
@@ -506,12 +513,6 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	Os \textit{CubeSats}, operam em órbita terrestre baixa (\textit{LEO - Low Earth Orbit}). A órbita \textit{LEO} é a órbita que se encontra abaixo de 2.000 km do nível do mar, os objetos que situam-se nela, geralmente, ficam entre 320 até 800 km da superfície terrestre, muito diferente dos satélites tradicionais que operam em órbita geoestacionária, cuja a distância é de 35.796 km em relação ao nível do mar.\textsuperscript{\cite{LEO}}\textsuperscript{\cite{GEO}}
 	
-	Satélites situados na órbita \textit{LEO} viajam em velocidades de aproximadamente 27.400 km/h ou 8 km/s, o que representa uma volta ao longo da Terra a cada 90 minutos. Já os satélites geoestacionários precisam ter uma velocidade que façam que eles acompanham sempre o mesmo ponto da Terra, por isso as velocidades deles são de aproximadamente 11.068 km/h ou 3 km/s. O planeta Terra tem uma velocidade de rotação de aproximadamente 1.669,8 km/h ou 0,5 km/s.\textsuperscript{\cite{LEO}}\textsuperscript{\cite{GEO}}
-	
-	 Outras características de destaque para a órbita \textit{LEO} são as condições de temperatura, variando de -170 ºC a 123 ºC e de pressão variando de 10\textsuperscript{-4} Pa a 10\textsuperscript{-6} Pa.\textsuperscript{\cite{LEO}}
-	
-	Órbitas inferiores a esta não apresentam muita estabilidade e são alvos de arrastamento atmosférico, que é a força de fricção que atua sobre o foguete ou satélite, cuja principal causa é a fricção entre as moléculas do ar e a superfície do foguete ou satélite.\textsuperscript{\cite{NASA2}}
-	
 	\begin{figure}[th]
 		\caption{PRINCIPAIS TIPOS DE ÓRBITAS}
 		\centering
@@ -520,10 +521,13 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\begin{small}
 			FONTE: Civil Air Patrol\textsuperscript{\cite{CAP}}
 		\end{small}		
-	\end{figure}	
+	\end{figure}
 	
-	\pagebreak
+	Satélites situados na órbita \textit{LEO} viajam em velocidades de aproximadamente 27.400 km/h ou 8 km/s, o que representa uma volta ao longo da Terra a cada 90 minutos. Já os satélites geoestacionários precisam ter uma velocidade que façam que eles acompanham sempre o mesmo ponto da Terra, por isso as velocidades deles são de aproximadamente 11.068 km/h ou 3 km/s. O planeta Terra tem uma velocidade de rotação de aproximadamente 1.669,8 km/h ou 0,5 km/s.\textsuperscript{\cite{LEO}}\textsuperscript{\cite{GEO}}
 	
+	 Outras características de destaque para a órbita \textit{LEO} são as condições de temperatura, variando de -170 ºC a 123 ºC e de pressão variando de 10\textsuperscript{-4} Pa a 10\textsuperscript{-6} Pa.\textsuperscript{\cite{LEO}}
+	
+	Órbitas inferiores a esta não apresentam muita estabilidade e são alvos de arrastamento atmosférico, que é a força de fricção que atua sobre o foguete ou satélite, cuja principal causa é a fricção entre as moléculas do ar e a superfície do foguete ou satélite.\textsuperscript{\cite{NASA2}}
 	
 \section[Definição dos componentes]{Definição dos componentes}
 
@@ -661,7 +665,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\hline
 		\textbf{Peso} & 84 mg/cm\textsuperscript{2} & 84 mg/cm\textsuperscript{2} & 0,234 g & 84 mg/cm\textsuperscript{2}\\
 	\end{tabular}
-	
+	\
 	\begin{small}
 	\vspace{3pt}
 		FONTE: Elaborada pelos autores através de informações coletadas nos \textit{datasheets} dos produtos.
@@ -670,7 +674,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		NOTA: Condições de teste: \textit{AM} 0, \textit{WRC} = 135,3 mW/cm\textsuperscript{2}, T = 28ºC.
 	\end{footnotesize}
 	\end{table}
-	
+	\pagebreak
 	Avaliando os dados da Tabela 2, os modelos \textit{PV UTJ Cell} e \textit{PV XTJ Cell}, foram os mais indicados para a aplicação, devido ao alto rendimento (superior a 28\%) apresentado
 	
 	\begin{figure}[th]
@@ -713,7 +717,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		NOTA: Condições de teste: \textit{AM} 0, \textit{WRC} = 135,3 mW/cm\textsuperscript{2}, T = 28ºC.
 	\end{footnotesize}
 	\end{table}
-	
+	\pagebreak
 	Avaliando os dados da Tabela 3, os modelos \textit{BTJ PV Cell}, \textit{BTJM PV Cell} e \textit{ZTJ PV Cell}, foram os mais indicados para a aplicação, devido ao alto rendimento (superior a 28\%) apresentado.
 	
 	\begin{figure}[th]
@@ -753,7 +757,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		FONTE: Elaborada pelos autores através de informações coletadas nos \textit{datasheets} dos produtos.
 	\end{small}
 	\begin{footnotesize}
-		NOTA: Condições de teste: \textit{AM} 0, \textit{WRC} = 1367 W/m\textsuperscript{2}, T = 28ºC.
+		NOTA: Condições de teste: \textit{AM} 0, \textit{WRC} = 1367 W/m\textsuperscript{2}, T = 28 ºC.
 	\end{footnotesize}
 	\end{table}	
 	
@@ -768,13 +772,12 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 			FONTE: \textit{AzurSpace}\textsuperscript{\cite{AzurSpace2}}
 		\end{small}		
 	\end{figure}	
-	\pagebreak
 	
 \subsubsection[Análise de preços]{Análise de preços}
 
 	Selecionados os modelos dos principais fornecedor, foi solicitado um orçamento das fotocélulas para realizar o comparativo dos preços e, por fim, realizar os procedimentos necessários para a aquisição das mesmas.
 	
-	O contato com a \textit{SpectroLab} não teve obteve sucesso, uma vez que a empresa não respondeu nenhuma das tentativas de contato realizadas. Já a solicitação do orçamento da \textit{SolAero Technologies} (antiga \textit{Emcore}) não caminhou conforme esperado, uma vez que uma das políticas de vendas da empresa é de um pedido mínimo de \$7.500,00 dólares.
+	O contato com a \textit{SpectroLab} não teve obteve sucesso, uma vez que a empresa não respondeu nenhuma das tentativas de contato realizadas. Já a solicitação do orçamento da \textit{SolAero Technologies} (antiga \textit{Emcore}) não caminhou conforme esperado, uma vez que uma das políticas de vendas da empresa é de um pedido mínimo de \$7.500,00.
 	
 	A \textit{AzurSpace} enviou um orçamento dos modelos solicitados, conforme Tabela 5.
 	
@@ -840,7 +843,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 \subsection[Componentes passivos]{Componentes passivos}
 
-	Os componentes passivos, são os componentes eletrônicos que não aumentam a intensidade da tensão ou da corrente de um circuito eletrônico, ou seja, são os resistores, indutores, capacitores e memristores.\textsuperscript{\cite{Passivo}} No desenvolvimento do projeto não foram utilizados os memristores.
+	Os componentes passivos, são os componentes eletrônicos que não aumentam a intensidade da tensão ou da corrente de um circuito eletrônico, ou seja, são os resistores, indutores, capacitores e memristores. No desenvolvimento do projeto não foram utilizados os memristores.\textsuperscript{\cite{Passivo}}
 	
 	Resistores são componentes utilizados para controlar a intensidade da corrente elétrica que passa no circuito. Capacitores são componentes que armazenam e liberam cargas elétricas por meio da tensão elétrica. Indutor são componentes que utilizam o magnetismo para armazenar e liberar cargas por meio da corrente elétrica.
 
@@ -851,34 +854,34 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	\begin{figure}[th]
 		\caption{COEFICIENTES DE TEMPERATURA DOS CAPACITORES CERÂMICOS}
 		\centering
-		\includegraphics[width=0.8\linewidth]{./figs/x7r}
+		\includegraphics[width=0.6\linewidth]{./figs/x7r}
 			
 		\begin{small}
 			FONTE: PY2BBS\textsuperscript{\cite{x7r}}
 		\end{small}		
 	\end{figure}	
-	\pagebreak
+	
 	Além dessa característica, os capacitores X7R apresentam um bom comportamento com a variação de temperatura, comparado com os capacitores Y5V (outro modelo amplamente encontrado no mercado), conforme pode ser visto na Figura 14.
 	
 	\begin{figure}[th]
 		\caption{VARIAÇÃO DA CAPACITÂNCIA EM FUNÇÃO DA TEMPERATURA}
 		\centering
-		\includegraphics[width=0.8\linewidth]{./figs/y5v}
+		\includegraphics[width=0.6\linewidth]{./figs/y5v}
 			
 		\begin{small}
 			FONTE: Johanson Dielectrics\textsuperscript{\cite{y5v}}
 		\end{small}		
 	\end{figure}
-	
+
 	Já os capacitores de tântalo apresentam valores de 0,22 pF até 100 $\mu$F, esse tipo de capacitor possui baixa corrente de fuga e baixas perdas, além de uma vida útil maior comparado aos eletrolíticos.\textsuperscript{\cite{x7r}}
 
 \subsection[Semicondutores]{Semicondutores}
 
 \subsection[Lista de componentes]{Lista de componentes}
 
-	Seguindo as premissas apresentadas anteriormente, foi finalizada a lista de componentes necessárias para o seguimento do projeto, também foi levado em consideração a questão financeira, portanto alguns componentes apresentados nessa lista podem ser substituídos após a realização de todos os ensaios e validações.
+	Seguindo as premissas apresentadas anteriormente, foi finalizada a lista de componentes necessários para o seguimento do projeto, também foi levado em consideração a questão financeira, portanto alguns componentes apresentados nessa lista podem ser substituídos após a realização de todos os ensaios e validações.
 	
-	Na Figura 15 é possível visualizar a lista de componentes eletrônicos definida pelo grupo.
+	Na Figura 15, é possível visualizar a lista de componentes eletrônicos definida pelo grupo.
 	
 	\begin{figure}[th]
 		\caption{LISTA DE COMPONENTES ELETRÔNICOS}
@@ -914,24 +917,30 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 \subsection[Ensaio de radiação]{Ensaio de radiação}	
 
-	O ensaio de radiação consiste na emissão de radiação nos semicondutores a fim de se obter a assinatura da tensão e corrente após a exposição a radiação. Para esse ensaio foi necessário que os semicondutores estivessem decapados, ou seja, é necessário que a eletrônica do semicondutor esteja visível para que a emissão da radiação seja direta no componente, fato que não ocorrerá no espaço, uma vez que a película do componente estará presente o que, por sua vez, acaba dando uma pequena filtrada na radiação. Esse teste foi realizado em conjunto com o Centro Universitário da Faculdade de Engenharia Industrial (FEI), com a professora Marcilei da FEI.
+	O ensaio de radiação consiste na emissão de radiação nos semicondutores a fim de se obter a assinatura da tensão e corrente após a exposição a radiação. Para esse ensaio foi necessário que os semicondutores estivessem decapados, ou seja, foi necessário que a eletrônica do semicondutor estivesse visível para que a emissão da radiação fosse direta no componente, fato que não ocorrerá no espaço, uma vez que a película do componente estará presente o que, por sua vez, acaba dando uma pequena filtrada na radiação. Esse teste foi realizado em conjunto com o Centro Universitário da Faculdade de Engenharia Industrial (FEI), com a Dr. Marcilei Guazzelli da FEI.
 	
-	Entre diversas pesquisas a respeito de possíveis testes de radiação, foi encontrado o projeto \textit{Open Source Satellite Initiative}\textsuperscript{\cite{OSSI}}. Na \textit{wikipage}\textsuperscript{\cite{OSSI2}} do projeto \textit{OSSI} é disponibilizado um \textit{link} para um \textit{data base} que contém dados de testes de radiação da \textit{NASA Goddard Space Flight Center}.\textsuperscript{\cite{OSSI3}}
+	Entre diversas pesquisas a respeito de possíveis testes de radiação, foi encontrado o projeto \textit{Open Source Satellite Initiative}. Na \textit{wikipage} do projeto \textit{OSSI} é disponibilizado um \textit{link} para um \textit{data base} que contém dados de testes de radiação da \textit{NASA Goddard Space Flight Center}.\textsuperscript{\cite{OSSI}}\textsuperscript{\cite{OSSI2}}\textsuperscript{\cite{OSSI3}}
 	
-	Nesse \textit{data base} foram encontrados dois componentes que constavam na lista de componentes da Figura 15, sendo eles o TMP36, produzido pela \textit{Analog Devices}, e o LMP2012, produzido pela \textit{Texas Instruments}. Foi realizada uma tentativa de transformação da lista de componentes inicial por um contendo mais componentes presentes nesse \textit{data base}, porém o \textit{lead time} de muitos deles era elevadíssimos e poderia comprometer o desenvolvimento do projeto.
+	Nesse \textit{data base} foram encontrados dois componentes que constavam na lista de componentes da Figura 15, sendo eles o TMP36, produzido pela \textit{Analog Devices}, e o LMP2012, produzido pela \textit{Texas Instruments}. Foi realizada uma tentativa de transformação da lista de componentes inicial por uma contendo mais componentes presentes nesse \textit{data base}, porém, além do alto custo, o \textit{lead time} de muitos deles era elevadíssimos e poderia comprometer o desenvolvimento do projeto.
 	
-	O TMP36, que é um sensor de temperatura, foi testado para \textit{SEL}, pela \textit{NASA} em 2002, pelos engenheiros espaciais Christian Poivey e Hak Kim, chegando a conclusão que a sensibilidade \textit{SEL} do componente não era um fator preocupante para aplicações espaciais.\footnote{No Anexo B é possível realizar a verificação do relatório de teste.\textsuperscript{\cite{TMP36}}}
+	O TMP36, que é um sensor de temperatura, foi testado para \textit{SEL}, pela \textit{NASA} em 2002, pelos engenheiros espaciais Christian Poivey e Hak Kim, chegando a conclusão que a sensibilidade \textit{SEL} do componente não era um fator preocupante para aplicações espaciais.\footnote{No Anexo B é possível realizar a verificação do relatório de teste do TMP36.\textsuperscript{\cite{TMP36}}}
 	
-	O LMP2012, trata-se de um amplificador operacional, foi testado para \textit{SEE}, \textit{SEL}, \textit{SET} e \textit{Laser}, os testes foram realizados pelos engenheiros espaciais da \textit{NASA}, Michael Campola e Anthony Phan no final de 2012, concluindo que existem algumas áreas que param de funcionar após uma indução de \textit{laser} pulsado.\footnote{No Anexo C é possível realizar a verificação do relatório de teste.\textsuperscript{\cite{LMP2012}}}
+	O LMP2012, trata-se de um amplificador operacional, foi testado para \textit{SEE}, \textit{SEL}, \textit{SET} e \textit{Laser}, os testes foram realizados pelos engenheiros espaciais da \textit{NASA}, Michael Campola e Anthony Phan no final de 2012, concluindo que existem algumas áreas que param de funcionar após uma indução de \textit{laser} pulsado.\footnote{No Anexo C é possível realizar a verificação do relatório de teste do LMP2012.\textsuperscript{\cite{LMP2012}}}
 	
 	
 \subsection[Ensaio térmico]{Ensaio térmico}
 
+	O ensaio térmico foi realizado em parceria com o laboratório da USP, coordenado pelos Drs. Fabio Rodrigues e Douglas Galante. Esse ensaio consistia em um compartimento refrigerado que atingia uma temperatura próxima aos -80 ºC. 
+	
+	Após a validação dos subconjuntos e a obtenção das assinaturas de tensão e corrente desses circuitos, as placas foram levadas a USP, onde o Dr. Fabio Rodrigues, as colocou nesse compartimento para que fossem obtidas as assinaturas de tensão e corrente nessa condição de baixas temperaturas, dessa forma foi possível validar, de forma aproximada, como esses subconjuntos se comportariam no ambiente espacial onde as temperaturas podem chegar próximas de -170 ºC.
+
 \subsection[Ensaio de vácuo]{Ensaio de vácuo}	
+
+	
 
 \subsection[Ensaio de termovácuo]{Ensaio de termovácuo}		
 	
-	
+\subsection[Avaliação dos ensaios]{Avaliação dos ensaios}
 	
 	
 % ----------------------------------------------------------
