@@ -5,66 +5,55 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{13}{chapter.1}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{15}{chapter.2}
-\contentsline {section}{\numberline {2.1}CubeSat}{15}{section.2.1}
-\contentsline {section}{\numberline {2.2}Surgimento}{16}{section.2.2}
-\contentsline {section}{\numberline {2.3}No Brasil}{16}{section.2.3}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Materiais e M\IeC {\'e}todo}}{18}{chapter.3}
-\contentsline {section}{\numberline {3.1}Condi\IeC {\c c}\IeC {\~o}es do espa\IeC {\c c}o}{18}{section.3.1}
-\contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o dos componentes}{19}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Bateria}{19}{subsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.1.1}Princ\IeC {\'\i }pio de funcionamento}{20}{subsubsection.3.2.1.1}
-\contentsline {subsection}{\numberline {3.2.2}Fotoc\IeC {\'e}lulas}{21}{subsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.1}Princ\IeC {\'\i }pio de funcionamento}{21}{subsubsection.3.2.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2.2}VIS Technology}{22}{subsubsection.3.2.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.3}SpectroLab}{23}{subsubsection.3.2.2.3}
-\contentsline {subsubsection}{\numberline {3.2.2.4}Emcore}{24}{subsubsection.3.2.2.4}
-\contentsline {subsubsection}{\numberline {3.2.2.5}AzurSpace}{25}{subsubsection.3.2.2.5}
-\contentsline {subsubsection}{\numberline {3.2.2.6}An\IeC {\'a}lise de pre\IeC {\c c}os}{26}{subsubsection.3.2.2.6}
-\contentsline {subsubsection}{\numberline {3.2.2.7}TrisolX}{26}{subsubsection.3.2.2.7}
-\contentsline {subsection}{\numberline {3.2.3}Componentes passivos}{27}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Semicondutores}{29}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Lista de componentes}{29}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Ensaios poss\IeC {\'\i }veis}{30}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Valida\IeC {\c c}\IeC {\~a}o dos subconjuntos}{30}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Ensaio de radia\IeC {\c c}\IeC {\~a}o}{30}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Ensaio t\IeC {\'e}rmico}{31}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Ensaio de v\IeC {\'a}cuo}{32}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Ensaio de termov\IeC {\'a}cuo}{32}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Avalia\IeC {\c c}\IeC {\~a}o dos ensaios}{32}{subsection.3.3.6}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Prot\IeC {\'o}tipo}}{33}{chapter.4}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados e discuss\IeC {\~o}es}}{34}{chapter.5}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Plano de marketing}}{35}{chapter.6}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Plano operacional}}{36}{chapter.7}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Planilha financeira}}{37}{chapter.8}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Conclus\IeC {\~o}es}}{38}{chapter.9}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{39}{section*.11}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{14}{chapter.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{16}{chapter.2}
+\contentsline {section}{\numberline {2.1}CubeSat}{16}{section.2.1}
+\contentsline {section}{\numberline {2.2}Surgimento}{17}{section.2.2}
+\contentsline {section}{\numberline {2.3}No Brasil}{17}{section.2.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Materiais e M\IeC {\'e}todo}}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Condi\IeC {\c c}\IeC {\~o}es do espa\IeC {\c c}o}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o dos componentes}{20}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Bateria}{20}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}Princ\IeC {\'\i }pio de funcionamento}{22}{subsubsection.3.2.1.1}
+\contentsline {subsection}{\numberline {3.2.2}Fotoc\IeC {\'e}lulas}{23}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Princ\IeC {\'\i }pio de funcionamento}{23}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}VIS Technology}{24}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}SpectroLab}{26}{subsubsection.3.2.2.3}
+\contentsline {subsubsection}{\numberline {3.2.2.4}Emcore}{26}{subsubsection.3.2.2.4}
+\contentsline {subsubsection}{\numberline {3.2.2.5}AzurSpace}{27}{subsubsection.3.2.2.5}
+\contentsline {subsubsection}{\numberline {3.2.2.6}An\IeC {\'a}lise de pre\IeC {\c c}os}{28}{subsubsection.3.2.2.6}
+\contentsline {subsubsection}{\numberline {3.2.2.7}TrisolX}{28}{subsubsection.3.2.2.7}
+\contentsline {subsection}{\numberline {3.2.3}Componentes passivos}{29}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Semicondutores}{31}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Lista de componentes}{31}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Ensaios poss\IeC {\'\i }veis}{32}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Valida\IeC {\c c}\IeC {\~a}o dos subconjuntos}{32}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Ensaio de radia\IeC {\c c}\IeC {\~a}o}{33}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Ensaio t\IeC {\'e}rmico}{33}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Ensaio de v\IeC {\'a}cuo}{34}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Ensaio de termov\IeC {\'a}cuo}{34}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Avalia\IeC {\c c}\IeC {\~a}o dos ensaios}{34}{subsection.3.3.6}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{35}{section*.13}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{42}{section*.12}
+\contentsline {part}{\uppercase {Anexos}}{38}{section*.14}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Or\IeC {\c c}amento dos componentes da Farnell}}{43}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Or\IeC {\c c}amento dos componentes da Farnell}}{39}{appendix.anexochapback.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Relat\IeC {\'o}rio de teste do TMP36}}{46}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Relat\IeC {\'o}rio de teste do TMP36}}{42}{appendix.anexochapback.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Relat\IeC {\'o}rio de teste do LMP2012}}{49}{appendix.anexochapback.3}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Relat\IeC {\'o}rio de teste do LMP2012}}{45}{appendix.anexochapback.3}
 \vspace {\cftbeforechapterskip }
