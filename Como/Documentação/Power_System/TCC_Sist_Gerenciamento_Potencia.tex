@@ -357,6 +357,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
   \item[\textit{SEE}]\textit{Single Event Effect}
   \item[\textit{SET}]\textit{Single Event Transient}
   \item[USP] Universidade de São Paulo
+  \item[LNLS] Laboratório Nacional de Luz Síncroton
   
   
     
@@ -434,10 +435,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 
 	É um tipo de satélite miniaturizado usado em pesquisas espaciais. Por definição de projeto, elaborado pela \textit{California Polytechnic State University} (\textit{Cal Poly}), um \textit{CubeSat} deve possuir volume máximo de um litro, ou seja, ser um cubo de 10x10x10 cm e com massa máxima de até 1,3 kg.\textsuperscript{\cite{CubeSat}}
 	
-	Um \textit{CubeSat} com essas especificações são chamados de \textit{CubeSat} de 1U, ou seja, é um \textit{CubeSat} de 1 unidade, conforme a Figura 1. Porém outras unidades podem ser adicionadas gerando os \textit{CubeSats} de 2U, 3U, 4U e etc.
+	Um \textit{CubeSat} com essas especificações são chamados de \textit{CubeSat} de 1U, ou seja, é um \textit{CubeSat} de 1 unidade, conforme a Figura \ref{Fig_Cubo}. Porém outras unidades podem ser adicionadas gerando os \textit{CubeSats} de 2U, 3U, 4U e etc.
 	
 	\begin{figure}[th]
 		\caption{MODELO DE UM CUBESAT DE 1U}
+		\label{Fig_Cubo}
 		\centering
 		\includegraphics[width=0.8\linewidth]{./figs/cubesat_01}
 			
@@ -446,10 +448,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\end{small}		
 	\end{figure}
 		
-	O \textit{CubeSat} Mauá, proposto no NSEE-IMT, é um equipamento do modelo 3U, sendo as unidades distribuídas em unidade de comunicação, unidade de controle de atitude e unidade de potência, como apresentado na Figura 2.
+	O \textit{CubeSat} Mauá, proposto no NSEE-IMT, é um equipamento do modelo 3U, sendo as unidades distribuídas em unidade de comunicação, unidade de controle de atitude e unidade de potência, como apresentado na Figura \ref{Fig_Est_Cubo}.
 	
 	\begin{figure}[th]
 		\caption{ESTRUTURA DO CUBESAT PROPOSTA PELO NSEE-IMT}
+		\label{Fig_Est_Cubo}
 		\centering
 		\includegraphics[width=0.4\linewidth]{./figs/cubesat_02}
 			
@@ -515,6 +518,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	\begin{figure}[th]
 		\caption{PRINCIPAIS TIPOS DE ÓRBITAS}
+		\label{Fig_Orbitas}
 		\centering
 		\includegraphics[width=0.65\linewidth]{./figs/cubesat_03}
 			
@@ -542,10 +546,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	Algumas das premissas básicas de projeto para a definição da bateria estão relacionadas com o seu poder de armazenamento de carga e o seu dimensional reduzido. Essas baterias ficaram alocadas no interior do \textit{CubeSat}, por isso a importância do dimensional reduzido, além disso não podem ser baterias com peso elevado, uma vez que a definição do projeto diz que os \textit{CubeSats} não podem ultrapassar 1,3 kg.
 	
-	Para a definição da bateria foi analisado um comparativo (Tabela 1) dos tipos mais comuns de baterias encontradas no mercado, sendo elas de: níquel cádmio (NiCd), níquel-hidreto metálico (NiMh), íon-lítio (Li-Íon), íon-lítio polímero (Li-Íon polímero) e chumbo (Pb).
+	Para a definição da bateria foi analisado um comparativo (Tabela \ref{Tab_Bateria}) dos tipos mais comuns de baterias encontradas no mercado, sendo elas de: níquel cádmio (NiCd), níquel-hidreto metálico (NiMh), íon-lítio (Li-Íon), íon-lítio polímero (Li-Íon polímero) e chumbo (Pb).
 		
 	\begin{table}[th]
 		\caption{COMPARATIVO DOS PRINCIPAIS TIPOS DE BATERIAS}
+		\label{Tab_Bateria}
 		\begin{tabular}{p{3.5cm}|p{1.6cm}|p{1.6cm}|p{1.6cm}|p{2cm}|p{1.6cm}}
 	 	& \textbf{NiCd} & \textbf{NiMh} & \textbf{Li-Íon} & \textbf{Li-Íon polímero} & \textbf{Pb} \\
 	 	\hline
@@ -588,10 +593,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	Dentre os modelos comparados na Tabela 1, foi escolhida a bateria do tipo íon-lítio. Essa definição foi baseada pelo alto ciclo de vida, alta densidade energética, baixa auto-descarga mensal, a falta de necessidade de manutenção. Alguns dos pontos negativos desse tipo de bateria é baixa tolerância para sobrecargas, tempo para carga rápida e preço elevado em comparação aos demais tipos.
 	
-	Foram utilizadas duas baterias de duas células que possuem 7,4 V e 2000 mAh, sendo uma para o conjunto principal e a outra para o conjunto de redundância do Sistema de Gerenciamento de Energia para \textit{CubeSat}. Na Figura 4, é possível visualizar a bateria selecionada.
+	Foram utilizadas duas baterias de duas células que possuem 7,4 V e 2000 mAh, sendo uma para o conjunto principal e a outra para o conjunto de redundância do Sistema de Gerenciamento de Energia para \textit{CubeSat}. Na Figura \ref{Fig_Bat_Sel}, é possível visualizar a bateria selecionada.
 	
 	\begin{figure}[th]
 		\caption{BATERIA DE ÍON-LÍTIO SELECIONADA}
+		\label{Fig_Bat_Sel}
 		\centering
 		\includegraphics[width=0.8\linewidth]{./figs/cubesat_04}
 			
@@ -608,10 +614,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	Para haver essa movimentação dos íons de lítio, o que deixa a bateria com a característica de ser recarregável, nenhum dos terminais (ânodo ou cátodo) dessa bateria pode ser puramente do metal lítio.\textsuperscript{\cite{sony}}
 	
-	Na Figura 5, pode ser visto o mecanismo de carga e descarga de uma bateria de íon-lítio.
+	Na Figura \ref{Fig_PF_Bat}, pode ser visto o mecanismo de carga e descarga de uma bateria de íon-lítio.
 	
 	\begin{figure}[th]
 		\caption{PRINCÍPIO DE FUNCIONAMENTO DA BATERIA DE ÍON-LÍTIO}
+		\label{Fig_PF_Bat}
 		\centering
 		\includegraphics[width=0.8\linewidth]{./figs/funcionamento_bateria}
 			
@@ -626,16 +633,77 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 
 	As fotocélulas são fundamental importância para o sistema, uma vez que elas são as responsáveis pela captação da luz solar que irá gerar a energia necessária para o funcionamento do \textit{CubeSat}. É importante que elas possuam rendimento elevado, pois devido as condições impostas pela órbita \textit{LEO}, na qual o \textit{CubeSat} irá ficar um terço do período de translação em regiões de sombra, ou seja, estará sem a incidência direta de luz solar.
 	
+	Inicialmente as fotocélulas eram fabricadas a partir do Silício, na década de 1960 essas células apresentavam aproximadamente 10\% de eficiência, atualmente essa eficiência chega próximo aos 20\%. No final da década de 1980 começaram a ser produzidas fotocélulas de Arseneto de Gálio, as quais atingiram uma eficiência superior a 20\%, essa nova composição começou porque as fotocélulas de Silício chegaram a ser produzidas com Silício de alta pureza (99,999999\%). Após as primeiras células de Arseneto de Gálio foi adicionado a sua composição o Índio, obtendo ótimos resultados.\textsuperscript{\cite{Fatemi}}
+	
+	Nas fotocélulas de uma única junção, esse excesso de energia se converte em calor, ou seja, é uma perda de energia absorvida. A técnica de multijunções atenua o problema da perda de energia quando um fóton de energia maior do que a energia do semicondutor é absorvido. Nessas fotocélulas cada junção funciona como um filtro, ou seja, cada junção absorve uma parte do espectro de luz e deixa o restante passar para a próxima junção, dessa maneira o rendimento é muito melhor devido ao alto aproveitamento do espectro.\textsuperscript{\cite{Fatemi}}
+	
+\subsubsection[Comparativo das tecnologias]{Comparativo das tecnologias}
+
+	Devido as opções disponíveis de tecnologia foram realizados alguns estudos com o intuito de se obter qual seria o melhor tipo de fotocélula para o seguimento do projeto. A seguir serão comparados as principais métricas necessárias para uma fotocélula de aplicação espacial.
+	
+	\begin{figure}[th]
+		\caption{COMPARATIVO DE EFICIÊNCIA DAS FOTOCÉLULAS}
+		\label{Fig_cell_comp1}
+		\centering
+		\includegraphics[width=0.6\linewidth]{./figs/cell_comp1}
+			
+		\begin{small}
+			FONTE: Solar array trades between very high-efficiency multi-junction ans Si space solar cells.\textsuperscript{\cite{Fatemi}}
+		\end{small}		
+	\end{figure}
+	
+	Na Figura \ref{Fig_cell_comp1} é visível que as fotocélulas de tripla junção são mais eficientes e resistentes a radiação do que as demais tecnologias analisadas (Sílicio e dupla junção).
+	
+	\begin{figure}[th]
+		\caption{COMPARATIVO DE POTÊNCIA DAS FOTOCÉLULAS}
+		\label{Fig_cell_comp2}
+		\centering
+		\includegraphics[width=0.6\linewidth]{./figs/cell_comp2}
+			
+		\begin{small}
+			FONTE: Solar array trades between very high-efficiency multi-junction ans Si space solar cells.\textsuperscript{\cite{Fatemi}}
+		\end{small}		
+	\end{figure}	
+	\pagebreak
+	Já na Figura \ref{Fig_cell_comp2}, é realizado um comparativo da potência pela área e da potência pela massa. Nesse comparativo pode-se ver, novamente, que as fotocélulas de tripla função levam vantagem em relação as demais quando analisado a Potência (W) pela área (m\textsuperscript{2}), pois essa tecnologia permite um melhor aproveitamento do espectro de luz absorvido, conforme pode ser visto na Figura \ref{Fig_cell_mult}. 
+	
+	\begin{figure}[th]
+		\caption{ESQUEMA DE UMA CÉLULA MULTIJUNÇÃO E SEU ESPECTRO}
+		\label{Fig_cell_mult}
+		\centering
+		\includegraphics[width=1.05\linewidth]{./figs/cell_mult}
+			
+		\begin{small}
+			FONTE: Solar array trades between very high-efficiency multi-junction ans Si space solar cells.\textsuperscript{\cite{Fatemi}}
+		\end{small}		
+	\end{figure}	
+	
+	E por fim, quando o comparativo é em relação a massa das fotocélulas, a de Sílicio leva vantagem devido ao menor peso que possui comparada as demais, como visto na Figura \ref{Fig_cell_comp3}
+	
+	\begin{figure}[th]
+		\caption{COMPARATIVO DE DIMENSÃO DAS FOTOCÉLULAS}
+		\label{Fig_cell_comp3}
+		\centering
+		\includegraphics[width=0.6\linewidth]{./figs/cell_comp3}
+			
+		\begin{small}
+			FONTE: Solar array trades between very high-efficiency multi-junction ans Si space solar cells.\textsuperscript{\cite{Fatemi}}
+		\end{small}		
+	\end{figure}
+	
+	Com base nos comparativos apresentados nas Figuras \ref{Fig_cell_comp1}, \ref{Fig_cell_comp2} e \ref{Fig_cell_comp3}, foi definido que as fotocélulas de tripla junção seriam as mais adequadas para a continuidade do projeto.
+	
 \subsubsection[Princípio de funcionamento]{Princípio de funcionamento}
 
 	As fotocélulas são um exemplo de aplicação prática do efeito fotoelétrico, descoberto por Heinrich Rudolf Hertz, em 1887 e explicado por Albert Einstein, em 1905.\textsuperscript{\cite{celula}}
 	
-	Quando uma grande quantidade de fótons é incidida em uma fotocélula a energia é absorvida. Essa absorção de energia permite que os átomos dos elementos que constituem a célula liberem elétrons, o espaço liberado é preenchido por outro elétron de uma camada inferior do semicondutor. Essa movimentação de elétrons, faz com que um dos lados da célula tenha uma concentração maior de elétrons, o que origina a diferença de potencial entre os lados, conforme pode ser visto na Figura 6.\textsuperscript{\cite{celula2}}
+	Quando uma grande quantidade de fótons é incidida em uma fotocélula a energia é absorvida. Essa absorção de energia permite que os átomos dos elementos que constituem a célula liberem elétrons, o espaço liberado é preenchido por outro elétron de uma camada inferior do semicondutor. Essa movimentação de elétrons, faz com que um dos lados da célula tenha uma concentração maior de elétrons, o que origina a diferença de potencial entre os lados, conforme pode ser visto na Figura \ref{Fig_PF_Cell}.\textsuperscript{\cite{celula2}}
 	
 	\begin{figure}[th]
 		\caption{PRINCÍPIO DE FUNCIONAMENTO DE UMA FOTOCÉLULA}
+		\label{Fig_PF_Cell}
 		\centering
-		\includegraphics[width=0.7\linewidth]{./figs/fotocelula}
+		\includegraphics[width=0.6\linewidth]{./figs/fotocelula}
 			
 		\begin{small}
 			FONTE: Sapa Solar\textsuperscript{\cite{celula2}}
@@ -644,23 +712,24 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 
 \subsubsection[VIS Technology]{\textit{VIS Technology}}
 	
-	Inicialmente foi indicado pelo Engenheiro Rafael Corsi, do NSEE-IMT, o contato da empresa \textit{Vis Technology}, um empresa nacional, localizada em São Paulo, que desenvolve projetos com energias renováveis. Porém as fotocélulas utilizadas por eles são para aplicações industriais. Essas fotocélulas possuem um rendimento entre 10\% e 12\%, muito abaixo comparado ao rendimento com as próprias de aplicações aeroespaciais, além de terem um dimensional maior, conforme pode ser visualizado na Figura 7.
+	Inicialmente foi indicado pelo Engenheiro Rafael Corsi, do NSEE-IMT, o contato da empresa \textit{Vis Technology}, um empresa nacional, localizada em São Paulo, que desenvolve projetos com energias renováveis. Porém as fotocélulas utilizadas por eles são para aplicações industriais. Essas fotocélulas possuem um rendimento entre 10\% e 12\%, muito abaixo comparado ao rendimento com as próprias de aplicações aeroespaciais, além de terem um dimensional maior, conforme pode ser visualizado na Figura \ref{Fig_Cell_Vis}.
 	
 	\begin{figure}[th]
 		\caption{FOTOCÉLULAS DA \textit{VIS TECHNOLOGY}}
+		\label{Fig_Cell_Vis}
 		\centering
-		\includegraphics[width=0.4\linewidth]{./figs/cell_vis}
+		\includegraphics[width=0.6\linewidth]{./figs/cell_vis}
 			
 		\begin{small}
 			FONTE: Foto tirada pelos autores.
 		\end{small}		
 	\end{figure}
-	\pagebreak
 	
-	Mesmo sabendo dessas limitações, foram obtidas algumas amostras. Essas amostras serviram para um primeiro contato com essa tecnologia, conseguindo realizar alguns ensaios a fim de se obter uma familiaridade maior com o componente, conforme pode ser visto na Figura 8.
+	Mesmo sabendo dessas limitações, foram obtidas algumas amostras. Essas amostras serviram para um primeiro contato com essa tecnologia, conseguindo realizar alguns ensaios a fim de se obter uma familiaridade maior com o componente, conforme pode ser visto na Figura \ref{Fig_Cell_Setup}.
 	
 	\begin{figure}[th]
 		\caption{\textit{SET UP} PARA TESTE DAS FOTOCÉLULAS DA \textit{VIS TECHNOLOGY}}
+		\label{Fig_Cell_Setup}
 		\centering
 		\includegraphics[width=0.7\linewidth]{./figs/setup}
 			
@@ -668,7 +737,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 			FONTE: Foto tirada pelos autores.
 		\end{small}		
 	\end{figure}
-	
+	\pagebreak
 	Após uma breve familiarização com as fotocélulas, foram analisados diversos projetos de \textit{CubeSats} e identificados os principais fornecedores de fotocélulas (\textit{SpectroLab}, \textit{Emcore} e \textit{AzurSpace Solar}) para aplicações aeroespaciais.
 	
 	Foi realizado um estudo apurado dos principais tipos de fotocélulas disponíveis nos portfólios desses fornecedores, visando identificar os modelos que se melhor ajustavam no desenvolvimento do \textit{CubeSat}.
@@ -679,6 +748,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	\begin{table}[th]
 	\caption{COMPARATIVO DAS FOTOCÉLULAS DA \textit{SPECTROLAB}}
+	\label{Tab_Spectro_Comp}
 	\begin{tabular}{p{2.5cm}|p{3.1cm}|p{3.1cm}|p{3.1cm}|p{3.1cm}}
 		\textbf{Modelo} & \textit{\textbf{PV UTJ Cell}} & \textit{\textbf{PV XTJ Cell}} & \textit{\textbf{PV NM TASC ITJ}} & \textit{\textbf{PV ITJ Cell}} \\
 		\hline
@@ -704,10 +774,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	\end{footnotesize}
 	\end{table}
 
-	Avaliando os dados da Tabela 2, os modelos \textit{PV UTJ Cell} e \textit{PV XTJ Cell}, foram os mais indicados para a aplicação, devido ao alto rendimento (superior a 28\%) apresentado
+	Avaliando os dados da Tabela \ref{Tab_Spectro_Comp}, os modelos \textit{PV UTJ Cell} e \textit{PV XTJ Cell}, foram os mais indicados para a aplicação, devido ao alto rendimento (superior a 28\%) apresentado
 	
 	\begin{figure}[th]
 		\caption{MODELO DE FOTOCÉLULA DA \textit{SPECTROLAB}}
+		\label{Fig_Cell_Spectro}
 		\centering
 		\includegraphics[width=1.0\linewidth]{./figs/UTJ}
 			
@@ -722,6 +793,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	\begin{table}[th]
 	\caption{COMPARATIVO DAS FOTOCÉLULAS DA \textit{EMCORE}}
+	\label{Tab_Emcore_Comp}
 	\begin{tabular}{p{2.5cm}|p{3.1cm}|p{3.1cm}|p{3.1cm}|p{3.1cm}}
 		\textbf{Modelo} & \textit{\textbf{ATJ PV Cell}} & \textit{\textbf{BTJ PV Cell}} & \textit{\textbf{BTJM PV Cell}} & \textit{\textbf{ZTJ PV Cell}} \\
 		\hline
@@ -747,10 +819,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	\end{footnotesize}
 	\end{table}
 	\pagebreak
-	Avaliando os dados da Tabela 3, os modelos \textit{BTJ PV Cell}, \textit{BTJM PV Cell} e \textit{ZTJ PV Cell}, foram os mais indicados para a aplicação, devido ao alto rendimento (superior a 28\%) apresentado.
+	Avaliando os dados da Tabela \ref{Tab_Emcore_Comp}, os modelos \textit{BTJ PV Cell}, \textit{BTJM PV Cell} e \textit{ZTJ PV Cell}, foram os mais indicados para a aplicação, devido ao alto rendimento (superior a 28\%) apresentado.
 	
 	\begin{figure}[th]
 		\caption{MODELO DE FOTOCÉLULA DA \textit{EMCORE}}
+		\label{Fig_Cell_Emcore}
 		\centering
 		\includegraphics[width=0.5\linewidth]{./figs/ZTJ}
 			
@@ -765,6 +838,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	\begin{table}[th]
 	\caption{COMPARATIVO DAS FOTOCÉLULAS DA \textit{AZURSPACE}}
+	\label{Tab_Azur_Comp}
 	\begin{tabular}{p{2.5cm}|p{3.1cm}|p{3.1cm}|p{3.1cm}|p{3.1cm}}
 		\textbf{Modelo} & \textit{\textbf{3G30C}} & \textit{\textbf{3G30C-Large}} & \textit{\textbf{3G30C-Large-120x60}} & \textit{\textbf{3G28C}} \\
 		\hline
@@ -790,10 +864,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	\end{footnotesize}
 	\end{table}	
 	
-	Avaliando os dados da Tabela 4, os modelos \textit{30G28C} e \textit{30G30C}, foram os mais indicados para a aplicação, devido ao alto rendimento (superior a 28\%) apresentado. Os demais modelos não atenderam o dimensionamento adequado para o projeto.
+	Avaliando os dados da Tabela \ref{Tab_Azur_Comp}, os modelos \textit{30G28C} e \textit{30G30C}, foram os mais indicados para a aplicação, devido ao alto rendimento (superior a 28\%) apresentado. Os demais modelos não atenderam o dimensionamento adequado para o projeto.
 	
 	\begin{figure}[th]
 		\caption{MODELO DE FOTOCÉLULA DA \textit{AZURSPACE}}
+		\label{Fig_Cell_Azur}
 		\centering
 		\includegraphics[width=0.5\linewidth]{./figs/ZTJ}
 			
@@ -808,10 +883,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	O contato com a \textit{SpectroLab} não teve obteve sucesso, uma vez que a empresa não respondeu nenhuma das tentativas de contato realizadas. Já a solicitação do orçamento da \textit{SolAero Technologies} (antiga \textit{Emcore}) não caminhou conforme esperado, uma vez que uma das políticas de vendas da empresa é de um pedido mínimo de \$7.500,00.
 	
-	A \textit{AzurSpace} enviou um orçamento dos modelos solicitados, conforme Tabela 5.
+	A \textit{AzurSpace} enviou um orçamento dos modelos solicitados, conforme Tabela \ref{Tab_Orc_Cell}.
 	
 	\begin{table}[th]
 	\caption{ORÇAMENTO DAS FOTOCÉLULAS DA \textit{AZURSPACE}}
+	\label{Tab_Orc_Cell}
 	\centering
 	\begin{tabular}{p{3.0cm}|p{3.0cm}|p{3.0cm}|p{3.0cm}}
 		\textbf{Modelo} & \textbf{Valor unitário} & \textbf{Frete} & \textit{\textbf{Lead time}}\\
@@ -833,10 +909,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	A \textit{TrisolX} é uma pequena empresa, localizada em Nova Iorque, que oferece uma alternativa acessível para projetos com orçamentos reduzidos. A empresa, vende a \textit{TrisolX Solar Wings}, que são fotocélulas cortadas a partir do modelo \textit{3G28C} da \textit{AzurSpace}.
 	
-	É o mesmo produto da \textit{AzurSpace}, porém com tamanho e formato diferentes, conforme Figura 12.
+	É o mesmo produto da \textit{AzurSpace}, porém com tamanho e formato diferentes, conforme Figura \ref{Fig_Cell_TrisolX}.
 	
 	\begin{figure}[th]
 		\caption{MODELO DE FOTOCÉLULA DA \textit{TRISOLX}}
+		\label{Fig_Cell_TrisolX}
 		\centering
 		\includegraphics[width=0.5\linewidth]{./figs/TrisolX}
 			
@@ -845,10 +922,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\end{small}		
 	\end{figure}	
 
-	Foi solicitado um orçamento à \textit{TrisolX}, que prontamente foi recebido conforme Tabela 6.
+	Foi solicitado um orçamento à \textit{TrisolX}, que prontamente foi recebido conforme Tabela \ref{Tab_Orc_TrisolX}.
 	
 	\begin{table}[th]
 	\caption{ORÇAMENTO DAS FOTOCÉLULAS DA \textit{TRISOLX}}
+	\label{Tab_Orc_TrisolX}
 	\centering
 	\begin{tabular}{p{3.5cm}|p{2.5cm}|p{1.5cm}|p{1.5cm}|p{2.0cm}}
 		\textbf{Pacote} & \textbf{Quantidade} & \textbf{Valor} & \textbf{Frete} & \textbf{Prazo de entrega}\\
@@ -878,10 +956,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 
 	É de extrema importância que os componentes passivos atendam algumas premissas para a utilização no projeto. Esses componentes precisam possuir uma grande faixa de temperatura de operação, uma certa tolerância a radiação e um dimensional pequeno (\textit{SMD}).
 	
-	Os capacitores, devido as baixas pressões encontradas no espaço, não podem ser do modelo eletrolítico, ou seja, precisam ser ou cerâmicos ou de tântalo. Os capacitores cerâmicos geralmente são de 0,5 pF até 470 nF com tensão de isolação de 25 V ou 50 V. Para esses capacitores tomou-se o cuidado de selecionar os capacitores com o coeficiente de temperatura X7R, devido a sua grande faixa de temperatura de operação, conforme indicado na Figura 13.\textsuperscript{\cite{x7r}}
+	Os capacitores, devido as baixas pressões encontradas no espaço, não podem ser do modelo eletrolítico, ou seja, precisam ser ou cerâmicos ou de tântalo. Os capacitores cerâmicos geralmente são de 0,5 pF até 470 nF com tensão de isolação de 25 V ou 50 V. Para esses capacitores tomou-se o cuidado de selecionar os capacitores com o coeficiente de temperatura X7R, devido a sua grande faixa de temperatura de operação, conforme indicado na Figura \ref{Fig_Cap}.\textsuperscript{\cite{x7r}}
 	
 	\begin{figure}[th]
 		\caption{COEFICIENTES DE TEMPERATURA DOS CAPACITORES CERÂMICOS}
+		\label{Fig_Cap}
 		\centering
 		\includegraphics[width=0.6\linewidth]{./figs/x7r}
 			
@@ -890,10 +969,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\end{small}		
 	\end{figure}	
 	
-	Além dessa característica, os capacitores X7R apresentam um bom comportamento com a variação de temperatura, comparado com os capacitores Y5V (outro modelo amplamente encontrado no mercado), conforme pode ser visto na Figura 14.
+	Além dessa característica, os capacitores X7R apresentam um bom comportamento com a variação de temperatura, comparado com os capacitores Y5V (outro modelo amplamente encontrado no mercado), conforme pode ser visto na Figura \ref{Fig_Cap_Temp}.
 	
 	\begin{figure}[th]
 		\caption{VARIAÇÃO DA CAPACITÂNCIA EM FUNÇÃO DA TEMPERATURA}
+		\label{Fig_Cap_Temp}
 		\centering
 		\includegraphics[width=0.6\linewidth]{./figs/y5v}
 			
@@ -910,10 +990,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 
 	Seguindo as premissas apresentadas anteriormente, foi finalizada a lista de componentes necessários para o seguimento do projeto, também foi levado em consideração a questão financeira, portanto alguns componentes apresentados nessa lista podem ser substituídos após a realização de todos os ensaios e validações.
 	
-	Na Figura 15, é possível visualizar a lista de componentes eletrônicos definida pelo grupo.
+	Na Figura \ref{Fig_Lista}, é possível visualizar a lista de componentes eletrônicos definida pelo grupo.
 	
 	\begin{figure}[th]
 		\caption{LISTA DE COMPONENTES ELETRÔNICOS}
+		\label{Fig_Lista}
 		\centering
 		\includegraphics[width=1.0\linewidth]{./figs/comp}
 			
@@ -923,7 +1004,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	\end{figure}
 	\pagebreak
 	
-	Foi solicitado um orçamento para a \textit{Farnell}, que devido a sua grande estrutura e interligação entre os estoques nacionais e internacionais, tinha a disposição praticamente todos os componentes necessários com exceção do carregador de bateria (BQ24005PWP), ficou R\$ 2.065,66, conforme pode ser visto no Anexo A.
+	Foi solicitado um orçamento para a \textit{Farnell}, que devido a sua grande estrutura e interligação entre os estoques nacionais e internacionais, tinha a disposição praticamente todos os componentes necessários com exceção do carregador de bateria (BQ24005PWP), ficou R\$ 2.065,66, conforme pode ser visto no Anexo \ref{Orçamento}.
 	
 
 \section[Ensaios possíveis]{Ensaios possíveis}
@@ -932,10 +1013,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 \subsection[Validação dos subconjuntos]{Validação dos subconjuntos}
 
-	Um dos ensaios identificados foi o de validação dos subconjuntos do Sistema de Gerenciamento de Energia para \textit{CubeSat}. O circuito do sistema como um todo foi dividido em vários subconjuntos de funções especificas para serem validados, ou seja, foi separada a parte do carregador de bateria, do conversor 3,3 V, do conversor de 5 V, do conversor de 12 V e do conversor \textit{backup}. Na Figura 16 pode ser visualizado duas placas com os subconjuntos do sistema.
+	Um dos ensaios identificados foi o de validação dos subconjuntos do Sistema de Gerenciamento de Energia para \textit{CubeSat}. O circuito do sistema como um todo foi dividido em vários subconjuntos de funções especificas para serem validados, ou seja, foi separada a parte do carregador de bateria, do conversor 3,3 V, do conversor de 5 V, do conversor de 12 V e do conversor \textit{backup}. Na Figura \ref{Fig_SubConj} pode ser visualizado duas placas com os subconjuntos do sistema.
 	
 	\begin{figure}[th]
 		\caption{CIRCUITOS DOS SUBCONJUNTOS DO SISTEMA}
+		\label{Fig_SubConj}
 		\centering
 		\includegraphics[width=0.7\linewidth]{./figs/placas_subconjuntos}
 			
@@ -950,24 +1032,52 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	Entre diversas pesquisas a respeito de possíveis testes de radiação, foi encontrado o projeto \textit{Open Source Satellite Initiative}. Na \textit{wikipage} do projeto \textit{OSSI} é disponibilizado um \textit{link} para um \textit{data base} que contém dados de testes de radiação da \textit{NASA Goddard Space Flight Center}.\textsuperscript{\cite{OSSI}}\textsuperscript{\cite{OSSI2}}\textsuperscript{\cite{OSSI3}}
 	
-	Nesse \textit{data base} foram encontrados dois componentes que constavam na lista de componentes da Figura 15, sendo eles o TMP36, produzido pela \textit{Analog Devices}, e o LMP2012, produzido pela \textit{Texas Instruments}. Foi realizada uma tentativa de transformação da lista de componentes inicial por uma contendo mais componentes presentes nesse \textit{data base}, porém, além do alto custo, o \textit{lead time} de muitos deles era elevadíssimos e poderia comprometer o desenvolvimento do projeto.
+	Nesse \textit{data base} foram encontrados dois componentes que constavam na lista de componentes da Figura \ref{Fig_Lista}, sendo eles o TMP36, produzido pela \textit{Analog Devices}, e o LMP2012, produzido pela \textit{Texas Instruments}. Foi realizada uma tentativa de transformação da lista de componentes inicial por uma contendo mais componentes presentes nesse \textit{data base}, porém, além do alto custo, o \textit{lead time} de muitos deles era elevadíssimos e poderia comprometer o desenvolvimento do projeto.
 	
-	O TMP36, que é um sensor de temperatura, foi testado para \textit{SEL}, pela \textit{NASA} em 2002, pelos engenheiros espaciais Christian Poivey e Hak Kim, chegando a conclusão que a sensibilidade \textit{SEL} do componente não era um fator preocupante para aplicações espaciais.\footnote{No Anexo B é possível realizar a verificação do relatório de teste do TMP36.\textsuperscript{\cite{TMP36}}}
+	O TMP36, que é um sensor de temperatura, foi testado para \textit{SEL}, pela \textit{NASA} em 2002, pelos engenheiros espaciais Christian Poivey e Hak Kim, chegando a conclusão que a sensibilidade \textit{SEL} do componente não era um fator preocupante para aplicações espaciais.\footnote{No Anexo \ref{TMP36} é possível realizar a verificação do relatório de teste do TMP36.\textsuperscript{\cite{TMP36}}}
 	
-	O LMP2012, trata-se de um amplificador operacional, foi testado para \textit{SEE}, \textit{SEL}, \textit{SET} e \textit{Laser}, os testes foram realizados pelos engenheiros espaciais da \textit{NASA}, Michael Campola e Anthony Phan no final de 2012, concluindo que existem algumas áreas que param de funcionar após uma indução de \textit{laser} pulsado.\footnote{No Anexo C é possível realizar a verificação do relatório de teste do LMP2012.\textsuperscript{\cite{LMP2012}}}
+	O LMP2012, trata-se de um amplificador operacional, foi testado para \textit{SEE}, \textit{SEL}, \textit{SET} e \textit{Laser}, os testes foram realizados pelos engenheiros espaciais da \textit{NASA}, Michael Campola e Anthony Phan no final de 2012, concluindo que existem algumas áreas que param de funcionar após uma indução de \textit{laser} pulsado.\footnote{No Anexo \ref{LMP2012} é possível realizar a verificação do relatório de teste do LMP2012.\textsuperscript{\cite{LMP2012}}}
 	
 	
 \subsection[Ensaio térmico]{Ensaio térmico}
 
-	O ensaio térmico foi realizado em parceria com o laboratório da USP, coordenado pelos Drs. Fabio Rodrigues e Douglas Galante. Esse ensaio consistia em uma câmara refrigerada que atingia uma temperatura próxima aos -80 ºC. 
+	O ensaio térmico foi realizado em parceria com o laboratório da USP, coordenado pelo Dr. Fábio Rodrigues. Esse ensaio consistia em uma câmara refrigerada que atingia uma temperatura próxima aos -80 ºC. 
 	
 	Após a validação dos subconjuntos e a obtenção das assinaturas de tensão e corrente desses circuitos, as placas foram levadas a USP, onde o Dr. Fabio Rodrigues, as colocou nessa câmara para que fossem obtidas as assinaturas de tensão e corrente nessa condição de baixas temperaturas, dessa forma foi possível validar, de forma aproximada, como esses subconjuntos se comportariam no ambiente espacial onde as temperaturas podem chegar próximas de -170 ºC.
 
 \subsection[Ensaio de vácuo]{Ensaio de vácuo}	
 
+	O ensaio térmico foi realizado em parceria com o laboratório da USP, coordenado pelo Dr. Fábio Rodrigues. Esse ensaio consistia em uma câmara de vácuo que atingia uma pressão de aproximadamente 10\textsuperscript{-9} mbar. 
 	
+	Após a validação e a obtenção das assinaturas de tensão e corrente dos ensaios anteriores, o Dr. Fabio Rodrigues colocou os circuitos na câmera de vácuo para que fossem obtidas as assinaturas de tensão e corrente nessa condição de pressões baixas podendo avaliar o comportamento dos circuitos com pressões próximas as que existem na órbita \textit{LEO}.
+	
+\subsection[Ensaio de termovácuo]{Ensaio de termovácuo}
 
-\subsection[Ensaio de termovácuo]{Ensaio de termovácuo}		
+	Por fim, após todas as validações anteriores os subconjuntos foram enviados para Campinas no Laboratório Nacional de Luz Síncroton (LNLS) onde o Dr. Douglas Galante, os colocou na câmera de termovácuo.
+	
+	\begin{figure}[th]
+		\caption{CÂMERA DE TERMOCÁCUO}
+		\label{Fig_SubConj}
+		\centering
+		\includegraphics[width=0.5\linewidth]{./figs/termovacuo}
+			
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}		
+	\end{figure}
+	
+	Nesse ensaio é possível atingir baixas pressões (10\textsuperscript{-9} mbar) e também baixas temperaturas (X °C), também é possível visualizar no \textit{LabView} a curva da pressão, sendo fácil constatar se algum problema ocorreu caso na curva tenha alguma subida repentina de pressão.
+	
+	\begin{figure}[th]
+		\caption{CURVA DE PRESSÃO NO \textit{LABVIEW}}
+		\label{Fig_SubConj}
+		\centering
+		\includegraphics[width=0.7\linewidth]{./figs/labview}
+			
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}		
+	\end{figure}
 	
 \subsection[Avaliação dos ensaios]{Avaliação dos ensaios}
 	
@@ -1021,7 +1131,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 \partanexos
 
 % ---
-\chapter[Orçamento dos componentes da Farnell]{Orçamento dos componentes da \textit{Farnell}}
+\chapter[Orçamento dos componentes da Farnell]{Orçamento dos componentes da \textit{Farnell}} \label{Orçamento}
 % ---
 
 	Orçamento enviado pelo Sr. Helder Sant'ana Viana da \textit{Farnell Newark element14}.
@@ -1041,7 +1151,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\includegraphics[width=0.9\linewidth]{./anexos/Pedido1898453}	
 	\end{figure}
 	
-\chapter[Relatório de teste do TMP36]{Relatório de teste do TMP36}	
+\chapter[Relatório de teste do TMP36]{Relatório de teste do TMP36} \label{TMP36}
 	
 	Relatório de teste do TMP36, realizado em 08 de Agosto de 2002 pelos engenheiros Christian Poivey e Hak Kim.\textsuperscript{\cite{TMP36}}
 	
@@ -1065,7 +1175,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\includegraphics[width=0.85\linewidth]{./anexos/tmp36_4}	
 	\end{figure}			
 	
-\chapter[Relatório de teste do LMP2012]{Relatório de teste do LMP2012}		
+\chapter[Relatório de teste do LMP2012]{Relatório de teste do LMP2012} \label{LMP2012}	
 	
 	Relatório de teste do LMP2012, realizado em 18 de Dezembro de 2012 pelos engenheiros Michael Campola e Anthony Phan.\textsuperscript{\cite{LMP2012}}
 	
