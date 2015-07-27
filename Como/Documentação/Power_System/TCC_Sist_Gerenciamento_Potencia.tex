@@ -341,15 +341,17 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 % ---
 \begin{siglas}
 
+  \item[\textit{GPS}] \textit{Global Positioning System}
+  \item[NSEE-IMT] Núcleo de Sistemas Eletrônicos Embarcados do Instituto Mauá de Tecnologia
   \item[\textit{Cal Poly}] \textit{California Polytechnic State University}
   \item[\textit{NASA}] \textit{National Aeronautics and Space Administration}
-  \item[NSEE-IMT] Núcleo de Sistemas Eletrônicos Embarcados do Instituto Mauá de Tecnologia
   \item[\textit{LEO}] \textit{Low Earth Orbit}
   \item[\textit{PV}] \textit{Photovoltaic}
   \item[\textit{AM}] \textit{Air Mass}
   \item[\textit{WRC}] \textit{World Radiation Center}
   \item[T] Temperatura
   \item[\textit{SMD}] \textit{Superficial Monting Device}
+  \item[ESR]
   \item[\textit{DF}] \textit{Dissipation Factor}
   \item[FEI] Faculdade de Engenharia Industrial
   \item[\textit{OSSI}] \textit{Open Source Satellite Initiative}
@@ -395,30 +397,30 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 % ----------------------------------------------------------
 \chapter[Introdução]{Introdução}
 
-	Os satélites artificiais amplamente utilizados e essenciais no dia-a-dia para diversas tarefas, como por exemplo para as transmissões televisivas e previsões meteorológicas, são objetos que orbitam os planetas em trajetos circulares ou elípticos. Esses satélites, feitos pelo homem, são desenvolvidos especificamente para funções preestabelecidas que tornem possível alcançar objetivos maiores. 
+	Os satélites artificiais amplamente utilizados e essenciais no dia-a-dia para diversas tarefas, como por exemplo para previsões meteorológicas, \textit{GPS} e televisões via satélite, são objetos que orbitam os planetas em trajetos circulares ou elípticos. Esses satélites, feitos pelo homem, são desenvolvidos especificamente para funções preestabelecidas que tornem possível alcançar objetivos maiores. 
 	
 	Esse formato de desenvolvimento individual faz o seu processo produtivo ser lento e com custos elevados, o que torna a alta tecnologia encontrada nos satélites restrita a pequenos grupos de engenheiros e cientistas. A combinação desses fatores acabou motivando, no final dos anos 90, os professores Jordi Puig-Suari e Bob Twiggs, a proporem o modelo do \textit{CubeSat}, que são satélites miniaturizados com tempo de desenvolvimento e custos bem abaixo dos satélites tradicionais.
 	
 	O presente trabalho apresenta o Sistema de Gerenciamento de Energia de um \textit{CubeSat}, ele é o subsistema responsável pela geração, transmissão e gerenciamento de energia, tendo por finalidade fornecer energia elétrica suficiente para o funcionamento dos demais subsistemas pertencentes a este satélite miniaturizado, como por exemplo o subsistema de comunicação, controle de atitude e computador de bordo.
 	
-	O processo de geração de energia depende da captação de luz solar suficiente para suprir a demanada energética do \textit{CubeSat}, além de ser capaz de realizar o carregamento de uma bateria. Essa bateria, que por sua vez, tem a capacidade de assumir o fornecimento de energia para todo o sistema nos momentos nos quais o \textit{CubeSat} estiver na região de sombra da Terra.
+	O processo de geração de energia depende da captação de luz solar suficiente para suprir a demanada energética do \textit{CubeSat}, além de ser capaz de realizar o carregamento de uma bateria. Essa bateria, que por sua vez, tem a capacidade de fornecer energia para todo o sistema, inclusive nos momentos nos quais o \textit{CubeSat} estiver na região de sombra da Terra.
 	
-	O Sistema de Gerenciamento de Energia foi totalmente dimensionado de forma a atender todos os pré-requisitos da construção de um \textit{CubeSat}, que futuramente deverá ser enviado para a realização de uma missão espacial.
+	O Sistema de Gerenciamento de Energia foi totalmente dimensionado de forma a atender todos os pré-requisitos da construção de um \textit{CubeSat}, que futuramente poderá ser enviado para a realização de uma missão espacial.
 
 % ----------------------------------------------------------
 % Objetivo
 % ----------------------------------------------------------
 %\section{Objetivo}
 
-	Esse subsistema visa fornecer a energia necessária, com incidência direta ou não de luz solar, para garantir o sucesso de missões espaciais, além de ajudar a fomentar a pesquisa e desenvolvimento de projetos para formar e capacitar alunos e pesquisadores na área espacial, além de ser parte de um projeto da Escola de Engenharia Mauá que objetiva o desenvolvimento de um \textit{CubeSat} com tecnologia nacional.
+	Esse projeto de conclusão de curso, faz parte do projeto de desenvolvimento de um \textit{CubeSat} do NSEE-IMT da Escola de Engenharia Mauá, que além de ajudar a fomentar a pesquisa e desenvolvimento de projetos para formar e capacitar alunos e pesquisadores na área aeroespacial, visa fornecer a energia necessária, com incidência direta ou não de luz solar, para garantir o sucesso de missões espaciais.
 	
-	O presente trabalho está dividido em XX capítulos contendo as seguintes abordagens.
+	O presente trabalho está dividido em \ref{ultimo_capitulo} capítulos contendo as seguintes abordagens.
 
 	O capítulo 1 traz a apresentação do trabalho, suas principais características, inovações e os objetivos principais.
 
 	O capítulo 2 apresenta um estudo histórico sobre os \textit{CubeSats}, como surgiram e o posicionamento do Brasil neste segmento. 
 
-	O capítulo 3 faz um estudo sobre o estado da arte no segmento espacial, apresenta a proposta do estudo e faz a discretização dos componentes utilizados para o desenvolvimento do \textit{CubeSat}.
+	O capítulo 3 faz um estudo sobre o estado da arte no segmento espacial, apresenta a proposta do estudo e faz a discretização dos componentes utilizados para o desenvolvimento do Sistema de Gerenciamento de Energia para \textit{CubeSat}.
 
 	O capítulo 4 mostra os resultados e discussões dos dados obtidos no levantamento dos rendimento do subsistema proposto.
 
@@ -479,7 +481,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 			
 		\item \textbf{AESP-14}		
 		
-			Cubesat desenvolvido pelo grupo do Dr. Pedro Lacava, professor e coordenador do Curso de Engenharia Aeroespacial do Instituto Tecnológico de Aeronáutica (ITA).\textsuperscript{\cite{AESP14}}
+			\textit{CubeSat} desenvolvido pelo grupo do Dr. Pedro Lacava, professor e coordenador do Curso de Engenharia Aeroespacial do Instituto Tecnológico de Aeronáutica (ITA).\textsuperscript{\cite{AESP14}}
 			
 		\item \textbf{NanoSatC-Br2}
 		
@@ -503,9 +505,9 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 % ----------------------------------------------------------
 \chapter[Materiais e Método]{Materiais e Método}
 
-	Para auxiliar no projeto, as atividades foram divididas de forma a trazer, além do ganho teórico, uma maior dinâmica no desenvolvimento do mesmo. Essa etapa do projeto visou a máxima aquisição de dados possível sobre o tema proposto, foram abertas distintas frentes de trabalho para agilizar a aquisição teórica. Além do conhecimento adquirido foram definidos os principais componentes e equipamentos que foram utilizados no protótipo, como por exemplo as baterias, fotocélulas, componentes passivos e semicondutores.
+	Para auxiliar no projeto, as atividades foram divididas de forma a trazer, além do ganho teórico, uma maior dinâmica no desenvolvimento do mesmo. Essa etapa do projeto visou a máxima aquisição de dados possível sobre o tema proposto, foram abertas distintas frentes de trabalho para agilizar o entendimento teórico. Além do conhecimento adquirido foram definidos os principais componentes e equipamentos que foram utilizados no protótipo, como por exemplo as baterias, fotocélulas, componentes passivos e semicondutores.
 	
-	Também foi possível identificar e conhecer, de forma mais profunda, possíveis testes que podem ser realizados no Sistema de Gerenciamento de Energia para \textit{CubeSat}, como os testes de radiação, temperatura e pressão. Esses testes são de extrema importância para a detecção de possíveis problemas que possam existir, pois uma vez que o \textit{CubeSat} for lançado nada mais poderá ser feito para reparar possíveis problemas.
+	Também foi possível identificar e conhecer, de forma mais profunda, possíveis testes que podem ser realizados no Sistema de Gerenciamento de Energia para \textit{CubeSat}, como os testes de radiação, temperatura e pressão. Esses testes são de extrema importância para a detecção de possíveis problemas que possam existir, pois uma vez que o \textit{CubeSat} for lançado nada mais poderá ser feito para reparar possíveis problemas de \textit{hardware}, sendo possível somente alguns ajustes de configuração de \textit{software}, como por exemplo alteração de parâmetros e de prioridades de tarefas.
 	
 % ----------------------------------------------------------
 % Etapas
@@ -542,11 +544,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 \subsection[Bateria]{Bateria}
 
 	
-	As baterias têm a função principal de armazenar carga para poder assumir o controle do fornecimento de energia para todos os subsistemas do \textit{CubeSat}, nos momentos no qual o equipamento estiver situado em regiões de sombras solares, por exemplo atrás do planeta Terra. Nessas regiões, não há incidência de luz solar portanto as fotocélulas não irão gerar energia para o sistema. Dessa forma é preciso haver outro meio de geração de energia até que o \textit{CubeSat} volte a ter incidência de luz solar, caso contrário o sistema será desligado e o equipamento virará apenas lixo espacial.	
+	As baterias têm a função principal de armazenar carga e fornecer energia para todos os subsistemas do \textit{CubeSat}, incluindo nos momentos no qual o equipamento estiver situado em regiões de sombras solares, por exemplo atrás do planeta Terra. Nessas regiões, não há incidência de luz solar portanto as fotocélulas não irão gerar energia no carregador da bateria. Dessa forma a bateria estará somente consumindo a energia armazenada até que o \textit{CubeSat} volte a ter incidência de luz solar para recomeçar o ciclo de carregamento, caso contrário o sistema será desligado e o equipamento virará apenas lixo espacial.	
 	
-	Algumas das premissas básicas de projeto para a definição da bateria estão relacionadas com o seu poder de armazenamento de carga e o seu dimensional reduzido. Essas baterias ficaram alocadas no interior do \textit{CubeSat}, por isso a importância do dimensional reduzido, além disso não podem ser baterias com peso elevado, uma vez que a definição do projeto diz que os \textit{CubeSats} não podem ultrapassar 1,3 kg.
+	Algumas das premissas básicas de projeto para a definição da bateria estão relacionadas com o seu poder de armazenamento de carga e o seu dimensional reduzido. Essas baterias ficam alocadas no interior do \textit{CubeSat}, por isso a importância do dimensional reduzido, além disso não podem ser baterias com peso elevado, uma vez que a definição do projeto diz que os \textit{CubeSats} não podem ultrapassar 1,3 kg.
 	
-	Para a definição da bateria foi analisado um comparativo (Tabela \ref{Tab_Bateria}) dos tipos mais comuns de baterias encontradas no mercado, sendo elas de: níquel cádmio (NiCd), níquel-hidreto metálico (NiMh), íon-lítio (Li-Íon), íon-lítio polímero (Li-Íon polímero) e chumbo (Pb).
+	Para a definição da bateria foi realizado um comparativo (Tabela \ref{Tab_Bateria}) dos tipos mais comuns de baterias encontradas no mercado, sendo elas de: níquel cádmio (NiCd), níquel-hidreto metálico (NiMh), íon-lítio (Li-Íon), íon-lítio polímero (Li-Íon polímero) e chumbo (Pb).
 		
 	\begin{table}[th]
 		\caption{COMPARATIVO DOS PRINCIPAIS TIPOS DE BATERIAS}
@@ -956,7 +958,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 
 	É de extrema importância que os componentes passivos atendam algumas premissas para a utilização no projeto. Esses componentes precisam possuir uma grande faixa de temperatura de operação, uma certa tolerância a radiação e um dimensional pequeno (\textit{SMD}).
 	
-	Os capacitores, devido as baixas pressões encontradas no espaço, não podem ser do modelo eletrolítico, ou seja, precisam ser ou cerâmicos ou de tântalo. Os capacitores cerâmicos geralmente são de 0,5 pF até 470 nF com tensão de isolação de 25 V ou 50 V. Para esses capacitores tomou-se o cuidado de selecionar os capacitores com o coeficiente de temperatura X7R, devido a sua grande faixa de temperatura de operação, conforme indicado na Figura \ref{Fig_Cap}.\textsuperscript{\cite{x7r}}
+	Os capacitores, devido as baixas pressões encontradas no espaço, não podem ser do modelo eletrolítico, ou seja, precisam ser ou cerâmicos ou de tântalo. Os capacitores cerâmicos geralmente são de 0,5 pF até 470 nF com tensão de isolação de 25 V ou 50 V. Para esses capacitores tomou-se o cuidado de selecionar os capacitores com baixo ESR e com o coeficiente de temperatura X7R, devido a sua grande faixa de temperatura de operação, conforme indicado na Figura \ref{Fig_Cap}.\textsuperscript{\cite{x7r}}
 	
 	\begin{figure}[th]
 		\caption{COEFICIENTES DE TEMPERATURA DOS CAPACITORES CERÂMICOS}
@@ -1009,7 +1011,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 
 \section[Ensaios possíveis]{Ensaios possíveis}
 	
-	Durante a fase de aquisição teórica foram identificados possíveis ensaios que poderiam ser feitos no sistema para validação do circuito como um todo. Esses ensaios são de essencial importância para o projeto, pois dessa forma podem ser identificados possíveis problemas que devem ser corrigidos antes do lançamento da missão.
+	Durante a fase de consolidação teórica foram identificados possíveis ensaios que poderiam ser feitos no sistema para validação do circuito como um todo. Esses ensaios são de essencial importância para o projeto, pois dessa forma podem ser identificados possíveis problemas que devem ser corrigidos antes do lançamento da missão.
 	
 \subsection[Validação dos subconjuntos]{Validação dos subconjuntos}
 
@@ -1028,7 +1030,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 \subsection[Ensaio de radiação]{Ensaio de radiação}	
 
-	O ensaio de radiação consiste na emissão de radiação nos semicondutores a fim de se obter a assinatura da tensão e corrente após a exposição a radiação. Para esse ensaio foi necessário que os semicondutores estivessem decapados, ou seja, foi necessário que a eletrônica do semicondutor estivesse visível para que a emissão da radiação fosse direta no componente, fato que não ocorrerá no espaço, uma vez que a película do componente estará presente o que, por sua vez, acaba dando uma pequena filtrada na radiação. Esse teste foi realizado em conjunto com o Centro Universitário da Faculdade de Engenharia Industrial (FEI), com a Dr. Marcilei Guazzelli da FEI.
+	O ensaio de radiação consiste na emissão de radiação nos semicondutores a fim de se obter a assinatura da tensão e corrente após a exposição a radiação. Para esse ensaio foi necessário que os semicondutores estivessem decapados, ou seja, foi necessário que a dopagem de Sílicio do semicondutor estivesse exposta para que a emissão da radiação fosse direta no componente, fato que não ocorrerá no espaço, uma vez que a película do componente estará presente o que, por sua vez, acaba dando uma pequena filtrada na radiação. Esse teste foi realizado em conjunto com o Centro Universitário da Faculdade de Engenharia Industrial (FEI), com a Dr. Marcilei Guazzelli da FEI.
 	
 	Entre diversas pesquisas a respeito de possíveis testes de radiação, foi encontrado o projeto \textit{Open Source Satellite Initiative}. Na \textit{wikipage} do projeto \textit{OSSI} é disponibilizado um \textit{link} para um \textit{data base} que contém dados de testes de radiação da \textit{NASA Goddard Space Flight Center}.\textsuperscript{\cite{OSSI}}\textsuperscript{\cite{OSSI2}}\textsuperscript{\cite{OSSI3}}
 	
@@ -1066,7 +1068,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\end{small}		
 	\end{figure}
 	
-	Nesse ensaio é possível atingir baixas pressões (10\textsuperscript{-9} mbar) e também baixas temperaturas (X °C), também é possível visualizar no \textit{LabView} a curva da pressão, sendo fácil constatar se algum problema ocorreu caso na curva tenha alguma subida repentina de pressão.
+	Nesse ensaio é possível atingir baixas pressões (10\textsuperscript{-9} mbar) e também baixas temperaturas (X ºC), também é possível visualizar no \textit{LabView} a curva da pressão, sendo fácil constatar se algum problema ocorreu caso na curva tenha alguma subida repentina de pressão.
 	
 	\begin{figure}[th]
 		\caption{CURVA DE PRESSÃO NO \textit{LABVIEW}}
@@ -1110,7 +1112,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 % ----------------------------------------------------------
 % CONCLUSÕES
 % ----------------------------------------------------------
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\chapter[Conclusões]{Conclusões}
+\chapter[Conclusões]{Conclusões} \label{ultimo_capitulo}
 
 
 % ----------------------------------------------------------

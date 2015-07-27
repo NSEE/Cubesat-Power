@@ -9,11 +9,11 @@
 \backcite {ITASAT}{{18}{2.3}{section.2.3}}
 \backcite {LEO}{{19}{3.1}{section.3.1}}
 \backcite {GEO}{{19}{3.1}{section.3.1}}
-\backcite {CAP}{{19}{3}{figure.3.3}}
-\backcite {LEO}{{20}{3.1}{figure.3.3}}
-\backcite {GEO}{{20}{3.1}{figure.3.3}}
-\backcite {LEO}{{20}{3.1}{figure.3.3}}
-\backcite {NASA2}{{20}{3.1}{figure.3.3}}
+\backcite {LEO}{{19}{3.1}{figure.3.3}}
+\backcite {GEO}{{19}{3.1}{figure.3.3}}
+\backcite {LEO}{{19}{3.1}{figure.3.3}}
+\backcite {NASA2}{{19}{3.1}{figure.3.3}}
+\backcite {CAP}{{20}{3}{figure.3.3}}
 \backcite {sta}{{21}{1}{table.3.1}}
 \backcite {BraEsc}{{22}{3.2.1.1}{subsubsection.3.2.1.1}}
 \backcite {sony}{{22}{3.2.1.1}{subsubsection.3.2.1.1}}
@@ -47,5 +47,5 @@
 \backcite {OSSI3}{{36}{3.3.2}{subsection.3.3.2}}
 \backcite {TMP36}{{36}{1}{Hfootnote.1}}
 \backcite {LMP2012}{{36}{2}{Hfootnote.2}}
-\backcite {TMP36}{{46}{B}{appendix.anexochapback.2}}
-\backcite {LMP2012}{{49}{C}{appendix.anexochapback.3}}
+\backcite {TMP36}{{47}{B}{appendix.anexochapback.2}}
+\backcite {LMP2012}{{50}{C}{appendix.anexochapback.3}}
