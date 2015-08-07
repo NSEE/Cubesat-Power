@@ -359,7 +359,6 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
   \item[\textit{SEE}]\textit{Single Event Effect}
   \item[\textit{SET}]\textit{Single Event Transient}
   \item[USP] Universidade de São Paulo
-  \item[LNLS] Laboratório Nacional de Luz Síncroton
   
   
     
@@ -505,13 +504,17 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 % ----------------------------------------------------------
 \chapter[Materiais e Método]{Materiais e Método}
 
-	Para auxiliar no projeto, as atividades foram divididas de forma a trazer, além do ganho teórico, uma maior dinâmica no desenvolvimento do mesmo. Essa etapa do projeto visou a máxima aquisição de dados possível sobre o tema proposto, foram abertas distintas frentes de trabalho para agilizar o entendimento teórico. Além do conhecimento adquirido foram definidos os principais componentes e equipamentos que foram utilizados no protótipo, como por exemplo as baterias, fotocélulas, componentes passivos e semicondutores.
+	Para auxiliar no projeto, as atividades foram divididas de forma a trazer, além do ganho teórico, uma maior dinâmica no desenvolvimento do mesmo. Essa etapa do projeto visou a máxima aquisição de dados possível sobre o tema proposto, foram abertas distintas frentes de trabalho para agilizar o entendimento teórico. Além do conhecimento adquirido foram definidos os principais componentes que foram utilizados no protótipo, como por exemplo as baterias, fotocélulas, componentes passivos e semicondutores.
 	
 	Também foi possível identificar e conhecer, de forma mais profunda, possíveis testes que podem ser realizados no Sistema de Gerenciamento de Energia para \textit{CubeSat}, como os testes de radiação, temperatura e pressão. Esses testes são de extrema importância para a detecção de possíveis problemas que possam existir, pois uma vez que o \textit{CubeSat} for lançado nada mais poderá ser feito para reparar possíveis problemas de \textit{hardware}, sendo possível somente alguns ajustes de configuração de \textit{software}, como por exemplo alteração de parâmetros e de prioridades de tarefas.
 	
 % ----------------------------------------------------------
 % Etapas
 % ----------------------------------------------------------
+\section[Topologia]{Topologia}
+
+
+
 \section[Condições do espaço]{Condições do espaço}
 	
 	Para o desenvolvimento do \textit{CubeSat} é de extrema importância ter conhecimento das condições de operação que o equipamento irá operar.
@@ -964,7 +967,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\caption{COEFICIENTES DE TEMPERATURA DOS CAPACITORES CERÂMICOS}
 		\label{Fig_Cap}
 		\centering
-		\includegraphics[width=0.6\linewidth]{./figs/x7r}
+		\includegraphics[width=1.0\linewidth]{./figs/x7r}
 			
 		\begin{small}
 			FONTE: PY2BBS\textsuperscript{\cite{x7r}}
@@ -977,12 +980,13 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\caption{VARIAÇÃO DA CAPACITÂNCIA EM FUNÇÃO DA TEMPERATURA}
 		\label{Fig_Cap_Temp}
 		\centering
-		\includegraphics[width=0.6\linewidth]{./figs/y5v}
+		\includegraphics[width=1.0\linewidth]{./figs/y5v}
 			
 		\begin{small}
 			FONTE: Johanson Dielectrics\textsuperscript{\cite{y5v}}
 		\end{small}		
 	\end{figure}
+	\pagebreak
 
 	Já os capacitores de tântalo apresentam valores de 0,22 pF até 100 $\mu$F, esse tipo de capacitor possui baixa corrente de fuga e baixas perdas, além de uma vida útil maior comparado aos eletrolíticos.\textsuperscript{\cite{x7r}}
 
@@ -1008,6 +1012,14 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	Foi solicitado um orçamento para a \textit{Farnell}, que devido a sua grande estrutura e interligação entre os estoques nacionais e internacionais, tinha a disposição praticamente todos os componentes necessários com exceção do carregador de bateria (BQ24005PWP), ficou R\$ 2.065,66, conforme pode ser visto no Anexo \ref{Orçamento}.
 	
+
+
+	
+	
+% ----------------------------------------------------------
+% PROTÓTIPO 
+% ----------------------------------------------------------
+\chapter[Protótipo]{Protótipo}
 
 \section[Ensaios possíveis]{Ensaios possíveis}
 	
@@ -1055,7 +1067,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 \subsection[Ensaio de termovácuo]{Ensaio de termovácuo}
 
-	Por fim, após todas as validações anteriores os subconjuntos foram enviados para Campinas no Laboratório Nacional de Luz Síncroton (LNLS) onde o Dr. Douglas Galante, os colocou na câmera de termovácuo.
+	Por fim, após todas as validações anteriores os subconjuntos foram enviados para Vinhedo no Observatório Abrahão de Moraes onde o Dr. Douglas Galante, os colocou na câmera de termovácuo.
 	
 	\begin{figure}[th]
 		\caption{CÂMERA DE TERMOCÁCUO}
@@ -1082,12 +1094,6 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	\end{figure}
 	
 \subsection[Avaliação dos ensaios]{Avaliação dos ensaios}
-	
-	
-% ----------------------------------------------------------
-% PROTÓTIPO 
-% ----------------------------------------------------------
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\chapter[Protótipo]{Protótipo}
 
 % ----------------------------------------------------------
 % RESULTADOS E DISCUSSÕES
