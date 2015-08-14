@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.3)  10 AUG 2015 21:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.3)  14 AUG 2015 00:37
 entering extended mode
 **TCC_Sist_Gerenciamento_Potencia.tex
 
@@ -1214,8 +1214,8 @@ File: ./figs/cubesat_03.png Graphic file (type png)
 Package pdftex.def Info: ./figs/cubesat_03.png used on input line 560.
 (pdftex.def)             Requested size: 295.74722pt x 189.89638pt.
  [21 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/diag_blocos
-_inicial.png> <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/figs/cu
-besat_03.png>] [22]
+_inicial.png>] [22 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/fi
+gs/cubesat_03.png>]
 Underfull \hbox (badness 2635) in paragraph at lines 594--594
 []|\T1/lmr/bx/n/12 Densidade ener-
  []
@@ -1502,21 +1502,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1174.
 
- <./anexos/Pedido189845.png, id=659, 710.655pt x 1026.83624pt>
+ <./anexos/Pedido189845.png, id=660, 710.655pt x 1026.83624pt>
 File: ./anexos/Pedido189845.png Graphic file (type png)
 
 <use ./anexos/Pedido189845.png>
 Package pdftex.def Info: ./anexos/Pedido189845.png used on input line 1181.
 (pdftex.def)             Requested size: 386.75278pt x 558.8391pt.
 
-<./anexos/Pedido1898452.png, id=660, 713.66624pt x 971.12813pt>
+<./anexos/Pedido1898452.png, id=661, 713.66624pt x 971.12813pt>
 File: ./anexos/Pedido1898452.png Graphic file (type png)
 
 <use ./anexos/Pedido1898452.png>
 Package pdftex.def Info: ./anexos/Pedido1898452.png used on input line 1186.
 (pdftex.def)             Requested size: 409.49722pt x 557.22371pt.
 
-<./anexos/Pedido1898453.png, id=661, 712.16063pt x 394.47375pt>
+<./anexos/Pedido1898453.png, id=662, 712.16063pt x 394.47375pt>
 File: ./anexos/Pedido1898453.png Graphic file (type png)
 
 <use ./anexos/Pedido1898453.png>
@@ -1528,28 +1528,28 @@ Package pdftex.def Info: ./anexos/Pedido1898453.png used on input line 1191.
 png>] [48 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/Pedi
 do1898452.png>] [49 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/a
 nexos/Pedido1898453.png>]
-<./anexos/tmp36_1.png, id=678, 819.06pt x 659.46375pt>
+<./anexos/tmp36_1.png, id=680, 819.06pt x 659.46375pt>
 File: ./anexos/tmp36_1.png Graphic file (type png)
 
 <use ./anexos/tmp36_1.png>
 Package pdftex.def Info: ./anexos/tmp36_1.png used on input line 1200.
 (pdftex.def)             Requested size: 386.75278pt x 311.39702pt.
 
-<./anexos/tmp36_2.png, id=679, 733.23938pt x 414.04688pt>
+<./anexos/tmp36_2.png, id=681, 733.23938pt x 414.04688pt>
 File: ./anexos/tmp36_2.png Graphic file (type png)
 
 <use ./anexos/tmp36_2.png>
 Package pdftex.def Info: ./anexos/tmp36_2.png used on input line 1205.
 (pdftex.def)             Requested size: 386.75278pt x 218.39503pt.
 
-<./anexos/tmp36_3.png, id=680, 737.75626pt x 1102.1175pt>
+<./anexos/tmp36_3.png, id=682, 737.75626pt x 1102.1175pt>
 File: ./anexos/tmp36_3.png Graphic file (type png)
 
 <use ./anexos/tmp36_3.png>
 Package pdftex.def Info: ./anexos/tmp36_3.png used on input line 1210.
 (pdftex.def)             Requested size: 386.75278pt x 577.7627pt.
 
-<./anexos/tmp36_4.png, id=681, 740.7675pt x 882.29625pt>
+<./anexos/tmp36_4.png, id=683, 740.7675pt x 882.29625pt>
 File: ./anexos/tmp36_4.png Graphic file (type png)
 
 <use ./anexos/tmp36_4.png>
@@ -1562,28 +1562,28 @@ Package pdftex.def Info: ./anexos/tmp36_4.png used on input line 1215.
 [51 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/tmp36_3.pn
 g>] [52 <D:/GitHub/Cubesat-Power/Como/Documentação/Power_System/anexos/tmp36_
 4.png>]
-<./anexos/lmp2012_1.png, id=698, 737.75626pt x 978.65625pt>
+<./anexos/lmp2012_1.png, id=700, 737.75626pt x 978.65625pt>
 File: ./anexos/lmp2012_1.png Graphic file (type png)
 
 <use ./anexos/lmp2012_1.png>
 Package pdftex.def Info: ./anexos/lmp2012_1.png used on input line 1224.
 (pdftex.def)             Requested size: 386.75278pt x 513.04065pt.
 
-<./anexos/lmp2012_2.png, id=699, 746.79pt x 900.36375pt>
+<./anexos/lmp2012_2.png, id=701, 746.79pt x 900.36375pt>
 File: ./anexos/lmp2012_2.png Graphic file (type png)
 
 <use ./anexos/lmp2012_2.png>
 Package pdftex.def Info: ./anexos/lmp2012_2.png used on input line 1229.
 (pdftex.def)             Requested size: 386.75278pt x 466.28221pt.
 
-<./anexos/lmp2012_3.png, id=700, 743.77875pt x 1014.79124pt>
+<./anexos/lmp2012_3.png, id=702, 743.77875pt x 1014.79124pt>
 File: ./anexos/lmp2012_3.png Graphic file (type png)
 
 <use ./anexos/lmp2012_3.png>
 Package pdftex.def Info: ./anexos/lmp2012_3.png used on input line 1234.
 (pdftex.def)             Requested size: 386.75278pt x 527.679pt.
 
-<./anexos/lmp2012_4.png, id=701, 746.79pt x 831.105pt>
+<./anexos/lmp2012_4.png, id=703, 746.79pt x 831.105pt>
 File: ./anexos/lmp2012_4.png Graphic file (type png)
 
 <use ./anexos/lmp2012_4.png>
@@ -1619,8 +1619,8 @@ changed.
 
 Package rerunfilecheck Info: Checksums for `TCC_Sist_Gerenciamento_Potencia.brf
 ':
-(rerunfilecheck)             Before: F7ACDFCE5DA8E4CB91130858693BDF14;2434
-(rerunfilecheck)             After:  F42FC1C675F4E521CB8362C869774A3C;2434.
+(rerunfilecheck)             Before: F42FC1C675F4E521CB8362C869774A3C;2434
+(rerunfilecheck)             After:  CF7B61F1D6A1B3B1D88F976E8F21260E;2434.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1653,10 +1653,10 @@ fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/l
 m/lmsso12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.
 pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on TCC_Sist_Gerenciamento_Potencia.pdf (57 pages, 5572014 bytes)
+Output written on TCC_Sist_Gerenciamento_Potencia.pdf (57 pages, 5572481 bytes)
 .
 PDF statistics:
- 979 PDF objects out of 1000 (max. 8388607)
+ 980 PDF objects out of 1000 (max. 8388607)
  222 named destinations out of 1000 (max. 500000)
  39979 words of extra memory for PDF output out of 42996 (max. 10000000)
 
