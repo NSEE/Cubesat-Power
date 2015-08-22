@@ -517,7 +517,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	Diagrama de blocos é uma representação gráfica do modelo de um sistema e/ou processo complexo. É uma ferramenta extremamente difundida, utilizada como meio de referência para que pessoas não familiarizadas com o objeto de estudo, possam ter uma compreensão geral do projeto em questão.\textsuperscript{\cite{Diag_Blocos}}	
 		
-	De forma a orientar os estudos, inicialmente foi pensado sobre a topologia do Sistema de Gerenciamento de Energia para \textit{CubeSats}. Para atingir o nível de detalhe exibido na Figura \ref{Fig_Diag_Blocos_Final}, diversas horas de estudos foram dedicadas, sendo essas horas distribuídas entre os estudos que serão apresentados nas seções subsequentes, como também através de diversos \textit{brainstorms} realizados pelo grupo.
+	De forma a orientar os estudos, inicialmente foi pensado sobre a topologia do Sistema de Gerenciamento de Energia para \textit{CubeSats}, conforme pode ser visto na Figura \ref{Fig_Diag_Blocos_Final}. 
 
 	\begin{figure}[th]
 		\caption{Última revisão do diagrama de blocos}
@@ -531,22 +531,38 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	\end{figure}
 	\pagebreak
 	
-	Para chegar nesse ponto...
+	Para atingir o nível de detalhe exibido na Figura \ref{Fig_Diag_Blocos_Final}, diversas horas de estudos foram dedicadas, sendo essas horas distribuídas entre os estudos que serão apresentados nas seções subsequentes, como também através de diversos \textit{brainstorms} realizados pelo grupo.
 	
+	Na Figura \ref{Fig_Diag_Blocos_Inicial}, pode ser visualizado a ideia embrionária do diagrada de blocos do Sistema de Gerenciamento de Energia para \textit{CubeSats}.
+		
 	\begin{figure}[th]
 		\caption{Versão inicial do diagrama de blocos}
 		\label{Fig_Diag_Blocos_Inicial}
 		\centering
-		\includegraphics[width=0.75\linewidth]{./figs/diag_blocos_inicial}
+		\includegraphics[width=1.0\linewidth]{./figs/diag_blocos_inicial}
 			
 		\begin{small}
 			FONTE: Elaborado pelos autores.
 		\end{small}		
 	\end{figure}	
 	\pagebreak
-	cont...
-	%Conforme pode ser visto na Figura \ref{Fig_Diag_Blocos_Final}, o projeto foi divido em três partes, sendo elas: placa de controle, placa do carregador e as placas das fotocélulas (+X, -X, +Y e -Y).
 
+	Inicialmente o projeto foi previsto para a utilização de 4 placas com fotocélulas, as quais iriam gerar uma tensão no carregador de baterias e no barramento interno. A partir desse barramento a energia chegaria aos conversores sendo convertidas para 3,3V, 5V, 12V e uma tensão não regulada (V\textsubscript{nreg}). Essas tensões provenientes dos conversores, passariam pelo sensor de tensão e corrente chegando ao barramento externo, alimentando todos os subsistemas do \textit{CubeSat}.
+	
+	Quando o  \textit{CubeSat} estivesse em região de sombra solar, ou seja, quando não tivesse incidência direta de luz nas suas fotocélulas, o microcontrolador faria o chaveamento para a bateria de 4,2V, dessa forma a bateria assumiria a responsabilidade de gerar a energia necessária para o funcionamento do sistema até que o \textit{CubeSat} voltasse a receber incidência da luz solar.
+	
+	Alguns fatores foram determinantes para a alteração da topologia utilizada no projeto.
+	
+	\begin{itemize}
+		\item	Condições do espaço;
+		\item	Falta de redundância;
+		\item	Eficiência dos conversores;
+		\item	Adição do conversor \textit{backup};
+		\item	Troca da bateria de 4,2V para 7,4V;
+	\end{itemize}
+
+	Já na versão final do diagrama, representado na Figura \ref{Fig_Diag_Blocos_Final}, o projeto foi subdividido em três partes, sendo elas, a placa de controle, placa do carregador e as quatro placas de fotocélulas (+X, -X, +Y e -Y). Nas seções seguintes serão exibidos os estudos que justificaram essas alterações.
+ 
 \section[Condições do espaço]{Condições do espaço}
 	
 	Para o desenvolvimento do \textit{CubeSat} é de extrema importância ter conhecimento das condições de operação que o equipamento irá operar.
@@ -566,9 +582,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	Satélites situados na órbita \textit{LEO} viajam em velocidades de aproximadamente 27.400 km/h ou 8 km/s, o que representa uma volta ao longo da Terra a cada 90 minutos. Já os satélites geoestacionários precisam ter uma velocidade que façam que eles acompanham sempre o mesmo ponto da Terra, por isso as velocidades deles são de aproximadamente 11.068 km/h ou 3 km/s. O planeta Terra tem uma velocidade de rotação de aproximadamente 1.669,8 km/h ou 0,5 km/s.\textsuperscript{\cite{LEO}}\textsuperscript{\cite{GEO}}
 	
-	 Outras características de destaque para a órbita \textit{LEO} são as condições de temperatura, variando de -170 ºC a 123 ºC e de pressão variando de 10\textsuperscript{-4} Pa a 10\textsuperscript{-6} Pa.\textsuperscript{\cite{LEO}}
+	Outras características de destaque para a órbita \textit{LEO} são as condições de temperatura, variando de -170 ºC a 123 ºC e de pressão variando de 10\textsuperscript{-4} Pa a 10\textsuperscript{-6} Pa.\textsuperscript{\cite{LEO}}
 	
 	Órbitas inferiores a esta não apresentam muita estabilidade e são alvos de arrastamento atmosférico, que é a força de fricção que atua sobre o foguete ou satélite, cuja principal causa é a fricção entre as moléculas do ar e a superfície do foguete ou satélite.\textsuperscript{\cite{NASA2}}
+	
+	A partir desse estudo preliminar foram definidos os critérios para a seleção dos componentes do projeto.	
 	
 \section[Definição dos componentes]{Definição dos componentes}
 
@@ -1118,7 +1136,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\caption{CURVA DE PRESSÃO NO \textit{LABVIEW}}
 		\label{Fig_SubConj}
 		\centering
-		\includegraphics[width=0.7\linewidth]{./figs/labview}
+		\includegraphics[width=1.0\linewidth]{./figs/labview}
 			
 		\begin{small}
 			FONTE: Foto tirada pelos autores.
