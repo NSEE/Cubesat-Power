@@ -513,14 +513,14 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 % ----------------------------------------------------------
 \section[Topologia]{Topologia}
 
-	A topologia do circuito foi o passo inicial para o desenvolvimento do Sistema de Gerenciamento de Energia para \textit{CubeSats}, onde foi definido através de um diagrama de blocos como funcionaria o circuito do projeto propostos.
+	A topologia do circuito foi o passo inicial para o desenvolvimento do Sistema de Gerenciamento de Energia para \textit{CubeSats}, onde foi definido através de um diagrama de blocos como funcionaria o circuito do projeto proposto.
 	
 	Diagrama de blocos é uma representação gráfica do modelo de um sistema e/ou processo complexo. É uma ferramenta extremamente difundida, utilizada como meio de referência para que pessoas não familiarizadas com o objeto de estudo, possam ter uma compreensão geral do projeto em questão.\textsuperscript{\cite{Diag_Blocos}}	
 		
-	De forma a orientar os estudos, inicialmente foi pensado sobre a topologia do Sistema de Gerenciamento de Energia para \textit{CubeSats}, conforme pode ser visto na Figura \ref{Fig_Diag_Blocos_Final}. 
-
+	Na Figura \ref{Fig_Diag_Blocos_Final}, pode ser visualizado o resultado final do diagrama de blocos utilizado no projeto.
+	
 	\begin{figure}[th]
-		\caption{Última revisão do diagrama de blocos}
+		\caption{ÚLTIMA REVISÃO DO DIAGRAMA DE BLOCOS}
 		\label{Fig_Diag_Blocos_Final}
 		\centering
 		\includegraphics[width=1.0\linewidth]{./figs/diag_blocos}
@@ -531,12 +531,14 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	\end{figure}
 	\pagebreak
 	
-	Para atingir o nível de detalhe exibido na Figura \ref{Fig_Diag_Blocos_Final}, diversas horas de estudos foram dedicadas, sendo essas horas distribuídas entre os estudos que serão apresentados nas seções subsequentes, como também através de diversos \textit{brainstorms} realizados pelo grupo.
+	A definição do diagrama de blocos do Sistema de Gerenciamento de Energia para \textit{CubeSats} foi o passo inicial para o desenvolvimento do projeto, pois todo o estudo posterior foi realizado baseado no funcionamento do circuito pensado.
+
+	Para atingir o nível de detalhe exibido no diagrama de blocos da Figura \ref{Fig_Diag_Blocos_Final}, diversas horas de estudos foram dedicadas, sendo essas horas distribuídas entre os estudos que serão apresentados nas seções subsequentes, como também através de diversos \textit{brainstorms} realizados pelo grupo.
 	
-	Na Figura \ref{Fig_Diag_Blocos_Inicial}, pode ser visualizado a ideia embrionária do diagrada de blocos do Sistema de Gerenciamento de Energia para \textit{CubeSats}.
+	Na Figura \ref{Fig_Diag_Blocos_Inicial}, pode ser visualizado a ideia embrionária do diagrama de blocos pensado para o desenvolvimento do projeto.
 		
 	\begin{figure}[th]
-		\caption{Versão inicial do diagrama de blocos}
+		\caption{VERSÃO INICIAL DO DIAGRAMA DE BLOCOS}
 		\label{Fig_Diag_Blocos_Inicial}
 		\centering
 		\includegraphics[width=1.0\linewidth]{./figs/diag_blocos_inicial}
@@ -547,9 +549,9 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	\end{figure}	
 	\pagebreak
 
-	Inicialmente o projeto foi previsto para a utilização de 4 placas com fotocélulas, as quais iriam gerar uma tensão no carregador de baterias e no barramento interno. A partir desse barramento a energia chegaria aos conversores sendo convertidas para 3,3V, 5V, 12V e uma tensão não regulada (V\textsubscript{nreg}). Essas tensões provenientes dos conversores, passariam pelo sensor de tensão e corrente chegando ao barramento externo, alimentando todos os subsistemas do \textit{CubeSat}.
+	Inicialmente, foi previsto a utilização de 4 placas com fotocélulas, as quais iriam gerar uma tensão no carregador de baterias e no barramento interno. A partir desse barramento a energia chegaria aos conversores sendo convertidas para 3,3V, 5V, 12V e uma tensão não regulada (V\textsubscript{nreg}). Essas tensões provenientes dos conversores, passariam pelos sensores de tensão e corrente chegando ao barramento externo, alimentando todos os subsistemas do \textit{CubeSat}.
 	
-	Quando o  \textit{CubeSat} estivesse em região de sombra solar, ou seja, quando não tivesse incidência direta de luz nas suas fotocélulas, o microcontrolador faria o chaveamento para a bateria de 4,2V, dessa forma a bateria assumiria a responsabilidade de gerar a energia necessária para o funcionamento do sistema até que o \textit{CubeSat} voltasse a receber incidência da luz solar.
+	Nessa topologia quando o \textit{CubeSat} estivesse em região de sombra solar, ou seja, quando não tivesse incidência direta de luz nas suas fotocélulas, o microcontrolador faria o chaveamento para a bateria de 4,2V, dessa forma a bateria assumiria a responsabilidade de gerar a energia necessária para o funcionamento do sistema até que o \textit{CubeSat} voltasse a receber incidência da luz solar.
 	
 	Alguns fatores foram determinantes para a alteração da topologia utilizada no projeto.
 	
@@ -1056,16 +1058,69 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 			FONTE: InfoEscola\textsuperscript{\cite{semicondutores2}}
 		\end{small}		
 	\end{figure}
-	
+	\pagebreak
 	Com a variação de temperatura, alguns dos elétrons migram da banda de valência para a a banda de condução, devido ao ganho de energia no elétron.
 
 	Em condições normais, os semicondutores possuem uma baixa condutividade, para contornar esse problema são dopadas impurezas. Essas impurezas podem ser do tipo doadora ou aceitadoras. O semicondutor dopado com uma impureza doadora é denominado do tipo N. Já os dopados com a impureza aceitadora é denominado do tipo P.\textsuperscript{\cite{semicondutores2}}
 
+\subsubsection[Conversores CC-CC]{Conversores CC-CC}
 
-
-
+	Os conversores CC-CC (corrente contínua - corrente contínua) são circuitos eletrônicos que convertem as amplitudes de tensão e corrente contínua em outra amplitude. Essa conversão é realizada graças a semicondutores de potência operando como interruptores, além dos elementos passivos que formam o conjunto.\textsuperscript{\cite{semicondutores3}}
 	
+	Os principais tipos de conversores CC-CC são:
 	
+	\begin{minipage}{7cm}
+		\begin{itemize}
+			\item	\textit{Buck}
+			\item	\textit{Boost}
+			\item	\textit{Buck-boost}
+			\item	Inversores
+			\item	\textit{Forward}
+			\item	\textit{Flyback}
+	\end{itemize}
+	\end{minipage}
+	\begin{minipage}{7cm}
+		\begin{itemize}
+			\item	\textit{Push-pull}
+			\item	\textit{Half bridge}
+			\item	\textit{Full bridge}
+			\item	\textit{Ćuk}
+			\item	\textit{SEPIC}
+		\end{itemize}
+	\end{minipage}
+
+	Para o projeto foram utilizados somente conversores dos tipos \textit{Buck} e \textit{Boost}. Esses dois tipos de conversores são conhecidos como conversores CC-CC diretos, pois neles existe a transferência direta da potência de entrada para a saída do conversor.
+	
+\subsubsection[Conversor Buck]{Conversor \textit{Buck}}
+
+	O conversor \textit{Buck}, também conhecido como \textit{step-down}, é um conversor abaixador de tensão. Sua entrada é baseada em tensão e a saída em corrente, conforme pode ser visto na Figura \ref{Fig_buck}
+	
+ 	\begin{figure}[th]
+		\caption{CONVERSOR \textit{BUCK}}
+		\label{Fig_bandas}
+		\centering
+		\includegraphics[width=0.5\linewidth]{./figs/buck}
+			
+		\begin{small}
+			FONTE: INEP/EEL\textsuperscript{\cite{inep}}
+		\end{small}		
+	\end{figure}
+
+	O principio de funcionamento do conversor é relativamente simples. Quando a chave (S) está em modo de condução, a corrente flui pelo indutor (L\textsubscript{o}) e pela saída do circuito. A tensão de entrada (V\textsubscript{i}) fornece a energia para a saída do circuito e para a magnetização do indutor (L\textsubscript{o}).
+	
+	No instante da abertura da chave (S) o diodo (D) entra em condução, a energia do indutor (L\textsubscript{o}) é transferida para a carga (R\textsubscript{o}), ou seja, o indutor (L\textsubscript{o}) é desmagnetizado.
+	
+	Esse tipo de conversor tem três possíveis modos de operação:
+	
+	\begin{itemize} 
+		\item[\textbf{1º}] Condução contínua - sem anulaçao da corrente no indutor (L\textsubscript{o}) durante o período de comutação;
+		\item[\textbf{2º}] Condução descontínua - com anulação da corrente no indutor (L\textsubscript{o}) a cada período de comutação;
+		\item[\textbf{3º}] Condução crítica - a corrente no indutor (L\textsubscript{o}) fica no limiar de se anular a cada período de comutação.
+	\end{itemize}
+	
+	O conversor \textit{Buck} tem a capacidade de diminuir a tensão na saída, mantendo a boa qualidade da corrente de saída. A corrente de entrada é descontínua, uma vez que o conversor precisa fazer o chaveamento para que o sistema possa funcionar perfeitamente.
+	
+\subsubsection[Conversor Boost]{Conversor \textit{Boost}}
 
 \subsection[Lista de componentes]{Lista de componentes}
 

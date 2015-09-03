@@ -31,35 +31,38 @@
 \contentsline {subsubsection}{\numberline {3.3.2.8}TrisolX}{34}{subsubsection.3.3.2.8}
 \contentsline {subsection}{\numberline {3.3.3}Componentes passivos}{35}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Semicondutores}{37}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Lista de componentes}{38}{subsection.3.3.5}
+\contentsline {subsubsection}{\numberline {3.3.4.1}Conversores CC-CC}{38}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.4.2}Conversor Buck}{39}{subsubsection.3.3.4.2}
+\contentsline {subsubsection}{\numberline {3.3.4.3}Conversor Boost}{39}{subsubsection.3.3.4.3}
+\contentsline {subsection}{\numberline {3.3.5}Lista de componentes}{39}{subsection.3.3.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Prot\IeC {\'o}tipo}}{40}{chapter.4}
-\contentsline {section}{\numberline {4.1}Ensaios poss\IeC {\'\i }veis}{40}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Valida\IeC {\c c}\IeC {\~a}o dos subconjuntos}{40}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Ensaio de radia\IeC {\c c}\IeC {\~a}o}{41}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Ensaio t\IeC {\'e}rmico}{41}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Ensaio de v\IeC {\'a}cuo}{42}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Ensaio de termov\IeC {\'a}cuo}{42}{subsection.4.1.5}
-\contentsline {subsection}{\numberline {4.1.6}Avalia\IeC {\c c}\IeC {\~a}o dos ensaios}{43}{subsection.4.1.6}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Prot\IeC {\'o}tipo}}{42}{chapter.4}
+\contentsline {section}{\numberline {4.1}Ensaios poss\IeC {\'\i }veis}{42}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Valida\IeC {\c c}\IeC {\~a}o dos subconjuntos}{42}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Ensaio de radia\IeC {\c c}\IeC {\~a}o}{43}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Ensaio t\IeC {\'e}rmico}{43}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Ensaio de v\IeC {\'a}cuo}{44}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Ensaio de termov\IeC {\'a}cuo}{44}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Avalia\IeC {\c c}\IeC {\~a}o dos ensaios}{45}{subsection.4.1.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~o}es}}{44}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~o}es}}{46}{chapter.5}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{45}{section*.13}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{47}{section*.13}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{48}{section*.14}
+\contentsline {part}{\uppercase {Anexos}}{50}{section*.14}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Or\IeC {\c c}amento dos componentes da Farnell}}{49}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Or\IeC {\c c}amento dos componentes da Farnell}}{51}{appendix.anexochapback.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Relat\IeC {\'o}rio de teste do TMP36}}{52}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Relat\IeC {\'o}rio de teste do TMP36}}{54}{appendix.anexochapback.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Relat\IeC {\'o}rio de teste do LMP2012}}{55}{appendix.anexochapback.3}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Relat\IeC {\'o}rio de teste do LMP2012}}{57}{appendix.anexochapback.3}
 \vspace {\cftbeforechapterskip }
