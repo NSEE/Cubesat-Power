@@ -555,14 +555,21 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	Alguns fatores foram determinantes para a alteração da topologia utilizada no projeto.
 	
-	\begin{itemize}
-		\item	Condições do espaço;
-		\item	Falta de redundância;
-		\item	Eficiência dos conversores;
-		\item	Adição do conversor \textit{backup};
-		\item	Troca da bateria de 4,2V para 7,4V;
-	\end{itemize}
-
+	\begin{minipage}{7cm}	
+		\begin{itemize}
+			\item	Condições do espaço;
+			\item	Falta de redundância;
+			\item	Eficiência dos conversores;
+		\end{itemize}
+	\end{minipage}
+	\begin{minipage}{7cm}
+		\begin{itemize}
+			\item	Adição do conversor \textit{backup};
+			\item	Troca da bateria de 4,2V para 7,4V.
+		\end{itemize}
+	\end{minipage}
+	\pagebreak
+	
 	Já na versão final do diagrama, representado na Figura \ref{Fig_Diag_Blocos_Final}, o projeto foi subdividido em três partes, sendo elas, a placa de controle, placa do carregador e as quatro placas de fotocélulas (+X, -X, +Y e -Y). Nas seções seguintes serão exibidos os estudos que justificaram as alterações realizadas.
  
 \section[Condições do espaço]{Condições do espaço}
@@ -596,7 +603,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 	Para a utilização dos componentes que suportem as condições impostas  no meio espacial, alguns fabricantes possuem linhas de produtos voltadas para utilização de componentes aeroespaciais que possuem um custo mais elevado em comparação aos componentes utilizados no mercado comum.
 
-\subsection[Bateria]{Bateria}
+\subsection[Bateria]{Bateria} \label{Sec_Bateria}
 
 	
 	As baterias têm a função principal de armazenar carga e fornecer energia para todos os subsistemas do \textit{CubeSat}, incluindo nos momentos no qual o equipamento estiver situado em regiões de sombras solares, por exemplo atrás do planeta Terra. Nessas regiões, não há incidência de luz solar portanto as fotocélulas não irão gerar energia no carregador da bateria. Dessa forma a bateria estará somente consumindo a energia armazenada até que o \textit{CubeSat} volte a ter incidência de luz solar para recomeçar o ciclo de carregamento, caso contrário o sistema será desligado e o equipamento virará apenas lixo espacial.	
@@ -647,7 +654,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	\end{footnotesize}
 
 \end{table}
-	
+	\pagebreak
 	Dentre os modelos comparados na Tabela 1, foi escolhida a bateria do tipo íon-lítio. Essa definição foi baseada pelo alto ciclo de vida, alta densidade energética, baixa auto-descarga mensal, a falta de necessidade de manutenção. Alguns dos pontos negativos desse tipo de bateria é baixa tolerância para sobrecargas, tempo para carga rápida e preço elevado em comparação aos demais tipos.
 	
 	Foram utilizadas duas baterias de duas células que possuem 7,4 V e 2000 mAh, sendo uma para o conjunto principal e a outra para o conjunto de redundância do Sistema de Gerenciamento de Energia para \textit{CubeSat}. Na Figura \ref{Fig_Bat_Sel}, é possível visualizar a bateria selecionada.
@@ -662,7 +669,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 			FONTE: Fotos tiradas pelos autores.
 		\end{small}
 	\end{figure}
-	
+	\pagebreak
 \subsubsection[Princípio de funcionamento]{Princípio de funcionamento}
 	
 	As baterias de íon-lítio, têm esse nome devido ao seu princípio de funcionamento o qual consiste no movimento dos íons de lítio por meio de um solvente não aquoso.\textsuperscript{\cite{BraEsc}}	
@@ -1063,6 +1070,8 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 
 	Em condições normais, os semicondutores possuem uma baixa condutividade, para contornar esse problema são dopadas impurezas. Essas impurezas podem ser do tipo doadora ou aceitadoras. O semicondutor dopado com uma impureza doadora é denominado do tipo N. Já os dopados com a impureza aceitadora é denominado do tipo P.\textsuperscript{\cite{semicondutores2}}
 
+\subsubsection[Carregador de bateria]{Carregador de bateria}
+
 \subsubsection[Conversores CC-CC]{Conversores CC-CC}
 
 	Os conversores CC-CC (corrente contínua - corrente contínua) são circuitos eletrônicos que convertem as amplitudes de tensão e corrente contínua em outra amplitude. Essa conversão é realizada graças a semicondutores de potência operando como interruptores, além dos elementos passivos que formam o conjunto.\textsuperscript{\cite{semicondutores3}}
@@ -1093,11 +1102,11 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 	
 \subsubsection[Conversor Buck]{Conversor \textit{Buck}}
 
-	O conversor \textit{Buck}, também conhecido como \textit{step-down}, é um conversor abaixador de tensão. Sua entrada é baseada em tensão e a saída em corrente, conforme pode ser visto na Figura \ref{Fig_buck}
+	O conversor \textit{Buck}, também conhecido como \textit{step-down}, é um conversor abaixador de tensão. Sua entrada é baseada em tensão e a saída em corrente, conforme pode ser visto na Figura \ref{Fig_buck}.\textsuperscript{\cite{inep}}
 	
  	\begin{figure}[th]
 		\caption{CONVERSOR \textit{BUCK}}
-		\label{Fig_bandas}
+		\label{Fig_buck}
 		\centering
 		\includegraphics[width=0.5\linewidth]{./figs/buck}
 			
@@ -1118,9 +1127,45 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 		\item[\textbf{3º}] Condução crítica - a corrente no indutor (L\textsubscript{o}) fica no limiar de se anular a cada período de comutação.
 	\end{itemize}
 	
-	O conversor \textit{Buck} tem a capacidade de diminuir a tensão na saída, mantendo a boa qualidade da corrente de saída. A corrente de entrada é descontínua, uma vez que o conversor precisa fazer o chaveamento para que o sistema possa funcionar perfeitamente.
+	O conversor \textit{Buck} tem a capacidade de diminuir a tensão na saída, mantendo a boa qualidade da corrente de saída. A corrente de entrada é descontínua, uma vez que o conversor precisa fazer o chaveamento para que o sistema possa funcionar perfeitamente.\textsuperscript{\cite{inep}}
 	
 \subsubsection[Conversor Boost]{Conversor \textit{Boost}}
+
+	O conversor \textit{Boost}, também conhecido como \textit{step-up}, é um conversor elevador de tensão. Ao contrário do conversor \textit{Buck}, sua entrada é baseada em corrente e a saída em tensão, conforme pode ser visto na Figura \ref{Fig_boost}.\textsuperscript{\cite{inep}}
+
+ 	\begin{figure}[th]
+		\caption{CONVERSOR \textit{BOOST}}
+		\label{Fig_boost}
+		\centering
+		\includegraphics[width=0.5\linewidth]{./figs/boost}
+			
+		\begin{small}
+			FONTE: INEP/EEL\textsuperscript{\cite{inep}}
+		\end{small}		
+	\end{figure}
+	
+	Seu princípio de funcionamento é, relativamente, similar ao do conversor \textit{Buck}. Quando a chave (S) está conduzindo, o indutor (L) é magnetizado, dessa forma a corrente flui somente entre a fonte (V\textsubscript{i}), o indutor (L) e a chave (S).
+	
+	Porém quando a chave (S) está aberta, o diodo (D) entra em condução, a fonte (V\textsubscript{i})e o indutor (L) fornecem energia à saída do circuito, aumentando a tensão na carga (R\textsubscript{o}).
+	
+	De forma resumida, o conversor \textit{Boost} pode apenas aumentar a tensão na saída do circuito, além de possuir uma boa qualidade da corrente de entrada. Porém possui uma corrente de saída descontínua, originado pelo chaveamento do que o circuito realiza para o seu funcionamento.\textsuperscript{\cite{inep}}
+	
+\subsubsection[Definição do carregador de bateria e dos conversores]{Definição do carregador de bateria e dos conversores}
+
+	Inicialmente foram procurados diversos circuitos integrados de conversores capazes de realizar a elevação e diminuição da tensão de saída para a topologia inicial, onde existiria duas baterias em série com 4,2V. Porém após diversas horas de estudos não foram encontrados conversores \textit{Boost} capazes de realizar grandes elevações com alta eficiência. Somente os conversores com uma tensão de entrada superior aos 4,2V poderiam atender a especificação do projeto com a grande eficiência desejada.
+	
+	Dessa forma, foi alterada a topologia do projeto, onde a bateria de 4,2V, foram substituídas pela bateria de duas células em série de 7,4V, definida na Seção \ref{Sec_Bateria}.
+	
+	Durante as pesquisas, foi encontrado o projeto \textit{Open Source Satellite Initiative} e na \textit{wikipage} do projeto é disponibilizado um \textit{link} para uma \textit{data base} que contém dados de diversos testes de radiação realizados na \textit{NASA Goddard Space Flight Center}.\textsuperscript{\cite{OSSI}}\textsuperscript{\cite{OSSI2}}\textsuperscript{\cite{OSSI3}}
+	
+	Nessa \textit{data base} foram encontrados alguns conversores que poderiam ser utilizados no desenvolvimento do projeto, como por exemplo o \textit{Buck} TPS50601-SP da \textit{Texas Instruments}. Porém devido ao alto custo dos componentes presentes nessa lista o componente não foi uma solução viável ao projeto.
+	
+	Reiniciada a etapa de pesquisas, foi encontrado o \textit{WEBENCH Design Center}, que um software online da \textit{Texas Instruments}, no qual é possível inserir os parâmetros que deseja de um conversosr, como tensão de entrada e tensão de saída, e o software consulta sua \textit{data base} para encontrar o conversor conforme especificado e ainda reproduz o circuito de \textit{datasheet} da aplicação. Através do auxilio do \textit{WEBENCH Design Center}, foram identificados os seguintes conversores LM3488 (\textit{boost}) e o TPS563200 (\textit{buck}).
+	
+	Para a definição do conversor \textit{backup}, foi pesquisado um único conversor com diversas saídas, dessa forma apenas um circuito integrado seria capaz de devolver as tensões de 3,3V, 5V e 12V. A princípio foram encontrados algumas opções desses conversores com múltiplas saídas, porém todos os encontrados eram de 4 saídas. Após uma busca mais criteriosa, foi encontrado na \textit{Linear Technology} o LT1941 que possui as três saídas desejadas, sendo uma saída \textit{Boost} e duas saídas \textit{Buck}. Com a ajuda do \textit{LTspice IV}, software da própria \textit{Linear}, foi possível trabalhar em cima do \textit{application note} do \textit{datasheet} do componente para poder adaptá-lo as necessidades do projeto do Sistema de Gerenciamento de Energia para \textit{CubeSats}.
+	
+	
+
 
 \subsection[Lista de componentes]{Lista de componentes}
 
