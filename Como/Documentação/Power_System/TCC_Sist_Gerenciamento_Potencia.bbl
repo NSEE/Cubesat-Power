@@ -57,13 +57,6 @@ Campos dos Goytacazes, 2014. Dispon{\'\i}vel em:
 São José dos Campos, 2014. Dispon{\'\i}vel em:
   \url{http://www.ita.br/noticias/itasat1}. Acesso em: 09 out. 2014.}
 
-\bibitem{Diag_Blocos}
-\abntrefinfo{Conhecimento computador}{CONHECIMENTO COMPUTADOR}{}
-{CONHECIMENTO COMPUTADOR. \emph{O que é um diagrama de blocos?}
-[S.l.]. Dispon{\'\i}vel em:
-  \url{http://pt.wingwit.com/Software/desktop-publishing/119110.html\#.Vck1-\_lViko}.
-  Acesso em: 10 de ago. de 2015.}
-
 \bibitem{LEO}
 \abntrefinfo{THE TECH}{THE TECH}{2014}
 {THE TECH. \emph{Low Earth Orbit}.
@@ -78,19 +71,19 @@ São José dos Campos, 2014. Dispon{\'\i}vel em:
   \url{http://www.space.com/29222-geosynchronous-orbit.html}. Acesso em: 27 de
   jun. de 2015.}
 
-\bibitem{CAP}
-\abntrefinfo{CIVIL AIR PATROL}{CIVIL AIR PATROL}{2015}
-{CIVIL AIR PATROL. \emph{Satellites}.
-[S.l.], 2015. Dispon{\'\i}vel em:
-  \url{http://www.cap-ny153.org/satellites.htm}. Acesso em: 05 de jun. de
-  2015.}
-
 \bibitem{NASA2}
 \abntrefinfo{NASA}{NASA}{2014}
 {NASA. \emph{Rocket Aerodynamics}.
 Washington, D.C, 2014. Dispon{\'\i}vel em:
   \url{http://microgravity.grc.nasa.gov/education/rocket/rktaero.html}. Acesso
   em: 23 de nov. de 2014.}
+
+\bibitem{CAP}
+\abntrefinfo{CIVIL AIR PATROL}{CIVIL AIR PATROL}{2015}
+{CIVIL AIR PATROL. \emph{Satellites}.
+[S.l.], 2015. Dispon{\'\i}vel em:
+  \url{http://www.cap-ny153.org/satellites.htm}. Acesso em: 05 de jun. de
+  2015.}
 
 \bibitem{sta}
 \abntrefinfo{STA ELETRÔNICA}{STA ELETRÔNICA}{2010}
@@ -184,11 +177,6 @@ Heilbronn, 2015. Dispon{\'\i}vel em:
 {AZURSPACE SOLAR POWER GMBH. \emph{3G30C - Advanced}.
 Heilbronn, 2015.}
 
-\bibitem{TrisolX}
-\abntrefinfo{TrisolX}{TRISOLX}{2015}
-{TRISOLX. \emph{TrisolX Solar Wings}.
-Nova Iorque, 2015.}
-
 \bibitem{Passivo}
 \abntrefinfo{NOVA ELETRÔNICA}{NOVA ELETRÔNICA}{2015}
 {NOVA ELETRÔNICA. \emph{O que são componentes passivos}.
@@ -202,6 +190,13 @@ Nova Iorque, 2015.}
 [S.l.], 2015. Dispon{\'\i}vel em:
   \url{http://www.py2bbs.qsl.br/capacitores.php}. Acesso em: 08 de jul. de
   2015.}
+
+\bibitem{esr}
+\abntrefinfo{JÚLIO}{JÚLIO}{2010}
+{JÚLIO. \emph{O que é ESR de um capacitor?}
+Santa Bárbara, 2010. Dispon{\'\i}vel em:
+  \url{http://www.te1.com.br/2010/10/o-que-e-esr-de-um-capacitor/}. Acesso em:
+  05 de out. de 2015.}
 
 \bibitem{y5v}
 \abntrefinfo{Johanson Dielectrics}{JOHANSON DIELECTRICS}{2015}
@@ -224,6 +219,13 @@ Nova Iorque, 2015.}
   \url{http://www.infoescola.com/fisica/semicondutores/}. Acesso em: 24 de jul.
   de 2015.}
 
+\bibitem{carregador}
+\abntrefinfo{Instituto Newton C. Braga}{INSTITUTO NEWTON C. BRAGA}{2014}
+{INSTITUTO NEWTON C. BRAGA. \emph{Como funcionam os carregadores de baterias}.
+[S.l.], 2014. Dispon{\'\i}vel em:
+  \url{http://www.newtoncbraga.com.br/index.php/como-funciona/2630-art448?showall=1&limitstart=}.
+  Acesso em: 05 de out. de 2015.}
+
 \bibitem{semicondutores3}
 \abntrefinfo{Barbi e Martins}{BARBI; MARTINS}{2000}
 {BARBI, I.; MARTINS, D.~C. \emph{Conversores CC-CC básicos não isolados}.
@@ -234,6 +236,18 @@ Florianópolis, 2000.}
 {PETRY, C.~A. \emph{Introdução aos Conversores CC-CC}.
 Florianópolis, 2001. Dispon{\'\i}vel em:
   \url{http://www.professorpetry.com.br/Bases\_Dados/Apostilas\_Tutoriais/Introducao\_Conversores\_CC\_CC.pdf}.}
+
+\bibitem{Diag_Blocos}
+\abntrefinfo{Conhecimento computador}{CONHECIMENTO COMPUTADOR}{}
+{CONHECIMENTO COMPUTADOR. \emph{O que é um diagrama de blocos?}
+[S.l.]. Dispon{\'\i}vel em:
+  \url{http://pt.wingwit.com/Software/desktop-publishing/119110.html\#.Vck1-\_lViko}.
+  Acesso em: 10 de ago. de 2015.}
+
+\bibitem{TrisolX}
+\abntrefinfo{TrisolX}{TRISOLX}{2015}
+{TRISOLX. \emph{TrisolX Solar Wings}.
+Nova Iorque, 2015.}
 
 \bibitem{OSSI}
 \abntrefinfo{Open Source Satellite Initiative}{OPEN SOURCE SATELLITE
