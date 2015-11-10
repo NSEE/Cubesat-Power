@@ -435,7 +435,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 % ----------------------------------------------------------
 % REFERENCIAL TEÓRICO
 % ----------------------------------------------------------
-\chapter[Referencial Teórico]{Referencial Teórico} \label{Cap_Teorico}
+\chapter[Referencial teórico]{Referencial teórico} \label{Cap_Teorico}
 
 	Os \textit{CubeSats} (acrônimo das palavras em inglês: \textit{Cube} e \textit{Satellite} ou Cubo e Satélite, em português), atualmente, estão ganhando grande atenção acadêmica ao redor mundo, o que está contribuindo para a difusão do conhecimento e da tecnologia aeroespacial. A seguir será apresentado a definição de um \textit{CubeSat}, assim como as suas principais características de projeto, o seu surgimento e uma breve análise dos projetos brasileiros. 
 
@@ -1090,7 +1090,7 @@ Elementos semicondutores são os elementos químicos que possuem na sua camada d
 % ----------------------------------------------------------
 % Materiais e Método
 % ----------------------------------------------------------
-\chapter[Materiais e Método]{Materiais e Método}
+\chapter[Materiais e método]{Materiais e método}
 
 	Após a realização dos estudos apresentados no Capítulo \ref{Cap_Teorico}, a seleção dos materiais e dos métodos utilizados para o desenvolvimento do projeto se tornam mais amigáveis. 
 	
@@ -1407,8 +1407,93 @@ Elementos semicondutores são os elementos químicos que possuem na sua camada d
 % ----------------------------------------------------------
 \chapter[Protótipo]{Protótipo}
 
+\section[Desenvolvimento de hardware]{Desenvolvimento de \textit{hardware}}
+
 desenvolvimento de hardware
+
+\section[Desenvolvimento de software]{Desenvolvimento de \textit{software}}
+
 desenvolvimento de software
+
+\section[Simulador de falhas e Simulink]{Simulador de falhas e \textit{Simulink}}
+
+	Com o intuito de validar a solução proposta, foi desenvolvido um simulador de falhas e criado no ambiente do \textit{simulink} uma interface onde é possível visualizar o funcionamento do Sistema de Gerenciamento de Energia para \textit{CubeSats}.
+	
+\subsection[Simulador de falhas]{Simulador de falhas}
+
+	O simulador de falhas é um \textit{hardware} que foi desenvolvido para poder realizar a validação do conjunto de redundância proposto. Esse \textit{hardware} contém quatro chaves do modelo \textit{ON/OFF}, conforme visualizado na Figura \ref{Fig_Simulador}.
+	
+	\begin{figure}[th]
+		\caption{SIMULADOR DE FALHAS}
+		\label{Fig_Simulador}
+		\centering
+		\includegraphics[width=0.5\linewidth]{./figs/Simulador}
+			
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}		
+	\end{figure}
+	\pagebreak
+
+	Para que os conversores utilizados estejam em estado de operação é preciso ter uma tensão de 5V nos pinos de \textit{enable} dos circuitos integrados utilizados. Dessa forma as chaves \textit{ON/OFF} do simulador de falhas foram conectadas diretamente nesses pinos de \textit{enable}, conforme Figura \ref{Fig_Simulador_Enable}.
+		
+	\begin{figure}[th]
+		\caption{CONEXÕES DO SIMULADOR DE FALHAS}
+		\label{Fig_Simulador_Enable}
+		\centering
+		\includegraphics[width=0.5\linewidth]{./figs/simulador_conexao}
+			
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}		
+	\end{figure}
+	
+	Como o circuito foi projetado para que os conversores principais (placa de controle) estejam sempre com tensões pouco acima das tensões do conversor \textit{backup} (placa do carregador), as chaves ideais (TLC4412) estão sempre chaveadas para que sempre a placa de controle esteja fornecendo as tensões no barramento de saída. Sabendo que os conversores necessitam de 5V para estarem ligados, para poder simular as falhas basta deixar o pino de \textit{enable} em aberto, dessa maneira é possível garantir a ausência da alimentação no circuito integrado, desligando o mesmo.
+	
+	O simulador de falhas tem como principio de funcionamento desligar os conversores principais, ou seja, retirar a tensão de 5V dos pinos de \textit{enable} deles, fazendo que a chave ideal identifique que a tensão do conversor \textit{backup} seja maior do que a tensão do conversor principal, assim ela realiza o chaveamento para que o \textit{backup} forneça a tensão no barramento de saída.
+	
+	São dois os estados possíveis do simulador de falhas:
+	
+	\begin{itemize}
+		\item[\textbf{\textit{ON}}] indica que a falha está ativa;
+		\item[\textbf{\textit{OFF}}] indica que a falha está desativa. 
+	\end{itemize}
+	
+	Na Tabela \ref{Tab_Simulador} é possível visualizar os estados de falha e a fonte responsável pela alimentação do barramento de saída.
+	
+	\begin{table}[th]
+	\caption{SIMULAÇÃO DE FALHAS}
+	\label{Tab_Simulador}
+	\centering
+		\begin{tabular}{p{1.5cm}|p{1.5cm}|p{5.5cm}}
+			\textbf{Tensão} & \textbf{Falha} & \textbf{Barramento}\\
+			\hline
+			12V & \textit{OFF} & Conversor principal \\
+			12V & \textit{ON} & Conversor \textit{backup} \\
+			5V & \textit{OFF} & Conversor principal \\
+			5V & \textit{ON} & Conversor \textit{backup} \\
+			3V3 & \textit{OFF} & Conversor principal \\
+			3V3 & \textit{ON} & Conversor \textit{backup} \\
+			VCC & \textit{OFF} & Conversor principal dedicado \\
+			VCC & \textit{ON} & Tensão do barramento \\
+		\end{tabular}	
+	
+	\begin{small}
+	\vspace{3pt}
+		FONTE: Elaborada pelos autores.
+	\end{small}
+	\end{table}
+	\pagebreak
+	
+	Com o objetivo de facilitar o monitoramento das simulações de falha foi criado no ambiente \textit{Simulink} uma interface de testes.
+	
+\subsection[Simulink]{\textit{Simulink}}
+
+
+% ----------------------------------------------------------
+% RESULTADOS E DISCUSSÕES
+% ----------------------------------------------------------
+\chapter[Resultados e discussões]{Resultados e discussões}
 
 \section[Ensaios possíveis]{Ensaios possíveis}
 	
@@ -1483,12 +1568,6 @@ desenvolvimento de software
 	\end{figure}
 	
 \subsection[Avaliação dos ensaios]{Avaliação dos ensaios}
-
-% ----------------------------------------------------------
-% RESULTADOS E DISCUSSÕES
-% ----------------------------------------------------------
-\chapter[Resultados e discussões]{Resultados e discussões}
-
 % ----------------------------------------------------------
 % PLANO DE MARKETING
 % ----------------------------------------------------------

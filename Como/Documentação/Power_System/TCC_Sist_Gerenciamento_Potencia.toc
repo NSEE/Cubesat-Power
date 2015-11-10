@@ -9,7 +9,7 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{14}{chapter.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{16}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial te\IeC {\'o}rico}}{16}{chapter.2}
 \contentsline {section}{\numberline {2.1}CubeSat}{16}{section.2.1}
 \contentsline {section}{\numberline {2.2}Surgimento}{17}{section.2.2}
 \contentsline {section}{\numberline {2.3}No Brasil}{17}{section.2.3}
@@ -30,7 +30,7 @@
 \contentsline {subsection}{\numberline {2.8.3}Conversor Buck}{35}{subsection.2.8.3}
 \contentsline {subsection}{\numberline {2.8.4}Conversor Boost}{36}{subsection.2.8.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Materiais e M\IeC {\'e}todo}}{38}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Materiais e m\IeC {\'e}todo}}{38}{chapter.3}
 \contentsline {section}{\numberline {3.1}Topologia}{38}{section.3.1}
 \contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o dos componentes}{41}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Bateria}{41}{subsection.3.2.1}
@@ -40,34 +40,39 @@
 \contentsline {subsection}{\numberline {3.2.5}Lista de componentes}{46}{subsection.3.2.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Prot\IeC {\'o}tipo}}{47}{chapter.4}
-\contentsline {section}{\numberline {4.1}Ensaios poss\IeC {\'\i }veis}{47}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Valida\IeC {\c c}\IeC {\~a}o dos subconjuntos}{47}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Ensaio de radia\IeC {\c c}\IeC {\~a}o}{48}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Ensaio t\IeC {\'e}rmico}{48}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Ensaio de v\IeC {\'a}cuo}{49}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Ensaio de termov\IeC {\'a}cuo}{49}{subsection.4.1.5}
-\contentsline {subsection}{\numberline {4.1.6}Avalia\IeC {\c c}\IeC {\~a}o dos ensaios}{50}{subsection.4.1.6}
+\contentsline {section}{\numberline {4.1}Desenvolvimento de hardware}{47}{section.4.1}
+\contentsline {section}{\numberline {4.2}Desenvolvimento de software}{47}{section.4.2}
+\contentsline {section}{\numberline {4.3}Simulador de falhas e Simulink}{47}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Simulador de falhas}{47}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Simulink}{49}{subsection.4.3.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados e discuss\IeC {\~o}es}}{51}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados e discuss\IeC {\~o}es}}{50}{chapter.5}
+\contentsline {section}{\numberline {5.1}Ensaios poss\IeC {\'\i }veis}{50}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Valida\IeC {\c c}\IeC {\~a}o dos subconjuntos}{50}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Ensaio de radia\IeC {\c c}\IeC {\~a}o}{51}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Ensaio t\IeC {\'e}rmico}{51}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Ensaio de v\IeC {\'a}cuo}{52}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Ensaio de termov\IeC {\'a}cuo}{52}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}Avalia\IeC {\c c}\IeC {\~a}o dos ensaios}{53}{subsection.5.1.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~o}es}}{52}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~o}es}}{54}{chapter.6}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{53}{section*.13}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{55}{section*.13}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{57}{section*.14}
+\contentsline {part}{\uppercase {Anexos}}{59}{section*.14}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Or\IeC {\c c}amento dos componentes da Farnell}}{58}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Or\IeC {\c c}amento dos componentes da Farnell}}{60}{appendix.anexochapback.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Relat\IeC {\'o}rio de teste do TMP36}}{61}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Relat\IeC {\'o}rio de teste do TMP36}}{63}{appendix.anexochapback.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Relat\IeC {\'o}rio de teste do LMP2012}}{64}{appendix.anexochapback.3}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Relat\IeC {\'o}rio de teste do LMP2012}}{66}{appendix.anexochapback.3}
 \vspace {\cftbeforechapterskip }
