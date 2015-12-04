@@ -1,34 +1,75 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces MODELO DE UM \textit {CUBESAT} DE 1U}}{16}{figure.2.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces ESTRUTURA DO CUBESAT PROPOSTA PELO NSEE-IMT}}{17}{figure.2.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces PRINCIPAIS TIPOS DE \IeC {\'O}RBITAS}}{19}{figure.2.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces PRINC\IeC {\'I}PIO DE FUNCIONAMENTO DA BATERIA DE \IeC {\'I}ON-L\IeC {\'I}TIO}}{21}{figure.2.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces INCID\IeC {\^E}NCIA DE LUZ SOLAR}}{22}{figure.2.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces COMPARATIVO DOS MODELOS DAS FOTOC\IeC {\'E}LULAS}}{23}{figure.2.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces COMPARATIVO DE EFICI\IeC {\^E}NCIA DAS FOTOC\IeC {\'E}LULAS}}{23}{figure.2.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces COMPARATIVO DE POT\IeC {\^E}NCIA DAS FOTOC\IeC {\'E}LULAS}}{24}{figure.2.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces ESQUEMA DE UMA C\IeC {\'E}LULA MULTIJUN\IeC {\c C}\IeC {\~A}O E SEU ESPECTRO}}{25}{figure.2.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces COMPARATIVO DE DIMENS\IeC {\~A}O DAS FOTOC\IeC {\'E}LULAS}}{25}{figure.2.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces PRINC\IeC {\'I}PIO DE FUNCIONAMENTO DE UMA FOTOC\IeC {\'E}LULA}}{26}{figure.2.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces FOTOC\IeC {\'E}LULAS DA \textit {VIS TECHNOLOGY}}}{27}{figure.2.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces MODELO DE FOTOC\IeC {\'E}LULA DA \textit {SPECTROLAB}}}{28}{figure.2.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces MODELO DE FOTOC\IeC {\'E}LULA DA \textit {EMCORE}}}{29}{figure.2.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces MODELO DE FOTOC\IeC {\'E}LULA DA \textit {AZURSPACE}}}{30}{figure.2.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces VARIA\IeC {\c C}\IeC {\~A}O DE TEMPERATURA E ALTITUDE}}{31}{figure.2.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces COEFICIENTES DE TEMPERATURA DOS CAPACITORES CER\IeC {\^A}MICOS}}{31}{figure.2.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces VARIA\IeC {\c C}\IeC {\~A}O DA CAPACIT\IeC {\^A}NCIA EM FUN\IeC {\c C}\IeC {\~A}O DA TEMPERATURA}}{32}{figure.2.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces BANDAS DE ENERGIA DE UM SEMICONDUTOR}}{33}{figure.2.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces CARREGADOR SIMPLES DE BATERIA}}{33}{figure.2.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces CURVA DE CARREGAMENTO INTELIGENTE}}{34}{figure.2.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces EXEMPLO DE MONITORAMENTO DE CARGA}}{35}{figure.2.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces CONVERSOR \textit {BUCK}}}{37}{figure.2.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces CONVERSOR \textit {BOOST}}}{38}{figure.2.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces DIAGRAMA DE BLOCOS}}{40}{figure.3.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces VERS\IeC {\~A}O INICIAL DO DIAGRAMA DE BLOCOS}}{41}{figure.3.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces BATERIA DE \IeC {\'I}ON-L\IeC {\'I}TIO SELECIONADA}}{43}{figure.3.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces MODELO DE FOTOC\IeC {\'E}LULA DA \textit {TRISOLX}}}{44}{figure.3.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces SIMULADOR DE FALHAS}}{48}{figure.4.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces CONEX\IeC {\~O}ES DO SIMULADOR DE FALHAS}}{49}{figure.4.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces CIRCUITOS DOS SUBCONJUNTOS DO SISTEMA}}{52}{figure.5.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces C\IeC {\^A}MERA DE TERMOC\IeC {\'A}CUO}}{54}{figure.5.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces CURVA DE PRESS\IeC {\~A}O NO \textit {LABVIEW}}}{55}{figure.5.33}
+\contentsline {figure}{\numberline {1}{\ignorespaces MODELO DE UM \textit {CUBESAT} DE 1U}}{19}{figure.2.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces ESTRUTURA DO CUBESAT PROPOSTA PELO NSEE-IMT}}{20}{figure.2.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces PRINCIPAIS TIPOS DE \IeC {\'O}RBITAS}}{22}{figure.2.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces PRINC\IeC {\'I}PIO DE FUNCIONAMENTO DA BATERIA DE \IeC {\'I}ON-L\IeC {\'I}TIO}}{24}{figure.2.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces INCID\IeC {\^E}NCIA DE LUZ SOLAR}}{25}{figure.2.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces COMPARATIVO DOS MODELOS DAS FOTOC\IeC {\'E}LULAS}}{26}{figure.2.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces COMPARATIVO DE EFICI\IeC {\^E}NCIA DAS FOTOC\IeC {\'E}LULAS}}{26}{figure.2.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces COMPARATIVO DE POT\IeC {\^E}NCIA DAS FOTOC\IeC {\'E}LULAS}}{27}{figure.2.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces ESQUEMA DE UMA C\IeC {\'E}LULA MULTIJUN\IeC {\c C}\IeC {\~A}O E SEU ESPECTRO}}{27}{figure.2.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces COMPARATIVO DE DIMENS\IeC {\~A}O DAS FOTOC\IeC {\'E}LULAS}}{28}{figure.2.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces PRINC\IeC {\'I}PIO DE FUNCIONAMENTO DE UMA FOTOC\IeC {\'E}LULA}}{28}{figure.2.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces FOTOC\IeC {\'E}LULAS DA \textit {VIS TECHNOLOGY}}}{29}{figure.2.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces MODELO DE FOTOC\IeC {\'E}LULA DA \textit {SPECTROLAB}}}{30}{figure.2.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces MODELO DE FOTOC\IeC {\'E}LULA DA \textit {EMCORE}}}{31}{figure.2.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces MODELO DE FOTOC\IeC {\'E}LULA DA \textit {AZURSPACE}}}{32}{figure.2.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces VARIA\IeC {\c C}\IeC {\~A}O DE TEMPERATURA E ALTITUDE}}{33}{figure.2.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces COEFICIENTES DE TEMPERATURA DOS CAPACITORES CER\IeC {\^A}MICOS}}{33}{figure.2.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces VARIA\IeC {\c C}\IeC {\~A}O DA CAPACIT\IeC {\^A}NCIA EM FUN\IeC {\c C}\IeC {\~A}O DA TEMPERATURA}}{34}{figure.2.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces BANDAS DE ENERGIA DE UM SEMICONDUTOR}}{35}{figure.2.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces CARREGADOR SIMPLES DE BATERIA}}{36}{figure.2.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces CURVA DE CARREGAMENTO INTELIGENTE}}{37}{figure.2.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces CONVERSOR \textit {BUCK}}}{39}{figure.2.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces CONVERSOR \textit {BOOST}}}{40}{figure.2.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces DIAGRAMA DE BLOCOS}}{42}{figure.3.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces VERS\IeC {\~A}O INICIAL DO DIAGRAMA DE BLOCOS}}{43}{figure.3.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces BATERIA DE \IeC {\'I}ON-L\IeC {\'I}TIO SELECIONADA}}{45}{figure.3.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces MODELO DE FOTOC\IeC {\'E}LULA DA \textit {TRISOLX}}}{46}{figure.3.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces CIRCUITO EL\IeC {\'E}TRICO PAINEL SOLAR}}{51}{figure.3.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces \textit {LAYOUT} DO PAINEL SOLAR}}{51}{figure.3.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces PAINEL SOLAR FINALIZADO}}{52}{figure.3.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces ESQUEMA DO \textit {SETUP} DE VALIDA\IeC {\c C}\IeC {\~A}O DO PAINEL SOLAR}}{53}{figure.3.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces CIRCUITO EL\IeC {\'E}TRICO DO CONVERSOR \textit {BACKUP}}}{54}{figure.3.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces \textit {LAYOUT} DETALHADO DA PLACA DO CARREGADOR}}{55}{figure.3.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces PLACA DO CARREGADOR FINALIZADA}}{55}{figure.3.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces CIRCUITO EL\IeC {\'E}TRICO DA CHAVE IDEAL}}{56}{figure.3.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces \textit {LAYOUT} DA PLACA DE CONTROLE}}{57}{figure.3.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces PLACA DE CONTROLE FINALIZADA - VISTA SUPERIOR}}{57}{figure.3.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces PLACA DE CONTROLE FINALIZADA - VISTA INFERIOR}}{58}{figure.3.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces ESQUEMA DE TESTES DA PLACA DE CONTROLE}}{58}{figure.3.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces \textit {SETUP} DE TESTES DA PLACA DE CONTROLE}}{59}{figure.3.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces CIRCUITO DE TESTES DA PLACA DE CONTROLE}}{60}{figure.3.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces FLUXOGRAMA GERAL DO \textit {SOFTWARE}}}{61}{figure.3.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces FLUXOGRAMA DETALHADO DO \textit {SOFTWARE}}}{63}{figure.3.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces SIMULADOR DE FALHAS}}{65}{figure.3.44}
+\contentsline {figure}{\numberline {45}{\ignorespaces CONEX\IeC {\~O}ES DO SIMULADOR DE FALHAS}}{66}{figure.3.45}
+\contentsline {figure}{\numberline {46}{\ignorespaces INTERFACE CRIADA NO \textit {SIMULINK}}}{67}{figure.3.46}
+\contentsline {figure}{\numberline {47}{\ignorespaces MONITORAMENTO DO BARRAMENTO DE SA\IeC {\'I}DA}}{69}{figure.3.47}
+\contentsline {figure}{\numberline {48}{\ignorespaces MONITORAMENTO DAS FONTES DE 3,3V}}{69}{figure.3.48}
+\contentsline {figure}{\numberline {49}{\ignorespaces VERIFICA\IeC {\c C}\IeC {\~A}O DA TENS\IeC {\~A}O NO BARRAMENTO DURANTE CHAVEAMENTO DA FONTE}}{70}{figure.3.49}
+\contentsline {figure}{\numberline {50}{\ignorespaces COMPARATIVO DOS RESULTADOS PR\IeC {\'A}TICOS E DE \textit {DATASHEET}}}{71}{figure.4.50}
+\contentsline {figure}{\numberline {51}{\ignorespaces ENSAIO DO CONJUNTO DE FOTOC\IeC {\'E}LULAS}}{72}{figure.4.51}
+\contentsline {figure}{\numberline {52}{\ignorespaces RENDIMENTO APRESENTADO PELO CONVERSOR 5V}}{73}{figure.4.52}
+\contentsline {figure}{\numberline {53}{\ignorespaces RENDIMENTO APRESENTADO PELO CONVERSOR 12V}}{73}{figure.4.53}
+\contentsline {figure}{\numberline {54}{\ignorespaces RENDIMENTO APRESENTADO PELA CHAVE IDEAL DO 5V}}{74}{figure.4.54}
+\contentsline {figure}{\numberline {55}{\ignorespaces \textit {CUBESAT} MAU\IeC {\'A}}}{75}{figure.4.55}
+\contentsline {figure}{\numberline {56}{\ignorespaces FORNO DE REFUS\IeC {\~A}O \textit {PROTOFLOW E}}}{86}{figure.B.56}
+\contentsline {figure}{\numberline {57}{\ignorespaces PROCESSO DE ESTANHAMENTO DOS \textit {PADS} DAS FOTOC\IeC {\'E}LULAS}}{86}{figure.B.57}
+\contentsline {figure}{\numberline {58}{\ignorespaces CURVA DE TEMPERATURA DO PROCESSO DE SOLDAGEM}}{87}{figure.B.58}
+\contentsline {figure}{\numberline {59}{\ignorespaces PAINEL SOLAR EM PROCESSO DE SOLDAGEM}}{87}{figure.B.59}
+\contentsline {figure}{\numberline {60}{\ignorespaces PROCESSO DE RESFRIAMENTO DO PAINEL SOLAR}}{88}{figure.B.60}
+\contentsline {figure}{\numberline {61}{\ignorespaces \textit {LAYOUT} DA PLACA DO CARREGADOR}}{89}{figure.C.61}
+\contentsline {figure}{\numberline {62}{\ignorespaces \textit {LAYOUT} DA PLACA DE CONTROLE}}{90}{figure.D.62}
+\contentsline {figure}{\numberline {63}{\ignorespaces PONTOS DE TESTE DA PLACA DE CONTROLE}}{91}{figure.E.63}
+\contentsline {figure}{\numberline {64}{\ignorespaces RESULTADOS OBTIDOS NO PAINEL SOLAR}}{94}{figure.G.64}
+\contentsline {figure}{\numberline {65}{\ignorespaces RESULTADOS OBTIDOS NO CONVERSOR DE 5V}}{95}{figure.H.65}
+\contentsline {figure}{\numberline {66}{\ignorespaces RESULTADOS OBTIDOS NO CONVERSOR DE 5V}}{95}{figure.H.66}
+\contentsline {figure}{\numberline {67}{\ignorespaces RESULTADOS OBTIDOS NO CONVERSOR DE 5V}}{96}{figure.H.67}
+\contentsline {figure}{\numberline {68}{\ignorespaces RESULTADOS OBTIDOS NO CONVERSOR DE 12V}}{97}{figure.I.68}
+\contentsline {figure}{\numberline {69}{\ignorespaces RESULTADOS OBTIDOS NO CONVERSOR DE 12V}}{97}{figure.I.69}
+\contentsline {figure}{\numberline {70}{\ignorespaces RESULTADOS OBTIDOS NO CONVERSOR DE 12V}}{98}{figure.I.70}
+\contentsline {figure}{\numberline {71}{\ignorespaces RESULTADOS OBTIDOS NA CHAVE IDEAL DO 5V}}{99}{figure.J.71}
+\contentsline {figure}{\numberline {72}{\ignorespaces RESULTADOS OBTIDOS NA CHAVE IDEAL DO 5V}}{99}{figure.J.72}
+\contentsline {figure}{\numberline {73}{\ignorespaces C\IeC {\^A}MERA DE TERMOC\IeC {\'A}CUO}}{101}{figure.K.73}
+\contentsline {figure}{\numberline {74}{\ignorespaces CURVA DE PRESS\IeC {\~A}O NO \textit {LABVIEW}}}{101}{figure.K.74}

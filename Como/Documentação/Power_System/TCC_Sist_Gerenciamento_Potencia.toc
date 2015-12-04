@@ -7,72 +7,116 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{14}{chapter.1}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{17}{chapter.1}
+\contentsline {section}{\numberline {1.1}Objetivo}{17}{section.1.1}
+\contentsline {section}{\numberline {1.2}Motiva\IeC {\c c}\IeC {\~a}o}{18}{section.1.2}
+\contentsline {section}{\numberline {1.3}Estrutura do texto}{18}{section.1.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial te\IeC {\'o}rico}}{16}{chapter.2}
-\contentsline {section}{\numberline {2.1}CubeSat}{16}{section.2.1}
-\contentsline {section}{\numberline {2.2}Surgimento}{17}{section.2.2}
-\contentsline {section}{\numberline {2.3}No Brasil}{17}{section.2.3}
-\contentsline {section}{\numberline {2.4}Caracter\IeC {\'\i }sticas do meio}{18}{section.2.4}
-\contentsline {section}{\numberline {2.5}Bateria}{19}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Princ\IeC {\'\i }pio de funcionamento}{21}{subsection.2.5.1}
-\contentsline {section}{\numberline {2.6}Fotoc\IeC {\'e}lulas}{22}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Comparativo das tecnologias}{23}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Princ\IeC {\'\i }pio de funcionamento}{25}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}VIS Technology}{26}{subsection.2.6.3}
-\contentsline {subsection}{\numberline {2.6.4}SpectroLab}{27}{subsection.2.6.4}
-\contentsline {subsection}{\numberline {2.6.5}Emcore}{28}{subsection.2.6.5}
-\contentsline {subsection}{\numberline {2.6.6}AzurSpace}{29}{subsection.2.6.6}
-\contentsline {section}{\numberline {2.7}Componentes passivos}{30}{section.2.7}
-\contentsline {section}{\numberline {2.8}Semicondutores}{32}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Carregador de bateria}{33}{subsection.2.8.1}
-\contentsline {subsection}{\numberline {2.8.2}Conversores CC-CC}{36}{subsection.2.8.2}
-\contentsline {subsection}{\numberline {2.8.3}Conversor Buck}{37}{subsection.2.8.3}
-\contentsline {subsection}{\numberline {2.8.4}Conversor Boost}{38}{subsection.2.8.4}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial te\IeC {\'o}rico}}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}CubeSat}{19}{section.2.1}
+\contentsline {section}{\numberline {2.2}Surgimento}{20}{section.2.2}
+\contentsline {section}{\numberline {2.3}No Brasil}{20}{section.2.3}
+\contentsline {section}{\numberline {2.4}Caracter\IeC {\'\i }sticas do meio}{21}{section.2.4}
+\contentsline {section}{\numberline {2.5}Bateria}{22}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Princ\IeC {\'\i }pio de funcionamento}{24}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.6}Fotoc\IeC {\'e}lulas}{25}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Comparativo das tecnologias}{26}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Princ\IeC {\'\i }pio de funcionamento}{28}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}VIS Technology}{29}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}SpectroLab}{30}{subsection.2.6.4}
+\contentsline {subsection}{\numberline {2.6.5}Emcore}{30}{subsection.2.6.5}
+\contentsline {subsection}{\numberline {2.6.6}AzurSpace}{31}{subsection.2.6.6}
+\contentsline {section}{\numberline {2.7}Componentes passivos}{32}{section.2.7}
+\contentsline {section}{\numberline {2.8}Semicondutores}{34}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Carregador de bateria}{35}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Conversores CC-CC}{38}{subsection.2.8.2}
+\contentsline {subsection}{\numberline {2.8.3}Conversor Buck}{38}{subsection.2.8.3}
+\contentsline {subsection}{\numberline {2.8.4}Conversor Boost}{39}{subsection.2.8.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Materiais e m\IeC {\'e}todo}}{39}{chapter.3}
-\contentsline {section}{\numberline {3.1}Topologia}{39}{section.3.1}
-\contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o dos componentes}{42}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Bateria}{42}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Fotoc\IeC {\'e}lulas}{43}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Componentes passivos}{44}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Semicondutores}{46}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Lista de componentes}{47}{subsection.3.2.5}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Materiais e m\IeC {\'e}todo}}{41}{chapter.3}
+\contentsline {section}{\numberline {3.1}Topologia}{41}{section.3.1}
+\contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o dos componentes}{44}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Bateria}{44}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Fotoc\IeC {\'e}lulas}{45}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Componentes passivos}{46}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Semicondutores}{48}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Lista de componentes}{49}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Desenvolvimento de hardware}{50}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Painel Solar}{50}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Placa do carregador}{54}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Placa de controle}{56}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Desenvolvimento de software}{60}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Fluxograma geral do software}{61}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Fluxograma detalhado do software}{62}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Protocolo de comunica\IeC {\c c}\IeC {\~a}o serial}{64}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Simulador de falhas e Simulink}{65}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Simulador de falhas}{65}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Simulink}{67}{subsection.3.5.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Prot\IeC {\'o}tipo}}{48}{chapter.4}
-\contentsline {section}{\numberline {4.1}Desenvolvimento de hardware}{48}{section.4.1}
-\contentsline {section}{\numberline {4.2}Desenvolvimento de software}{48}{section.4.2}
-\contentsline {section}{\numberline {4.3}Simulador de falhas e Simulink}{48}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Simulador de falhas}{48}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Simulink}{50}{subsection.4.3.2}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados e discuss\IeC {\~o}es}}{71}{chapter.4}
+\contentsline {section}{\numberline {4.1}Ensaios realizados}{71}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Ensaio individual de fotoc\IeC {\'e}lula}{71}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Ensaio do conjunto de fotoc\IeC {\'e}lulas}{72}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Ensaio do conversor principal de 5V}{72}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Ensaio do conversor principal de 12V}{73}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Chave ideal do 5V}{74}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}Prot\IeC {\'o}tipo}{75}{section.4.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados e discuss\IeC {\~o}es}}{52}{chapter.5}
-\contentsline {section}{\numberline {5.1}Ensaios poss\IeC {\'\i }veis}{52}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Valida\IeC {\c c}\IeC {\~a}o dos subconjuntos}{52}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Ensaio de radia\IeC {\c c}\IeC {\~a}o}{53}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Ensaio t\IeC {\'e}rmico}{53}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Ensaio de v\IeC {\'a}cuo}{54}{subsection.5.1.4}
-\contentsline {subsection}{\numberline {5.1.5}Ensaio de termov\IeC {\'a}cuo}{54}{subsection.5.1.5}
-\contentsline {subsection}{\numberline {5.1.6}Avalia\IeC {\c c}\IeC {\~a}o dos ensaios}{55}{subsection.5.1.6}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~o}es}}{56}{chapter.6}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~o}es e sugest\IeC {\~o}es para trabalhos futuros}}{76}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conclus\IeC {\~o}es gerais}{76}{section.5.1}
+\contentsline {section}{\numberline {5.2}Sugest\IeC {\~o}es para trabalhos futuros}{77}{section.5.2}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{57}{section*.13}
-\cftinsert {AAA}
-\renewcommand *{\cftappendixname }{ANEXO \space }
+\contentsline {chapter}{\uppercase {Refer\^encias}}{78}{section*.13}
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{61}{section*.14}
+\contentsline {part}{\uppercase {Ap\^endices}}{82}{section*.14}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Or\IeC {\c c}amento dos componentes da Farnell}}{62}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Or\IeC {\c c}amento dos componentes da Farnell}}{83}{appendix.A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Relat\IeC {\'o}rio de teste do TMP36}}{65}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Forno de refus\IeC {\~a}o ProtoFlow E}}{86}{appendix.B}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Relat\IeC {\'o}rio de teste do LMP2012}}{68}{appendix.anexochapback.3}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Placa do carregador}}{89}{appendix.C}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase {Placa de controle}}{90}{appendix.D}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {E}\MakeTextUppercase {Pontos de teste da placa de controle}}{91}{appendix.E}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {F}\MakeTextUppercase {Protocolo de comunica\IeC {\c c}\IeC {\~a}o}}{92}{appendix.F}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {G}\MakeTextUppercase {Resultados do ensaio realizado no conjunto de fotoc\IeC {\'e}lulas}}{94}{appendix.G}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {H}\MakeTextUppercase {Resultados do ensaio realizado no conversor de 5V}}{95}{appendix.H}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {I}\MakeTextUppercase {Resultados do ensaio realizado no conversor de 12V}}{97}{appendix.I}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {J}\MakeTextUppercase {Resultados do ensaio realizado na chave ideal do 5V}}{99}{appendix.J}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {K}\MakeTextUppercase {Ensaios futuros}}{100}{appendix.K}
+\contentsline {section}{\numberline {K.1}Ensaio de radia\IeC {\c c}\IeC {\~a}o}{100}{section.K.1}
+\contentsline {section}{\numberline {K.2}Ensaio t\IeC {\'e}rmico}{100}{section.K.2}
+\contentsline {section}{\numberline {K.3}Ensaio de v\IeC {\'a}cuo}{100}{section.K.3}
+\contentsline {section}{\numberline {K.4}Ensaio de termov\IeC {\'a}cuo}{100}{section.K.4}
 \vspace {\cftbeforechapterskip }

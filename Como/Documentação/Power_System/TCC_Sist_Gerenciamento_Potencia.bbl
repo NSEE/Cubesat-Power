@@ -3,7 +3,7 @@
 \begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.3 }
+\abntbstabout{v-1.9.5 }
 
 \bibitem{CubeSat}
 \abntrefinfo{MEHRPARVAR e PIGNATELLI}{MEHRPARVAR; PIGNATELLI}{2014}
@@ -240,12 +240,26 @@ Santa Bárbara, 2010. Dispon{\'\i}vel em:
   \url{http://www.smithsonianmag.com/science-nature/absolute-zero-13930448/?no-ist=}.
   Acesso em: 16 de nov. de 2015.}
 
+\bibitem{doutor}
+\abntrefinfo{Fontana}{FONTANA}{2011}
+{FONTANA, E. \emph{ELETROMAGNETISMO - PARTE 1}.
+1. ed. Recife, 2011. Dispon{\'\i}vel em:
+  \url{https://www.ufpe.br/fontana/Eletromagnetismo1/EletromagnetismoWebPart01/mag1cap4.htm}.
+  Acesso em: 17 de nov. de 2015.}
+
 \bibitem{carregador}
 \abntrefinfo{Instituto Newton C. Braga}{INSTITUTO NEWTON C. BRAGA}{2014}
 {INSTITUTO NEWTON C. BRAGA. \emph{Como funcionam os carregadores de baterias}.
 [S.l.], 2014. Dispon{\'\i}vel em:
   \url{http://www.newtoncbraga.com.br/index.php/como-funciona/2630-art448?showall=1&limitstart=}.
   Acesso em: 05 de out. de 2015.}
+
+\bibitem{marine}
+\abntrefinfo{Marine service}{MARINE SERVICE}{2014}
+{MARINE SERVICE. \emph{BTC 600S}.
+[S.l.], 2014. Dispon{\'\i}vel em:
+  \url{http://www.marine.com.br/tem/Batelco/carregadores/carregador\_BTC600S.htm}.
+  Acesso em: 16 de nov. de 2015.}
 
 \bibitem{semicondutores3}
 \abntrefinfo{Barbi e Martins}{BARBI; MARTINS}{2000}
@@ -292,20 +306,11 @@ Nova Iorque, 2015.}
   \url{http://radhome.gsfc.nasa.gov/radhome/RadDataBase/RadDataBase.html}.
   Acesso em: 10 de jul. de 2015.}
 
-\bibitem{TMP36}
-\abntrefinfo{POIVEY e KIM}{POIVEY; KIM}{2002}
-{POIVEY, C.; KIM, H. \emph{Heavy ion Single Event Effects test of the
-  temperature sensor TMP36 from Analog Devices}.
-[S.l.], 2002. Dispon{\'\i}vel em:
-  \url{http://radhome.gsfc.nasa.gov/radhome/papers/B061702\_TMP36.pdf}. Acesso
-  em: 10 de jul. de 2015.}
-
-\bibitem{LMP2012}
-\abntrefinfo{CAMPOLA e PHAN}{CAMPOLA; PHAN}{2012}
-{CAMPOLA, M.; PHAN, A. \emph{Pulsed-laser Test Report of the LMP2012 Precision
-  Rail-to-Rail Input and Output Dual Operational Amplifier}.
-[S.l.], 2012. Dispon{\'\i}vel em:
-  \url{http://radhome.gsfc.nasa.gov/radhome/papers/12-085\_NRL20121218\_LMP2012\_laser.pdf}.
-  Acesso em: 10 de jul. de 2015.}
+\bibitem{Simulink}
+\abntrefinfo{MathWorks}{MATHWORKS}{2015}
+{MATHWORKS. \emph{Simulink and Model-Based Design}.
+[S.l.], 2015. Dispon{\'\i}vel em:
+  \url{http://www.mathworks.com/products/simulink/?refresh=true}. Acesso em: 16
+  de nov. de 2015.}
 
 \end{thebibliography}

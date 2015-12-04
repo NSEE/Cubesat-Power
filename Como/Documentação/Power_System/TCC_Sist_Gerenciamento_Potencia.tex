@@ -38,6 +38,7 @@
 \usepackage{graphicx}			% Inclusão de gráficos
 \usepackage{microtype} 			% para melhorias de justificação
 \usepackage{eurosym}			% habilita símbolo do Euro
+\usepackage{amsmath}
 % ---
 		
 % ---
@@ -77,7 +78,7 @@
 % ---
 % Informações de dados para CAPA e FOLHA DE ROSTO
 % ---
-\titulo{SISTEMA DE GERENCIAMENTO DE ENERGIA PARA CUBESAT}
+\titulo{SISTEMA DE GERENCIAMENTO DE ENERGIA PARA CUBESATS}
 \autor{ARNALDO ALVES VIANA JÚNIOR\\
 OTÁVIO MOREIRA PETITO\\
 TIAGO AUGUSTO ORCAJO DEMAY CORDEIRO}
@@ -110,7 +111,7 @@ TIAGO AUGUSTO ORCAJO DEMAY CORDEIRO}
 		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
 		colorlinks=true,       		% false: boxed links; true: colored links
     	linkcolor=black,          	% color of internal links
-    	citecolor=black,        		% color of links to bibliography
+    	citecolor=black,        	% color of links to bibliography
     	filecolor=black,      		% color of file links
 		urlcolor=black,
 		bookmarksdepth=4 
@@ -348,6 +349,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 
   \item[\textit{GPS}] \textit{Global Positioning System}
   \item[NSEE-IMT] Núcleo de Sistemas Eletrônicos Embarcados do Instituto Mauá de Tecnologia
+  \item[PESE] Programa Estratégico de Sistemas Espaciais
   \item[\textit{Cal Poly}] \textit{California Polytechnic State University}
   \item[\textit{NASA}] \textit{National Aeronautics and Space Administration}
   \item[\textit{LEO}] \textit{Low Earth Orbit}
@@ -366,6 +368,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
   \item[\textit{SEE}]\textit{Single Event Effect}
   \item[\textit{SET}]\textit{Single Event Transient}
   \item[USP] Universidade de São Paulo
+  \item[\textit{PCB}] \textit{Printed Circuit Board}
       
 \end{siglas}
 % ---
@@ -401,7 +404,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 % ----------------------------------------------------------
 \chapter[Introdução]{Introdução}
 
-	Os satélites artificiais, amplamente utilizados e essenciais no dia-a-dia para diversas tarefas, como por exemplo para previsões meteorológicas, \textit{GPS} e televisões via satélite, são objetos que orbitam os planetas em trajetos circulares ou elípticos. Esses satélites, feitos pelo homem, são desenvolvidos especificamente para funções preestabelecidas que tornem possível alcançar objetivos maiores. 
+	Os satélites artificiais, amplamente utilizados e essenciais no dia-a-dia para diversas tarefas, como por exemplo para previsões meteorológicas, \textit{GPS} e televisões via satélite, são objetos que orbitam os planetas em trajetos circulares ou elípticas. Esses satélites, feitos pelo homem, são desenvolvidos especificamente para funções preestabelecidas que tornem possível alcançar objetivos maiores. 
 	
 	Esse formato de desenvolvimento individual faz o seu processo produtivo ser lento e com custos elevados, o que torna a alta tecnologia encontrada nos satélites restrita a pequenos grupos de engenheiros e cientistas. A combinação desses fatores acabou motivando, no final dos anos 90, os professores Jordi Puig-Suari e Bob Twiggs, a proporem o modelo do \textit{CubeSat}, que são satélites miniaturizados com tempo de desenvolvimento e custos bem abaixo dos satélites tradicionais.
 	
@@ -414,11 +417,21 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 % ----------------------------------------------------------
 % Objetivo
 % ----------------------------------------------------------
-%\section{Objetivo}
+\section[Objetivo]{Objetivo}
 
 	Esse projeto de conclusão de curso, faz parte do projeto de desenvolvimento de um \textit{CubeSat} do NSEE-IMT da Escola de Engenharia Mauá, que além de ajudar a fomentar a pesquisa e desenvolvimento de projetos para formar e capacitar alunos e pesquisadores na área aeroespacial, visa fornecer a energia necessária, com incidência direta ou não de luz solar, para garantir o sucesso de missões espaciais.
 	
-	O presente trabalho está dividido em \ref{ultimo_capitulo} capítulos contendo as seguintes abordagens.
+\section[Motivação]{Motivação}
+
+	Em 2.012, o governo federal aprovou pela portaria Nº224/GC3 o Programa Estratégico de Sistemas Espaciais (PESE), elaborado pelo Ministério da Defesa, através do Comando da Aeronáutica. Essa ação política priorizará a alocação de recursos, para colocar em órbita uma constelação de satélites de comunicações, sensoriamento remoto, \textit{datalink}, meteorologia, observação da terra por radar, dentre outros.\footnote{Mais informações no site: http://www.jusbrasil.com.br/diarios/36939429/dou-secao-1-14-05-2012-pg-142}
+
+	Dentre os diversos tipos de satélites existentes hoje, um que tem destaque entre desenvolvimentos universtários é o \textit{CubeSat}, para o seu desenvolvimento estão associadas diversas tecnologias aos seus subsistemas, umas delas é o sistema de potência responsável pelo abastecimento de energia do satélite.
+
+	No Brasil, o primeiro \textit{CubeSat} lançado foi o NanoSatC-Br1, produzido em parceria do Centro Regional Sul de Pesquisas Espaciais, do Instituto Nacional de Pesquisas Espaciais e da Universidade Federal de Santa Maria, que teve seu lançamento realizado com sucesso, contudo o satélite apresentou problemas no sistema de potência, comprometendo a missão. Por essa razão propomos o desenvolvimento de um Sistema de Gerenciamento de Energia para \textit{CubeSats} mais robusto com um sistema de fontes redundantes que visão o fornecimento de energia para todo o sistemas sem comprometer a missão.
+
+\section[Estrutura do texto]{Estrutura do texto}
+	
+	O presente trabalho está dividido em \ref{ultimo_capitulo} capítulos contendo as seguintes abordagens:
 
 	O capítulo 1 traz a apresentação do trabalho, suas principais características, inovações e os objetivos principais.
 
@@ -426,11 +439,10 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 
 	O capítulo 3 faz a apresentção da proposta do estudo e faz a discretização dos componentes utilizados para o desenvolvimento do Sistema de Gerenciamento de Energia para \textit{CubeSat}.
 
-	O capítulo 4 ilustra o desenvolvimento do protótipo.	
+	O capítulo 4 mostra os resultados e discussões dos dados obtidos nos levantamentos dos rendimentos do subsistema proposto.
 	
-	O capítulo 5 mostra os resultados e discussões dos dados obtidos nos levantamentos dos rendimentos do subsistema proposto.
+	O capítulo 5 trata das conclusões obtidas através das análises dos resultados dos ensaios realizados.
 
-	O capítulo 6 trata das conclusões obtidas através das análises dos resultados dos ensaios realizados. 
 
 % ----------------------------------------------------------
 % REFERENCIAL TEÓRICO
@@ -472,9 +484,9 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 
 \section[Surgimento]{Surgimento} 
 
-	O primeiro projeto de um \textit{CubeSat} foi proposto em 1999 pelos professores Jordi Puig-Suari, da \textit{California Polytechnic State University}, e Bob Twiggs, da \textit{Stanford University}. O objetivo do projeto foi o de padronizar o \textit{design} de picosatélites, visando a redução de custos e de tempo de desenvolvimento, além de prover uma maior acessibilidade ao espaço e conseguir realizar lançamentos frequentes, o que é de inviável obtenção com os satélites de grande porte.\textsuperscript{\cite{CubeSat}}
+	O primeiro projeto de um \textit{CubeSat} foi proposto em 1.999 pelos professores Jordi Puig-Suari, da \textit{California Polytechnic State University}, e Bob Twiggs, da \textit{Stanford University}. O objetivo do projeto foi o de padronizar o \textit{design} de picosatélites, visando a redução de custos e de tempo de desenvolvimento, além de prover uma maior acessibilidade ao espaço e conseguir realizar lançamentos frequentes, o que é de inviável obtenção com os satélites de grande porte.\textsuperscript{\cite{CubeSat}}
 	
-	Já em 2004, os \textit{CubeSats} podiam ser construídos por um custo estimado de \$65.000 a \$80.000. Esse custo, muito inferior comparado ao de satélites "convencionais", fez do \textit{CubeSat} uma opção viável para que escolas e universidades ao redor do mundo difundissem a tecnologia aplicada no segmento aeroespacial. Por conta desse custo relativamente baixo e da alta tecnologia inserida nesse contexto, um grande número de universidades, empresas e até mesmo instituições governamentais, passaram a desenvolver os \textit{CubeSats} para as mais variadas missões aeroespaciais.
+	Já em 2.004, os \textit{CubeSats} podiam ser construídos por um custo estimado de \$65.000 a \$80.000. Esse custo, muito inferior comparado ao de satélites "convencionais", fez do \textit{CubeSat} uma opção viável para que escolas e universidades ao redor do mundo difundissem a tecnologia aplicada no segmento aeroespacial. Por conta desse custo relativamente baixo e da alta tecnologia inserida nesse contexto, um grande número de universidades, empresas e até mesmo instituições governamentais, passaram a desenvolver os \textit{CubeSats} para as mais variadas missões aeroespaciais.
 
 \section[No Brasil]{No Brasil}
 
@@ -494,7 +506,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 			
 		\item \textbf{NanoSatC-Br2}
 		
-			Nanosatélite em desenvolvimento pelo grupo coordenado pelo Dr. Nelson Schuch do Centro Regional Sul do INPE (CRS) e do Dr. Otávio Durão (INPE/SJC), em parceria com pesquisadores da Universidade Federal de Santa Maria (UFSM) do Rio Grande do Sul, em orbita desde 19/06/2014.\textsuperscript{\cite{INPE}}
+			Nanosatélite em desenvolvimento pelo grupo coordenado pelo Dr. Nelson Schuch do Centro Regional Sul do INPE (CRS) e do Dr. Otávio Durão (INPE/SJC), em parceria com pesquisadores da Universidade Federal de Santa Maria (UFSM) do Rio Grande do Sul, em orbita desde 19/06/2.014.\textsuperscript{\cite{INPE}}
 
 		\item \textbf{14-BISat}
 
@@ -565,7 +577,7 @@ As baterias têm a função principal de armazenar carga e fornecer energia para
 		\hline
 		\textbf{Manutenção (dias)} & 30-60 & 60-90 & --- & --- & 90-180 \\
 		\hline
-		\textbf{Comparação de custo pack 7,2 V (dólar)} & 50,00 & 60,00 & 100,00 & 100,00 & 25,00 \\
+		\textbf{Comparação de custo \textit{pack} 7,2 V (dólar)} & 50,00 & 60,00 & 100,00 & 100,00 & 25,00 \\
 		\hline
 		\textbf{Custo por ciclo (dólar)} & 0,04 & 0,12 & 0,14 & 0,29 & 0,10 \\
 		\hline 
@@ -577,7 +589,7 @@ As baterias têm a função principal de armazenar carga e fornecer energia para
 	\end{small}
 	
 	\begin{footnotesize}
-		NOTA: a: pack 6V; b: pack 7,2V; c: pack 12V.
+		NOTA: a: \textit{pack} 6V; b: \textit{pack} 7,2V; c: \textit{pack} 12V.
 	\end{footnotesize}
 	\end{table}
 
@@ -634,7 +646,7 @@ As baterias têm a função principal de armazenar carga e fornecer energia para
 		\end{small}		
 	\end{figure}
 	
-	Inicialmente as fotocélulas eram fabricadas a partir do Silício, na década de 1960 essas células apresentavam aproximadamente 10\% de eficiência, atualmente essa eficiência chega próximo aos 20\%. No final da década de 1980 começaram a ser produzidas fotocélulas de Arseneto de Gálio, as quais atingiram uma eficiência superior a 20\%, essa nova composição começou porque as fotocélulas de Silício chegaram a ser produzidas com Silício de alta pureza (99,999999\%). Após as primeiras células de Arseneto de Gálio foi adicionado a sua composição o Índio, obtendo ótimos resultados.\textsuperscript{\cite{Fatemi}}
+	Inicialmente as fotocélulas eram fabricadas a partir do Silício, na década de 1.960 essas células apresentavam aproximadamente 10\% de eficiência, atualmente essa eficiência chega próximo aos 20\%. No final da década de 1.980 começaram a ser produzidas fotocélulas de Arseneto de Gálio, as quais atingiram uma eficiência superior a 20\%, essa nova composição começou porque as fotocélulas de Silício chegaram a ser produzidas com Silício de alta pureza (99,999999\%). Após as primeiras células de Arseneto de Gálio foi adicionado a sua composição o Índio, obtendo ótimos resultados.\textsuperscript{\cite{Fatemi}}
 	
 	Nas fotocélulas de uma única junção, esse excesso de energia se converte em calor, ou seja, é uma perda de energia absorvida. A técnica de multijunções atenua o problema da perda de energia quando um fóton de energia maior do que a energia do semicondutor é absorvido. Nessas fotocélulas cada junção funciona como um filtro, ou seja, cada junção absorve uma parte do espectro de luz e deixa o restante passar para a próxima junção, dessa maneira o rendimento é muito melhor devido ao alto aproveitamento do espectro.\textsuperscript{\cite{Fatemi}}
 	
@@ -659,13 +671,15 @@ As baterias têm a função principal de armazenar carga e fornecer energia para
 		\caption{COMPARATIVO DE EFICIÊNCIA DAS FOTOCÉLULAS}
 		\label{Fig_cell_comp1}
 		\centering
-		\includegraphics[width=0.6\linewidth]{./figs/cell_comp1}
+		\includegraphics[width=0.55\linewidth]{./figs/cell_comp1}
 			
 		\begin{small}
 			FONTE: \textit{Solar array trades between very high-efficiency multi-junction ans Si space solar cells}.\textsuperscript{\cite{Fatemi}}
 		\end{small}
 		
-		
+		\begin{footnotesize}
+			NOTA: \textit{EOL} - \textit{End-of-life}.
+		\end{footnotesize}
 	\end{figure}
 	
 	Na Figura \ref{Fig_cell_comp1} é visível que as fotocélulas de tripla junção são mais eficientes e resistentes a radiação do que as demais tecnologias analisadas (Sílicio e dupla junção).
@@ -679,10 +693,6 @@ As baterias têm a função principal de armazenar carga e fornecer energia para
 		\begin{small}
 			FONTE: \textit{Solar array trades between very high-efficiency multi-junction ans Si space solar cells}.\textsuperscript{\cite{Fatemi}}
 		\end{small}
-		
-		\begin{footnotesize}
-		NOTA: \textit{EOL} - \textit{End-of-life}.
-	\end{footnotesize}
 	\end{figure}	
 	
 	Já na Figura \ref{Fig_cell_comp2}, é realizado um comparativo da potência pela área e da potência pela massa. Nesse comparativo pode-se ver, novamente, que as fotocélulas de tripla função levam vantagem em relação as demais quando analisado a Potência (W) pela área (m\textsuperscript{2}), pois essa tecnologia permite um melhor aproveitamento do espectro de luz absorvido, conforme pode ser visto na Figura \ref{Fig_cell_mult}. 
@@ -691,7 +701,7 @@ As baterias têm a função principal de armazenar carga e fornecer energia para
 		\caption{ESQUEMA DE UMA CÉLULA MULTIJUNÇÃO E SEU ESPECTRO}
 		\label{Fig_cell_mult}
 		\centering
-		\includegraphics[width=1.05\linewidth]{./figs/cell_mult}
+		\includegraphics[width=.9\linewidth]{./figs/cell_mult}
 			
 		\begin{small}
 			FONTE: \textit{Solar array trades between very high-efficiency multi-junction ans Si space solar cells}.\textsuperscript{\cite{Fatemi}}
@@ -716,7 +726,7 @@ As baterias têm a função principal de armazenar carga e fornecer energia para
 	
 \subsection[Princípio de funcionamento]{Princípio de funcionamento}
 
-	As fotocélulas são um exemplo de aplicação prática do efeito fotoelétrico, descoberto por Heinrich Rudolf Hertz, em 1887 e explicado por Albert Einstein, em 1905.\textsuperscript{\cite{celula}}
+	As fotocélulas são um exemplo de aplicação prática do efeito fotoelétrico, descoberto por Heinrich Rudolf Hertz, em 1.887 e explicado por Albert Einstein, em 1.905.\textsuperscript{\cite{celula}}
 	
 	Quando uma grande quantidade de fótons é incidida em uma fotocélula a energia é absorvida. Essa absorção de energia permite que os átomos dos elementos que constituem a célula liberem elétrons, o espaço liberado é preenchido por outro elétron de uma camada inferior do semicondutor. Essa movimentação de elétrons, faz com que um dos lados da célula tenha uma concentração maior de elétrons, o que origina a diferença de potencial entre os lados, conforme pode ser visto na Figura \ref{Fig_PF_Cell}.\textsuperscript{\cite{celula2}}
 	
@@ -745,7 +755,6 @@ As baterias têm a função principal de armazenar carga e fornecer energia para
 			FONTE: Foto tirada pelos autores.
 		\end{small}		
 	\end{figure}
-	\pagebreak
 	
 	Mesmo sabendo dessas limitações, foram obtidas algumas amostras. Essas amostras serviram para um primeiro contato com essa tecnologia, conseguindo realizar alguns ensaios a fim de se obter uma familiaridade maior com o componente.
 	
@@ -784,7 +793,6 @@ As baterias têm a função principal de armazenar carga e fornecer energia para
 		NOTA: Condições de teste: \textit{AM} 0, \textit{WRC} = 135,3 mW/cm\textsuperscript{2}, T = 28ºC.
 	\end{footnotesize}
 	\end{table}
-	\pagebreak
 
 	Avaliando os dados da Tabela \ref{Tab_Spectro_Comp}, os modelos \textit{PV UTJ Cell} e \textit{PV XTJ Cell}, foram os mais indicados para a aplicação, devido ao alto rendimento (superior a 28\%) apresentado
 	
@@ -904,7 +912,7 @@ As baterias têm a função principal de armazenar carga e fornecer energia para
 		\includegraphics[width=0.8\linewidth]{./figs/orbita_temp}
 			
 		\begin{small}
-			FONTE: SwissCube\textsuperscript{\cite{SwissCube}}
+			FONTE: \textit{SwissCube}\textsuperscript{\cite{SwissCube}}
 		\end{small}		
 	\end{figure}
 	\pagebreak
@@ -944,16 +952,16 @@ As baterias têm a função principal de armazenar carga e fornecer energia para
 
 Elementos semicondutores são os elementos químicos que possuem na sua camada de valência quatro elétrons. A condutividade desses elementos depende da temperatura na qual estão submetidos. Os principais elementos utilizados na construção de semicondutores, por exemplo diodos, transistores e circuitos integrados, são o silício e o germânio. A grande maioria dos semicondutores são construídos com silício, uma vez que o germânio é extremamente sensível a variações de temperatura.\textsuperscript{\cite{semicondutores}}
 	
-	Os semicondutores formam bandas de energia, como a banda de condução (BC) e a banda de valência (BV), essas bandas são separadas por lacunas. A banda de condução vai estar vazia e a banda de valência totalmente preenchida quando estiver com uma temperatura de 0K (-273,15 ºC ou zero absoluto), como pode ser visto na Figura \ref{Fig_bandas}.\textsuperscript{\cite{semicondutores2}}\textsuperscript{\cite{kelvin}}
+	Os semicondutores formam bandas de energia, como a banda de condução e a banda de valência, essas bandas são separadas por lacunas. A banda de condução vai estar vazia e a banda de valência totalmente preenchida quando estiver com uma temperatura de 0K (-273,15 ºC ou zero absoluto), como pode ser visto na Figura \ref{Fig_bandas}.\textsuperscript{\cite{semicondutores2}}\textsuperscript{\cite{kelvin}}
 	
 	\begin{figure}[th]
 		\caption{BANDAS DE ENERGIA DE UM SEMICONDUTOR}
 		\label{Fig_bandas}
 		\centering
-		\includegraphics[width=0.3\linewidth]{./figs/banda}
+		\includegraphics[width=0.8\linewidth]{./figs/banda}
 			
 		\begin{small}
-			FONTE: InfoEscola\textsuperscript{\cite{semicondutores2}}
+			FONTE: Professor Dr. Eduardo Fontana\textsuperscript{\cite{doutor}}
 		\end{small}		
 	\end{figure}
 
@@ -972,12 +980,8 @@ Elementos semicondutores são os elementos químicos que possuem na sua camada d
 		\includegraphics[width=0.5\linewidth]{./figs/carregador}
 			
 		\begin{small}
-			FONTE: Instituto Newton C. Braga\textsuperscript{\cite{carregador}}
-		\end{small}	
-		
-		\begin{footnotesize}
-		NOTA: G1 e G2 são ligados aos pólos da bateria e o resistor de 10$\Omega$ serve como limitador de corrente.
-		\end{footnotesize}	
+			FONTE: Elaborado pelos autores.
+		\end{small}		
 	\end{figure}
 	\pagebreak
 	
@@ -985,7 +989,7 @@ Elementos semicondutores são os elementos químicos que possuem na sua camada d
 	
 	Atualmente existem diversos carregadores de baterias que são chamados de carregadores inteligentes, esses carregadores recebem esse nome devido a sua capacidade de gerenciamento do carregamento da bateria.
 	
-	Alguns recursos são utilizados para se obter uma maior eficiência e também uma prolongação da vida útil da bateria. Um desses recursos é a utilização de um regime de corrente constante, ou seja, em uma célula totalmente descarregada a diferença de potencial nos seus terminais é baixa, dessa forma ao aplicar uma tensão no carregador a diferença entre essas tensões é elevada, o que leva a circulação de uma corrente inicial elevada, como pode ser visto na Figura \ref{Fig_Temp_Carg}.\textsuperscript{\cite{carregador}}
+	Alguns recursos são utilizados para se obter uma maior eficiência e também uma prolongação da vida útil da bateria. Um desses recursos é a utilização de um regime de corrente constante, ou seja, em uma célula totalmente descarregada a diferença de potencial nos seus terminais é baixa, dessa forma ao aplicar uma tensão no carregador a diferença entre essas tensões é elevada, o que leva a circulação de uma corrente inicial elevada, como pode ser exemplificado na Figura \ref{Fig_Temp_Carg}.\textsuperscript{\cite{carregador}}
 	
 	\begin{figure}[th]
 		\caption{CURVA DE CARREGAMENTO INTELIGENTE}
@@ -994,46 +998,33 @@ Elementos semicondutores são os elementos químicos que possuem na sua camada d
 		\includegraphics[width=0.67\linewidth]{./figs/temp_carg}
 			
 		\begin{small}
-			FONTE: Instituto Newton C. Braga\textsuperscript{\cite{carregador}}
+			FONTE: \textit{Marine service}\textsuperscript{\cite{marine}}
 		\end{small}	
 	\end{figure}
 	\pagebreak
 
 	À medida que a bateria vai carregando, a tensão entre os seus terminais vai se elevando de modo a se contrapor à tensão do carregador, dessa forma a corrente de carga na bateria diminui de forma gradual até que no final do processo de carga ela seja pequena e não linear.\textsuperscript{\cite{carregador}}
 	
-	Outro recurso disponível em carregadores inteligentes é o monitoramento da carga, da temperatura e das demais características importantes da bateria. Esses recursos são desde a adoção de regimes especiais de tempo de carga até a monitoração da tensão, como pode ser visto na Figura \ref{Fig_Bat_Monit}.
+	Outro recurso disponível em carregadores inteligentes é o monitoramento da carga, da temperatura e das demais características importantes da bateria. Esses recursos são desde a adoção de regimes especiais de tempo de carga até a monitoração da tensão.
 
-	\begin{figure}[th]
-		\caption{EXEMPLO DE MONITORAMENTO DE CARGA}
-		\label{Fig_Bat_Monit}
-		\centering
-		\includegraphics[width=0.67\linewidth]{./figs/bat_monit}
-			
-		\begin{small}
-			FONTE: Instituto Newton C. Braga\textsuperscript{\cite{carregador}}
-		\end{small}	
-	\end{figure}
-
-	A corrente varia com o tempo no processo de carga completa. A capacidade de uma bateria pode ser expressa como capacidade Cap, dada em mAh. Por exemplo, uma bateria de 500 mAh tem uma taxa Cap de 500 mA, e a corrente de 0,1 Cap é de 50 mA.\textsuperscript{\cite{carregador}}
-	
-	Dessa forma, o carregamento de uma bateria de íon-lítio deve ser feita em três etapas:
+	A corrente varia com o tempo no processo de carga completa.	Dessa forma, o carregamento de uma bateria de íon-lítio deve ser feita em três etapas:
 	
 	\begin{enumerate}
-		\item Carga lenta, pré-carga feita com uma corrente de 0,1 Cap;
-		\item Carga rápida, carga com corrente constante de 1 Cap;
-		\item Tensão constante.
+		\item Carga lenta, carga feita com a corrente constante e tensão variável;
+		\item Carga rápida, carga com tensão constante e corrente variável;
+		\item Tensão constante e corrente constante.\textsuperscript{\cite{marine}}
 	\end{enumerate}
 	
 	A carga lenta irá ocorrer quando a tensão da bateria estiver menor do que 2,5 V. As bateria de íon-lítio, por não apresentar efeito memória, podem ser recarregadas antes de haver uma descarga total da mesma, por tanto, em alguns casos o processo de carga lenta não é empregado nesse tipo de bateria.\textsuperscript{\cite{carregador}}
 	
-	Já o processo de carga rápida é a fase mais importante do processo, uma corrente constate de 1 Cap irá carregar a bateria até ela atingir o seu nível máximo de carga. O circuito do carregador mede continuamente a corrente de sensoriamento (corrente em um resistor sensor ligado em série) ajustando o ciclo ativo do \textit{PWM} com o microcontrolador. Quando a tensão da bateria chega no seu valor máximo, o carregador passa a operar no modo de carga com tensão constante.\textsuperscript{\cite{carregador}}
+	Já o processo de carga rápida é a fase mais importante do processo, uma corrente constate irá carregar a bateria até ela atingir o seu nível máximo de carga. O circuito do carregador mede continuamente a corrente de sensoriamento (corrente em um resistor sensor ligado em série) ajustando o ciclo ativo do \textit{PWM} com o microcontrolador. Quando a tensão da bateria chega no seu valor máximo, o carregador passa a operar no modo de carga com tensão constante.\textsuperscript{\cite{carregador}}
 	
-	No modo de tensão constante, o circuito passa a operar como uma fonte de tensão, nesse momento a resistência interna da bateria começa a cair, o que exige uma compensação para manter a corrente abaixo de 0,1 Cap. Quando a bateria estiver completamente carregada, a maior parte da energia é convertida em calor.\textsuperscript{\cite{carregador}}
+	No modo de tensão constante, o circuito passa a operar como uma fonte de tensão, nesse momento a resistência interna da bateria começa a cair, o que exige uma compensação para manter a corrente baixa. Quando a bateria estiver completamente carregada, a maior parte da energia é convertida em calor.\textsuperscript{\cite{carregador}}
 
 	Alguns métodos permitem determinar quando uma bateria está completamente carregada. Esses métodos são:
 	
 	\begin{itemize}
-		\item Durante o processo de carga com tensão constante, quando a corrente cai para 0,1 C a bateria se encontra completamente carregada;
+		\item Durante o processo de carga com tensão constante, quando a corrente cai a bateria se encontra completamente carregada;
 		\item Determinar a temperatura da bateria de modo a se determinar quando começa a ocorrer o sobreaquecimento;
 		\item Usar um método de temporização seguro. Quanto mais o tempo passar de um valor considerado ideal para a carga, a bateria poderá ser considerada completamente recarregada.
 	\end{itemize}
@@ -1109,6 +1100,7 @@ Elementos semicondutores são os elementos químicos que possuem na sua camada d
 			FONTE: INEP/EEL\textsuperscript{\cite{inep}}
 		\end{small}		
 	\end{figure}
+	\pagebreak
 	
 	Seu princípio de funcionamento é, relativamente, similar ao do conversor \textit{Buck}. Quando a chave (S) está conduzindo, o indutor (L) é magnetizado, dessa forma a corrente flui somente entre a fonte (V\textsubscript{i}), o indutor (L) e a chave (S).
 	
@@ -1126,7 +1118,7 @@ Elementos semicondutores são os elementos químicos que possuem na sua camada d
 
 	Após a realização dos estudos apresentados no Capítulo \ref{Cap_Teorico}, a seleção dos materiais e dos métodos utilizados para o desenvolvimento do projeto se tornam mais amigáveis. 
 	
-	Essa seleção deve atender da melhor maneira possíveis os parâmetros levantados anteriormente, sendo bem fundamentada na teoria evitando surpresas no seu funcionamento. Lembrando que após o lançamento do \textit{CubeSat} não será possível nenhuma alteração e/ou correção de \textit{hardware}, sendo possível somente alguns ajustes de configuração de \textit{software}, como por exemplo alteração de parâmetros e de prioridades de tarefas.
+	Essa seleção deve atender da melhor maneira possível os parâmetros levantados anteriormente, sendo bem fundamentada na teoria evitando surpresas no seu funcionamento. Lembrando que após o lançamento do \textit{CubeSat} não será possível nenhuma alteração e/ou correção de \textit{hardware}, sendo possível somente alguns ajustes de configuração de \textit{software}, como por exemplo alteração de parâmetros e de prioridades de tarefas.
 	
 % ----------------------------------------------------------
 % Etapas
@@ -1192,7 +1184,7 @@ Elementos semicondutores são os elementos químicos que possuem na sua camada d
 	
 	Já na versão final do diagrama, representado na Figura \ref{Fig_Diag_Blocos_Final}, o projeto foi subdividido em três partes, sendo elas, a placa de controle, placa do carregador e as quatro placas de fotocélulas (+X, -X, +Y e -Y). Nas seções seguintes serão exibidos os estudos que justificaram as alterações realizadas.
  
-\section[Definição dos componentes]{Definição dos componentes}
+\section[Definição dos componentes]{Definição dos componentes}\label{Sec_Def_Comp}
 
 	A seguir será explicado de uma forma mais detalhada, como foram realizadas as escolhas dos principais componentes do projeto. Importante ressaltar que os projetos de \textit{CubeSats} possuem como premissa o conceito de ser um projeto de baixo custo, porém o referencial do custo utilizado são os custos de projetos de grandes satélites.
 	
@@ -1242,7 +1234,7 @@ Elementos semicondutores são os elementos químicos que possuem na sua camada d
 	\end{figure}
 	\pagebreak
 		
-\subsection[Fotocélulas]{Fotocélulas}
+\subsection[Fotocélulas]{Fotocélulas}\label{Sec_Cell}
 
 	Após analisar os modelos dos principais fornecedores (Tabelas \ref{Tab_Spectro_Comp}, \ref{Tab_Emcore_Comp} e \ref{Tab_Azur_Comp}, Seção \ref{Cap_Cell}), foram solicitados orçamentos das fotocélulas para realizar o comparativo de preços e, por fim, realizar os procedimentos necessários para a aquisição das mesmas.
 	
@@ -1402,7 +1394,7 @@ Elementos semicondutores são os elementos químicos que possuem na sua camada d
 	\end{table}
 	\pagebreak
 
-\subsection[Semicondutores]{Semicondutores}
+\subsection[Semicondutores]{Semicondutores}\label{Sec_Semicondutores}
 
 	Inicialmente foram procurados diversos circuitos integrados de conversores capazes de realizar a elevação e diminuição da tensão de saída para a topologia inicial, onde existiria duas baterias em série com 4,2V. Porém após diversas horas de estudos não foram encontrados conversores \textit{Boost} capazes de realizar grandes elevações com alta eficiência. Somente os conversores com uma tensão de entrada superior aos 4,2V poderiam atender a especificação do projeto com a grande eficiência desejada.
 	
@@ -1412,7 +1404,7 @@ Elementos semicondutores são os elementos químicos que possuem na sua camada d
 	
 	Nessa base de dados foram encontrados alguns conversores que poderiam ser utilizados no desenvolvimento do projeto, como por exemplo o \textit{Buck} TPS50601-SP da \textit{Texas Instruments}. Porém devido ao alto custo dos componentes presentes nessa lista o componente não foi uma solução viável ao projeto.
 	
-	Reiniciada a etapa de pesquisas, foi encontrado o \textit{WEBENCH Design Center}, software \textit{online} da \textit{Texas Instruments}, no qual é possível inserir os parâmetros que se deseja de um conversor, como por exemplo, tensão de entrada e tensão de saída, e o software consulta sua base de daos para encontrar o conversor conforme especificado e ainda reproduz o circuito de \textit{datasheet} da aplicação. Através do auxilio do \textit{WEBENCH Design Center}, foram identificados os seguintes conversores LM3488 (\textit{boost}) e o TPS563200 (\textit{buck}).
+	Reiniciada a etapa de pesquisas, foi encontrado o \textit{WEBENCH Design Center}, software \textit{online} da \textit{Texas Instruments}, no qual é possível inserir os parâmetros que se deseja de um conversor, como por exemplo, tensão de entrada e tensão de saída, e o software consulta sua base de dados para encontrar o conversor especificado e ainda reproduz o circuito de \textit{datasheet} da aplicação. Através do auxilio do \textit{WEBENCH Design Center}, foram identificados os seguintes conversores LM3488 (\textit{boost}) e o TPS563200 (\textit{buck}).
 	
 	Para a definição do conversor \textit{backup}, foi pesquisado um único conversor com diversas saídas, dessa forma apenas um circuito integrado seria capaz de devolver as tensões de 3,3V, 5V e 12V. A princípio foram encontrados algumas opções desses conversores com múltiplas saídas, porém todos os encontrados eram de 4 saídas. Após uma busca mais criteriosa, foi encontrado na \textit{Linear Technology} o LT1941 que possui as três saídas desejadas, sendo uma saída \textit{Boost} e duas saídas \textit{Buck}. Com a ajuda do \textit{LTspice IV}, software da própria \textit{Linear}, foi possível trabalhar em cima do \textit{application note} do \textit{datasheet} do componente para poder adaptá-lo as necessidades do projeto do Sistema de Gerenciamento de Energia para \textit{CubeSats}.
 
@@ -1430,22 +1422,400 @@ Elementos semicondutores são os elementos químicos que possuem na sua camada d
 
 	Após a compilação de todos os componentes foi finalizada a lista de componentes necessários para o seguimento do projeto, também foi levada em consideração a questão financeira, portanto, alguns componentes apresentados nesta lista podem ser substituídos após a realização de todos os ensaios e validações.
 		
-	Foi solicitado um orçamento para a \textit{Farnell}, que devido a sua grande estrutura e interligação entre os estoques nacionais e internacionais, tinha a disposição praticamente todos os componentes necessários com exceção do carregador de bateria (BQ24005). O orçamento ficou R\$ 2.065,66, conforme pode ser visto no Anexo \ref{Orçamento}.	
+	Foi solicitado um orçamento para a \textit{Farnell}, que devido a sua grande estrutura e interligação entre os estoques nacionais e internacionais, tinha a disposição praticamente todos os componentes necessários com exceção do carregador de bateria (BQ24005). O orçamento ficou R\$ 2.065,66, conforme pode ser visto no Apêndice \ref{Orçamento}.	
 	
 	Nesse capítulo foi ilustrado o processo de seleção dos componentes necessários para a construção do Sistema de Gerenciamento de Energia para \textit{CubeSat}. No capítulo seguinte serão abordados os tópicos de desenvolvimento de \textit{hardware} e \textit{software} utilizado no decorrer do projeto.
 	
-% ----------------------------------------------------------
-% PROTÓTIPO 
-% ----------------------------------------------------------
-\chapter[Protótipo]{Protótipo}
-
 \section[Desenvolvimento de hardware]{Desenvolvimento de \textit{hardware}}
 
-desenvolvimento de hardware
+	O desenvolvimento de hardware se resume ao processo de elaboração de circuito eletrônico, \textit{layout} de \textit{PCB}, montagem e testes das placas eletrônicas. Nesta etapa será mostrado como foram realizadas as fases de montagem das placas, a depuração e testes de funcionalidades para a prova de conceito desenvolvida. Pela complexidade do sistema proposto, o mesmo será explicado de forma separada entre as placas desenvolvidas, sendo elas:
+	
+	\begin{enumerate}
+		\item Painel Solar;
+		\item Placa do Carregador;
+		\item Placa de Controle.
+	\end{enumerate}
 
+	Para o desenvolvimento dos circuitos e dos \textit{layouts} das \textit{PCB}, as ferramentas utilizadas foram o \textit{CadSoft EAGLE PCB Design Software} na versão \textit{Light Edition Free} e \textit{SketchUp} também na versão gratuita para a visualização dos modelos 3D.
+	
+\subsection[Painel Solar]{Painel Solar}
+
+	Conforme definido na Seção \ref{Sec_Cell}, foram utilizadas as fotocélulas da \textit{TrisolX}. Para realizar o carregamento da bateria é necessário que a tensão gerada pelo painel solar seja de 8,4V a 10V. 
+	
+	Como cada fotocélula consegue fornecer até 2,33V, foi realizado um arranjo com quatro células em série, conseguindo fornecer uma tensão de 9,32V. Foram implementados, em paralelo, seis conjuntos com quatro fotocélulas em série, totalizando 24 fotocélulas no painel solar. Foram utilizados diodos de \textit{bypass} para evitar danos e perdas de potência do sistema devido a diferenças de características elétricas das fotocélulas, conforme Figura \ref{Fig_Circ_Cell}.
+	
+	\begin{figure}[th]
+		\caption{CIRCUITO ELÉTRICO PAINEL SOLAR}
+		\label{Fig_Circ_Cell}
+		\centering
+		\includegraphics[width=0.6\linewidth]{./figs/circ_cell}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}
+	\end{figure}
+	\pagebreak
+	
+	Considerando a área total disponível para uma face do painel solar, o \textit{layout} foi elaborado de forma que o arranjo das 24 fotocélulas ficassem melhor alocadas na placa, conforme Figura \ref{Fig_layout_cell}.
+	
+	\begin{figure}[th]
+		\caption{\textit{LAYOUT} DO PAINEL SOLAR}
+		\label{Fig_layout_cell}
+		\centering
+		\includegraphics[width=0.6\linewidth]{./figs/layout_cell}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}
+	\end{figure}
+	
+	Para realizar a montagem do painel solar foi necessário muito cuidado pois as fotocélulas são extremamente frágeis e quebram com facilidade. Outro fator importante é a utilização de luvas, dessa forma evita-se que durante o manuseio das fotocélulas, as mesmas fiquem engorduradas, o que implica em queda de rendimento. Visando contornar os problemas apresentados, optou-se por realizar a soldagem em um forne de refusão modelo \textit{ProtoFlow E}, disponível no laboratório da Escola de Engenharia Mauá. Porém antes da placa ir para o forno de refusão, foi necessário estanhar os \textit{pads} das fotocélulas.\footnote{No Apêndice \ref{ProtoFlow} é possível visualizar o forno de refusão \textit{ProtoFlow E}, a configuração utilizada e algumas etapas do processo.}
+
+	\begin{figure}[th]
+		\caption{PAINEL SOLAR FINALIZADO}
+		\centering
+		\includegraphics[width=0.75\linewidth]{./figs/painel_solar}
+		
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}	
+	\end{figure}
+	
+	Para validar a montagem do painel solar foi montado o \textit{setup} representado na Figura \ref{Fig_setup_cell}.
+	
+	\begin{figure}[th]
+		\caption{ESQUEMA DO \textit{SETUP} DE VALIDAÇÃO DO PAINEL SOLAR}
+		\centering
+		\label{Fig_setup_cell}
+		\includegraphics[width=0.8\linewidth]{./figs/setup_solar}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
+	\end{figure}
+	\pagebreak
+	
+	O procedimento utilizado para o teste do painel solar consistiu em variar a resistência de carga enquanto a tensão e corrente geradas eram monitoradas.
+	 
+	Medições preliminares foram realizadas com lâmpadas incandescentes de 100W, colocadas a 25cm de distância do painel, as fotocélulas ficaram expostas a luz e ao calor. Porém como o espectro de uma lâmpada incandescente não é o mesmo da luz solar, somado ao efeito do coeficiente de temperatura de -6,1mV/ºC das fotocélulas e a exposição de calor, resultaram em medidas não representativas.
+	
+	Novas medições foram realizadas utilizando luz solar em um dia de céu limpo com temperatura ambiente de 27ºC. 
+Este procedimento foi feito para duas condições distintas, a primeira considerando apenas a geração de energia de uma única fotocélula, e a segunda considerando a energia gerada por 4 células em série.
+
+	\begin{itemize}
+		\item Ensaio com uma fotocélula.
+	\end{itemize}
+	
+	Realizado o cálculo para encontrar a resistência de carga na condição de máxima transferência de potencia.
+	
+	Dados do fabricante:
+	\begin{itemize}
+		\item \textit{Voltage (Max Power)} = 2,33V;
+		\item \textit{Current (Max Power)} = 14,6mA.
+	\end{itemize}
+	
+	\begin{eqnarray}
+		R_{carga} = \dfrac{V_{Max Power}}{I_{Max Power}}		
+	\end{eqnarray}
+	
+	\begin{eqnarray*}
+		R_{carga} = \dfrac{2,33}{14,6\times10^{-3}} \Rightarrow R_{carga} = 159,58\Omega		
+	\end{eqnarray*}
+	
+	O cálculo para obter a máxima transferência de potencia é:
+	
+	\begin{eqnarray}
+		P_{Max} = V_{Max Power} \cdot I_{Max Power}	
+	\end{eqnarray}
+	
+	\begin{eqnarray*}
+		P_{Max} = 2,33 \cdot 14,6\times10^{-3} \Rightarrow P_{Max} = 34,01mW
+	\end{eqnarray*}
+	
+\subsection[Placa do carregador]{Placa do carregador}
+
+	A placa do carregador é onde está alocado o conversor \textit{backup}, que fornece energia ao barramento de saída caso ocorra alguma falha no sistema principal, além de contar com um multiplexador analógico que realiza as leituras dos sensores de temperatura dos painéis solares conforme o microcontrolador seleciona o painel desejado.
+	
+	A Figura \ref{Fig_circ_conv} mostra o circuito do LT1941 da \textit{Linear Technology} utilizado para o conversor \textit{backup} , conforme definido na Seção \ref{Sec_Semicondutores}.
+	
+	\begin{figure}[th]
+		\caption{CIRCUITO ELÉTRICO DO CONVERSOR \textit{BACKUP}}
+		\label{Fig_circ_conv}
+		\centering
+		\includegraphics[width=0.9\linewidth]{./figs/circ_back}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}
+	\end{figure}
+	
+	Este conversor foi utilizado pois a frequência de chaveamento de 1,1MHz possibilitou o uso de pequenos indutores e capacitores, tornando eficaz seu uso no Sistema de Gerenciamento de Energia para \textit{CubeSats}. Os demais componentes utilizados foram utilizados de acordo com os dados do fabricante.
+	
+	O resultado do \textit{layout} da placa pode ser visto na Figura \ref{Fig_layout_carg}, onde buscou-se obter um bom aproveitamento da área disponível da \textit{PCB} de forma a facilitar a montagem da placa na estrutura do \textit{CubeSat}.
+	
+	\begin{figure}[th]
+		\caption{\textit{LAYOUT} DETALHADO DA PLACA DO CARREGADOR}
+		\label{Fig_layout_carg}
+		\centering
+		\includegraphics[width=0.37\linewidth]{./figs/layout_carg}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}
+	\end{figure}
+	
+	A Figura \ref{Fig_layout_carg} foi editada de forma a facilitar a localização de cada conjunto utilizado na placa.\footnote{No Apêndice \ref{P_Carreg} é possível visualizar o \textit{layout} sem os blocos de identificação dos componentes.}
+	
+	Para a montagem da placa do carregador foi necessário apenas utilizar uma estação de solda para realizar o processo de soldagem de todos os componentes \textit{SMD}.
+	
+	\begin{figure}[th]
+		\caption{PLACA DO CARREGADOR FINALIZADA}
+		\label{Fig_placa_carg}
+		\centering
+		\includegraphics[width=0.37\linewidth]{./figs/placa_carreg}
+			
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}
+	\end{figure}
+	\pagebreak
+	
+\subsection[Placa de controle]{Placa de controle}
+
+	A placa de controle é responsável pelos conversores principal, chave inteligente de baixas perdas (chaves ideais) e sensores de tensão e corrente, além do microcontrolador que realiza todo o monitoramento do sistema.
+	
+	Para o funcionamento da chave ideal, é necessário um circuito, apresentado na Figura \ref{Fig_chave}, que realize a isolação entre a fonte principal e a fonte \textit{backup} com baixa perda de tensão. Esse circuito utiliza o circuito integrado LTC4412, definido na Seção \ref{Sec_Semicondutores}, que comparado a um diodo convencional possui uma queda de tensão muito inferior, sendo de aproximadamente 20mV.
+	
+	\begin{figure}[th]
+		\caption{CIRCUITO ELÉTRICO DA CHAVE IDEAL}
+		\label{Fig_chave}
+		\centering
+		\includegraphics[width=0.5\linewidth]{./figs/chave_id}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}
+	\end{figure}
+
+	Para o desenvolvimento do \textit{layout} da placa de controle, Figura \ref{Fig_pl_cont}, buscou-se obter o máximo aproveitamento da área disponível da \textit{PCB}, de forma análoga a placa do carregador, a facilidade de montagem da placa na estrutura foi levada em consideração.
+	
+	\begin{figure}[th]
+		\caption{\textit{LAYOUT} DA PLACA DE CONTROLE}
+		\label{Fig_pl_cont}
+		\centering
+		\includegraphics[width=0.6\linewidth]{./figs/pl_cont}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}
+	\end{figure}
+	\pagebreak
+	A Figura \ref{Fig_pl_cont} foi editada de forma a facilitar a localização de cada conjunto utilizado na placa.\footnote{No Apêndice \ref{P_Cont} é possível visualizar o \textit{layout} sem os blocos de identificação dos componentes.}
+	
+	Para a montagem da placa de controle foi necessário apenas utilizar uma estação de solda para realizar o processo de soldagem de todos os componentes \textit{SMD}.
+	
+	\begin{figure}[th]
+		\caption{PLACA DE CONTROLE FINALIZADA - VISTA SUPERIOR}
+		\label{Fig_esq_cont}
+		\centering
+		\includegraphics[width=0.6\linewidth]{./figs/cont_top}
+			
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}
+	\end{figure}
+	
+	\begin{figure}[th]
+		\caption{PLACA DE CONTROLE FINALIZADA - VISTA INFERIOR}
+		\label{Fig_esq_cont}
+		\centering
+		\includegraphics[width=0.6\linewidth]{./figs/cont_bottom}
+			
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}
+	\end{figure}
+	\pagebreak
+	Para o ensaio dos conversores principais foi montado o esquema da Figura \ref{Fig_esq_cont}, para simular a bateria foi utilizada uma fonte de bancada, para a carga foi utilizado o uma década resistiva. O método para ensaio convencionado foi regular a tensão da fonte em uma tensão compatível com a da bateria de 7,4V e variar a resistência de carga de forma gradativa até obter a corrente nominal do conversor de tensão.
+		
+	\begin{figure}[th]
+		\caption{ESQUEMA DE TESTES DA PLACA DE CONTROLE}
+		\label{Fig_esq_cont}
+		\centering
+		\includegraphics[width=1.0\linewidth]{./figs/esq_cont}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}
+	\end{figure}
+	
+	O ensaio foi realizado simulando três situações em que a bateria pode operar, variando uma fonte ajustável para as seguintes situações:
+
+	\begin{itemize}
+		\item 8,4V - bateria completamente carregada;
+		\item 8,0V - bateria carregada;
+		\item 7,4V - bateria descarregada.
+	\end{itemize}
+	
+	Variando a resistência de carga, foram medidas corrente e tensão em 10 pontos distintos em toda a faixa de operação especificada, 12V/1A, 5V/2A, 3,3V/3A. Para o conversor de 5V foi utilizado as resistências de carga conforme Tabela \ref{Tab_res_teste}.
+	
+	\begin{table}[th]
+	\caption{RESISTÊNCIAS DE CARGA UTILIZADAS NO TESTE}
+	\label{Tab_res_teste}
+	\centering
+		\begin{tabular}{p{1.3cm}|p{1.3cm}}
+			\textbf{R$_{carga}$} & \textbf{R$_{carga}$}\\
+			\hline
+			1k$\Omega$ & 7$\Omega$\\
+			100$\Omega$ & 5$\Omega$\\
+			50$\Omega$ & 4$\Omega$\\
+			20$\Omega$ & 3$\Omega$\\
+			10$\Omega$ & 2$\Omega$\\
+		\end{tabular}	
+	
+	\begin{small}
+	\vspace{3pt}
+		FONTE: Elaborada pelos autores.
+	\end{small}
+	\end{table}
+	
+	Para realizar o ensaio, o \textit{setup} representado na Figura \ref{Fig_setup_cont} foi montado.
+	
+	\begin{figure}[th]
+		\caption{\textit{SETUP} DE TESTES DA PLACA DE CONTROLE}
+		\label{Fig_setup_cont}
+		\centering
+		\includegraphics[width=1\linewidth]{./figs/setup_cont}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}
+	\end{figure}
+	\pagebreak
+	
+	Com o osciloscópio foram monitorados os pontos identificados na Figura \ref{Fig_circ_test_cont}.\footnote{No Apêndice \ref{T_Cont} é possível visualizar os pontos utilizados para teste no modelo 3D da placa de controle.}
+	
+	\begin{figure}[th]
+		\caption{CIRCUITO DE TESTES DA PLACA DE CONTROLE}
+		\label{Fig_circ_test_cont}
+		\centering
+		\includegraphics[width=1\linewidth]{./figs/circ_test_cont}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}
+	\end{figure}
+	
+	\begin{enumerate}
+		\item Tensão de entrada da fonte principal;
+		\item Tensão de saída do conversor principal;
+		\item Tensão \textit{backup} na entrada da chave;
+		\item Tensão de saída no barramento.
+	\end{enumerate}
+	
 \section[Desenvolvimento de software]{Desenvolvimento de \textit{software}}
 
-desenvolvimento de software
+	Para o funcionamento do \textit{CubeSat} foi desenvolvido um \textit{software} de gerenciamento do sistema com base em linguagem C, que foi escolhida em função de se tratar de uma das linguagens mais populares, existindo poucas arquiteturas para as quais não existam compiladores. 
+	
+	Como plataforma de desenvolvimento foi selecionado o \textit{MPlab-X} que é distribuída gratuitamente pela empresa \textit{Microchip Technology}, que integra diversos ambientes de trabalho para programação, simulação e gravação de microcontroladores. 
+	
+	Conforme definição na Seção \ref{Sec_Semicondutores}, o microcontrolador usado foi o PIC18F66K80 e o gravador utilizado foi o \textit{PICkit 3 In-Circuit Debugger} ambos da \textit{Microchip Technology}.
+	
+\subsection[Fluxograma geral do software]{Fluxograma geral do \textit{software}}
+
+	Como método de programação foi utilizado linguagem estruturada, ou seja, por tratar-se de um programa que interage com mais de um periférico, o programa foi "desconstruído" em partes, facilitando a programação em blocos, elas tornaram-se partes inteligíveis e fáceis de serem manipuladas. Isso faz com que o programador saiba o que ocorre em cada bloco do sistema, assim caso seja necessária alguma modificação no código isso ocorrerá de forma fácil e ágil, podendo ser visualizado na Figura \ref{Fig_fluxo_simples}.
+	
+	\begin{figure}[th]
+		\caption{FLUXOGRAMA GERAL DO \textit{SOFTWARE}}
+		\label{Fig_fluxo_simples}
+		\centering
+		\includegraphics[width=0.28\linewidth]{./figs/fluxo_simples}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}
+	\end{figure}
+	\pagebreak
+	
+	O programa inicia configurando o sistema para ser utilizado, com a utilização dos periféricos de transmissão serial e conversor analógico-digital para implementar as funções necessárias ao software, o sistema configura esses periféricos para uso. Logo em seguida calibra a leitura das tensões de todos os conversores utilizados.
+	
+	A telemetria funciona dentro de um laço de repetição simples, onde os canais dos conversores são alterados e lidos um a um, guardando a informação de tipo (entenda: valor lido que mostra se a fonte é principal ou \textit{backup}) e o valor das tensões lidas num vetor de dados, esse vetor é "bufferizado" e enviado via transmissão serial para a máquina conectada, que simula um computador de bordo (\textit{DPU}).  
+
+\subsection[Fluxograma detalhado do software]{Fluxograma detalhado do \textit{software}}
+
+	Antes de começar a programação dos conversores analógicos para digital (\textit{ADC}), identificando a necessidade que era preciso um meio de depurar o código para saber o que acontecia dentro do microcontrolador e como o \textit{firmware} estaria se comportando, além de facilitar a implementação do código, a comunicação serial é uma das melhores ferramentas de depuração quando se trata de sistemas embarcados.
+	
+	Para tal implementação foi utilizada a biblioteca do compilador \textit{XC8} para microcontroladores da família do PIC18. Outra boa prática utilizada foi o desenvolvimento estruturado do \textit{firmware}, ou seja, foi a utilização de arquivos dos tipos \textit{header (.h)} e \textit{sources (.s)}.
+	
+	\begin{figure}[th]
+		\caption{FLUXOGRAMA DETALHADO DO \textit{SOFTWARE}}
+		\label{Fig_fluxo_detalhado}
+		\centering
+		\includegraphics[width=0.75\linewidth]{./figs/fluxo_detalhado}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}
+	\end{figure}
+	\pagebreak
+
+	A configuração inicial, chamado de InitBoard no código, configura o \textit{clock} à 8MHz (oscilador interno do PIC), desliga os comparadores afim de minimizar possíveis incompatibilidades nos pinos do microcontrolador. Realiza a configuração dos registradores que definem os pinos como entradas e saídas, os chamados registradores \textit{TRIS}. Define também que a chave ideal ligue o barramento principal e por fim configura a transmissão serial que será utilizada como \textit{USART} (\textit{Universal Synchronous Asynchronous Receiver Transmitter}), configurado internamente na forma síncrona, uma ponta é mestre e a outra escravo. Um fio é utilizado para tráfego de dados, em regime \textit{half-duplex}, ou seja, nos dois sentidos, mas um sentido de cada vez. O outro fio é usado para pulsos de \textit{clock} emitidos pelo dispositivo mestre.
+	
+	A calibração dos conversores tem a função de guardar na memória do microcontrolador o valor correspondente de cada tensão, que irá para o barramento de saída, e o tipo principal ou \textit{backup}, para que o PIC possa identificar na transmissão serial qual a fonte que gera aquela tensão no barramento de saída.
+	
+	A calibração ocorre da seguinte maneira: o microcontrolador força a chave ideal a fornecer o valor da tensão da fonte principal que é armazenada, em seguida o microcontrolador passa a chave ideal para o fornecimento da tensão para o \textit{backup} e faz um comparativo para validar se o valor da tensão principal é superior ao valor da tensão do \textit{backup}. Realizando esse ciclo para as três tensões oferecidas no barramento.	
+	
+	A configuração do conversor analógico para digital, foi realizada utilizando-se uma lógica de mascaramento \textit{AND} utilizada para configurar os registradores do módulo \textit{ADC} (\textit{Analogic Digital Converter}) sem a necessidade de configurar \textit{bit} por \textit{bit}. A função \textit{OpenADC} utiliza as variáveis config1, 2 e 3 feitas neste processo de mascaramento e finaliza a configuração, deixando o \textit{ADC} pronto para ser utilizado no pino (\textit{Channel}) selecionado.
+	
+	A conversão tem seu início com a função \textit{ConvertADC} que espera o \textit{buffer} do \textit{ADC} ser liberado, assim que a conversão fica pronta o \textit{flag} do \textit{bit1} do registrador \textit{ADCON0} vai automaticamente para nível lógico baixo (zero digital), a função \textit{ReadADC}, faz a leitura e guarda seu valor na variável de resultado do conversor selecionado, este procedimento é executado 16 vezes e é tirado uma média dos valores, para uma maior precisão dos dados colhidos.
+	
+	Os dados são "bufferizados" de acordo com o protocolo \textit{topx}, este protocolo cria um vetor com as informações de tensões e tipos (principal ou \textit{backup}), e os transmite para a estação de trabalho conectada a porta serial, que pode utilizar os dados da maneira que desejar. 
+
+\subsection[Protocolo de comunicação serial]{Protocolo de comunicação serial}
+
+	O protocolo \textit{topx} foi desenvolvido para realizar o envio das mensagens enviadas pela serial. É um protocolo composto por 25 \textit{bytes}.\footnote{No Apêndice \ref{Prot_Serial} é possível visualizar a estrutura \textit{byte-to-byte} do protocolo.}
+	
+	A estrutura do protocolo respeita a Tabela \ref{Tab_prot}.
+	
+	\begin{table}[th]
+	\caption{ESTRUTURA DO PROTOCOLO \textit{TOPX}}
+	\label{Tab_prot}
+	\centering
+		\begin{tabular}{|c|c|}
+			\hline
+			Indicador tensão 12V & 1 \textit{byte} \\
+			\hline
+			Indicador fonte 12V & 1 \textit{byte} \\
+			\hline
+			Valor tensão 12V & 4 \textit{bytes} \\
+			\hline
+			Indicador tensão 5V & 1 \textit{byte} \\
+			\hline
+			Indicador fonte 5V & 1 \textit{byte} \\
+			\hline
+			Valor tensão 5V & 4 \textit{bytes} \\
+			\hline
+			Indicador tensão 3,3V & 1 \textit{byte} \\
+			\hline
+			Indicador fonte 3,3V & 1 \textit{byte} \\
+			\hline
+			Valor tensão 3,3V & 4 \textit{bytes} \\
+			\hline
+			Indicador tensão V$ _{nreg} $ & 1 \textit{byte} \\
+			\hline
+			Indicador fonte V$ _{nreg} $ & 1 \textit{byte} \\
+			\hline
+			Valor tensão V$ _{nreg} $ & 4 \textit{bytes} \\
+			\hline
+			Terminador de mensagem & 1 \textit{byte} \\
+			\hline
+		\end{tabular}	
+	
+	\begin{small}
+	\vspace{3pt}
+		FONTE: Elaborada pelos autores.
+	\end{small}
+	\end{table}
 
 \section[Simulador de falhas e Simulink]{Simulador de falhas e \textit{Simulink}}
 
@@ -1459,7 +1829,7 @@ desenvolvimento de software
 		\caption{SIMULADOR DE FALHAS}
 		\label{Fig_Simulador}
 		\centering
-		\includegraphics[width=0.5\linewidth]{./figs/Simulador}
+		\includegraphics[width=0.4\linewidth]{./figs/Simulador}
 			
 		\begin{small}
 			FONTE: Foto tirada pelos autores.
@@ -1502,8 +1872,8 @@ desenvolvimento de software
 			12V & \textit{ON} & Conversor \textit{backup} \\
 			5V & \textit{OFF} & Conversor principal \\
 			5V & \textit{ON} & Conversor \textit{backup} \\
-			3V3 & \textit{OFF} & Conversor principal \\
-			3V3 & \textit{ON} & Conversor \textit{backup} \\
+			3,3V & \textit{OFF} & Conversor principal \\
+			3,3V & \textit{ON} & Conversor \textit{backup} \\
 			VCC & \textit{OFF} & Conversor principal dedicado \\
 			VCC & \textit{ON} & Tensão do barramento \\
 		\end{tabular}	
@@ -1521,156 +1891,335 @@ desenvolvimento de software
 
 	O \textit{Simulink} é um ambiente de diagrama de blocos para a simulação de múltiplos domínios e de projetos de modelo baseado. É uma ferramenta integrada ao \textit{MatLab}.\textsuperscript{\cite{Simulink}}
 	
-	Com o objetivo de exibir os resultados dos testes realizados com o simulador de falhas, foi criado um \textit{software} supervisório no \textit{Simulink}. Os blocos utilizados foram dispostos de maneira a reproduzir o diagrama de blocos proposto, conforme Figura \ref{Fig_Simulink}.
+	Com o objetivo de exibir os resultados dos testes realizados com o simulador de falhas, foi criado um \textit{software} supervisório no \textit{Simulink}. Os blocos utilizados foram dispostos de maneira a reproduzir o diagrama de blocos proposto, conforme Figura \ref{Fig_int}.
 	
-	Figura Simulink
+	\begin{figure}[th]
+		\caption{INTERFACE CRIADA NO \textit{SIMULINK}}
+		\label{Fig_int}
+		\centering
+		\includegraphics[width=1.0\linewidth]{./figs/int}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}		
+	\end{figure}
 	
 	Para que interface criada funcione corretamente é necessário que os seguintes complementos estejam instaladas:
 	
 	\begin{itemize}
-	\item \textit{xPC Target};
-	\item \textit{Instrument Control Toolbox};
-	\item Compilador C.
+		\item \textit{xPC Target};
+		\item \textit{Instrument Control Toolbox};
+		\item Compilador C.
 	\end{itemize}
 
 	O subsistema Serial contém todos os blocos responsáveis pela configuração de comunicação entre equipamento e supervisório, além de fazer a separação dos \textit{bytes} enviados para a correta distribuição na interface.
 	
-	O bloco do Microcontrolador, tem a função de distribuir o sinal responsável pelo controle das chaves ideais, que possuem a inteligência de controle automática além de poder ser controlada via microcontrolados.
+	O bloco do Microcontrolador, tem a função de distribuir o sinal responsável pelo controle das chaves ideais, que possuem a inteligência de controle automática além de poder ser controlada via microcontrolador.
 	
-	Os Conversores 12V, 5V, 3V3 e Vnreg são os responsáveis pelo envio das tensões lidas nos conversores da placa de controle, já o Conversor \textit{Backup} envia as tensões lidas no conversor da placa do carregador.
+	Os Conversores 12V, 5V, 3,3V e Vnreg são os responsáveis pelo envio das tensões lidas nos conversores da placa de controle, já o Conversor \textit{Backup} envia as tensões lidas no conversor da placa do carregador.
 	
-	Nos subsistemas das Chaves 12V, 5V, 3V3 e Vnreg existe uma lógica que faz a interpretação dos \textit{bytes} enviados pelos demais blocos, enviando o sinal recebido para os \textit{displays} das Fontes Principais e \textit{Backup}.
+	Nos subsistemas das Chaves 12V, 5V, 3,3V e Vnreg existe uma lógica que faz a interpretação dos \textit{bytes} enviados pelos demais blocos, enviando o sinal recebido para os \textit{displays} das Fontes Principais e \textit{Backup}.
 	
-	O osciloscópio \textit{Scope - OVERVIEW} faz o monitoramento de todas as tensões do sistema indicando de forma gráfica todos os níveis de tensão em funcionamento, conforme Figura \ref{Fig_Overview}.
+	O osciloscópio \textit{Scope - OVERVIEW} faz o monitoramento de todas as tensões do sistema indicando de forma gráfica todos os níveis de tensão em funcionamento, conforme Figura \ref{Fig_over}.
 	
-	Figura Overview
+	\begin{figure}[th]
+		\caption{MONITORAMENTO DO BARRAMENTO DE SAÍDA}
+		\label{Fig_over}
+		\centering
+		\includegraphics[width=1.0\linewidth]{./figs/over}
+			
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}		
+	\end{figure}
+	\pagebreak
 	
-	Além do \textit{Scope - OVERVIEW}, cada circuito de tensão possui um osciloscópio dedicado, neles é possível fazer o acompanhamento de uma tensão específica, dessa forma pode-se visualizar o valor da tensão no momento e qual a fonte que está fornecendo esse valor, além de identificar o momento do chaveamento entre as fontes, conforme Figura \ref{Fig_Tensao}.
+	Além do \textit{Scope - OVERVIEW}, cada circuito de tensão possui um osciloscópio dedicado, neles é possível fazer o acompanhamento de uma tensão específica, dessa forma pode-se visualizar o valor da tensão no momento e qual a fonte que está fornecendo esse valor, além de identificar o momento do chaveamento entre as fontes, conforme Figura \ref{Fig_3v3}.
 	
-	Figura Tensao
+	\begin{figure}[th]
+		\caption{MONITORAMENTO DAS FONTES DE 3,3V}
+		\label{Fig_3v3}
+		\centering
+		\includegraphics[width=1.0\linewidth]{./figs/3v3}
+			
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}		
+	\end{figure}
+	
+	Na Figura \ref{Fig_ch} é exibido o monitoramento das fontes de 3,3V e o monitoramento do barramento de saída do Sistema de Gerenciamento de Energia para \textit{CubeSats}.
+	
+	\begin{figure}[th]
+		\caption{VERIFICAÇÃO DA TENSÃO NO BARRAMENTO DURANTE CHAVEAMENTO DA FONTE}
+		\label{Fig_ch}
+		\centering
+		\includegraphics[width=1.0\linewidth]{./figs/ch}
+			
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}		
+	\end{figure}
+	\pagebreak
 	
 	No supervisório foi criado também um algoritmo de animação que deixa as cores dos blocos dos conversores verde e vermelho, quando conversores ativos e desativos, respectivamente. Alguns computadores podem se perder enquanto executam o supervisório devido ao processamento das mensagens recebidas e a execução do \textit{script} utilizado nessa animação, nesses casos existe um supervisório adaptado que não contém o algoritmo de animação. 
 
-
+	Nesse capítulo foi abordado o princípio de funcionamento do Sistema de Gerenciamento de Energia para \textit{CubeSats}, os parâmetros utilizado para realizar a selação dos componentes e os métodos adotados na construçao da solução proposta. No capítulo a seguir, será abordado os resultados obtidos e as discussões que giram em torno do projeto.
+	
+	
 % ----------------------------------------------------------
 % RESULTADOS E DISCUSSÕES
 % ----------------------------------------------------------
 \chapter[Resultados e discussões]{Resultados e discussões}
 
-\section[Ensaios possíveis]{Ensaios possíveis}
+	Nesse capítulo será apresentado os resultados obtidos nos testes de validação e uma breve explanação sobre o resultado geral do Sistema de Gerenciamento de Energia.
 	
-	Durante a fase de consolidação teórica foram identificados possíveis ensaios que poderiam ser feitos no sistema para validação do circuito como um todo. Esses ensaios são de essencial importância para o projeto, pois dessa forma podem ser identificados possíveis problemas que devem ser corrigidos antes do lançamento da missão.
-	
-\subsection[Validação dos subconjuntos]{Validação dos subconjuntos}
+\section[Ensaios realizados]{Ensaios realizados}
 
-	Um dos ensaios identificados foi o de validação dos subconjuntos do Sistema de Gerenciamento de Energia para \textit{CubeSat}. O circuito do sistema como um todo foi dividido em vários subconjuntos de funções especificas para serem validados, ou seja, foi separada a parte do carregador de bateria, do conversor 3,3 V, do conversor de 5 V, do conversor de 12 V e do conversor \textit{backup}. Na Figura \ref{Fig_SubConj} pode ser visualizado duas placas com os subconjuntos do sistema.
+	Alguns testes foram realizados para aferir o funcionamento dos circuitos, dentre os ensaios possíveis foram realizados:
+	
+	\begin{itemize}
+	\item Individual da fotocélula;
+		\item Conjunto de fotocélulas;
+		\item Conversor principal de 5V;
+		\item Conversor principal de 12V;
+		\item Chave ideal para 5V.		
+	\end{itemize}
+	
+\subsection[Ensaio individual de fotocélula]{Ensaio individual de fotocélula}
+
+	O ensaio individual de fotocélula foi realizado variando a resistência de carga entre 1$\Omega$ e 200$\Omega$, o resultado do ensaio e a comparação com os dados teóricos podem ser visualizados graficamente na Figura \ref{Fig_ens_cell}.
 	
 	\begin{figure}[th]
-		\caption{CIRCUITOS DOS SUBCONJUNTOS DO SISTEMA}
-		\label{Fig_SubConj}
+		\caption{COMPARATIVO DOS RESULTADOS PRÁTICOS E DE \textit{DATASHEET}}
 		\centering
-		\includegraphics[width=0.7\linewidth]{./figs/placas_subconjuntos}
+		\label{Fig_ens_cell}
+		\includegraphics[width=0.7\linewidth]{./figs/ens_cell}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
+	\end{figure}
+
+	Devido as condições de testes, os resultados de \textit{datasheet} e prático possuem valores divergentes. Porém ao observar a curva nota-se um comportamento semelhante entre os ensaios, ressaltando que os valores fornecidos na especificação foram obtidos de ensaios com ambiente controlado, diferente dos ensaios realizados para aferição do painel solar.
+	
+	
+\subsection[Ensaio do conjunto de fotocélulas]{Ensaio do conjunto de fotocélulas}
+
+	O ensaio do conjunto de fotocélulas foi realizado variando a resistência de carga entre 500$\Omega$ e 5k$\Omega$, o resultado do ensaio pode ser visualizado na Figura \ref{Fig_ens_cell4}.\footnote{No Apêndice \ref{An_cell4}, é possível verificar a tabela com os dados do ensaio.} 
+	
+	\begin{figure}[th]
+		\caption{ENSAIO DO CONJUNTO DE FOTOCÉLULAS}
+		\centering
+		\label{Fig_ens_cell4}
+		\includegraphics[width=1.0\linewidth]{./figs/ens_cell4}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
+	\end{figure}
+	
+	É possível notar no ensaio dos conjuntos de fotocélulas que existe uma clara variação entre as amostras, não sendo obtido um resultado uniforme, esse resultado se deve, provavelmente, ao processo de soldagem no forno e a manipulação inadequada do material com as mãos.
+	
+\subsection[Ensaio do conversor principal de 5V]{Ensaio do conversor principal de 5V}
+
+	Conforme o esquema de testes apresentado na Figura \ref{Fig_esq_cont}, foram obtidos os resultados apresentados na Figura \ref{Fig_rend5}.
+	
+	\begin{figure}[th]
+		\caption{RENDIMENTO APRESENTADO PELO CONVERSOR 5V}
+		\label{Fig_rend5}
+		\centering
+		\includegraphics[width=0.9\linewidth]{./figs/rend5}
 			
 		\begin{small}
-			FONTE: Foto tirada pelos autores.
+			FONTE: Elaborado pelos autores.
 		\end{small}		
 	\end{figure}
 	
-\subsection[Ensaio de radiação]{Ensaio de radiação}	
+	
+	Para os ensaios realizados foram obtidos os rendimentos exibidos na Tabela \ref{Tab_rend5}.
+	
+	\begin{table}[th]
+	\caption{RENDIMENTO DO CONVERSOR DE 5V}
+	\label{Tab_rend5}
+	\centering
+		\begin{tabular}{p{2cm}|p{4cm}}
+			\textbf{Condição} & \textbf{Rendimento médio}\\
+			\hline
+			7,4V & 95,46\%\\
+			8,0V & 95,22\%\\
+			8,4V & 93,53\%\\
+		\end{tabular}	
+	
+	\begin{small}
+	\vspace{3pt}
+		FONTE: Elaborada pelos autores.
+	\end{small}
+	\end{table}
+	
+	O rendimento obtido no conversor principal de 5V (TPS563200) foi de encontro com a informação fornecida no \textit{datasheet} do componente, por volta de 95\%.\footnote{No Apêndice \ref{An_rend5}, é possível verificar a tabela com os dados do ensaio.} 
 
-	O ensaio de radiação consiste na emissão de radiação nos semicondutores a fim de se obter a assinatura da tensão e corrente após a exposição a radiação. Para esse ensaio foi necessário que os semicondutores estivessem decapados, ou seja, foi necessário que a dopagem de Sílicio do semicondutor estivesse exposta para que a emissão da radiação fosse direta no componente, fato que não ocorrerá no espaço, uma vez que a película do componente estará presente o que, por sua vez, acaba dando uma pequena filtrada na radiação. Esse teste foi realizado em conjunto com o Centro Universitário da Faculdade de Engenharia Industrial (FEI), com a Dr. Marcilei Guazzelli da FEI.
-	
-	Entre diversas pesquisas a respeito de possíveis testes de radiação, foi encontrado o projeto \textit{Open Source Satellite Initiative}. Na \textit{wikipage} do projeto \textit{OSSI} é disponibilizado um \textit{link} para um \textit{data base} que contém dados de testes de radiação da \textit{NASA Goddard Space Flight Center}.\textsuperscript{\cite{OSSI}}\textsuperscript{\cite{OSSI2}}\textsuperscript{\cite{OSSI3}}
-	
-	Nesse \textit{data base} foram encontrados dois componentes que constavam na lista de componentes solicitados na \textit{Farnell} (ver Anexo \ref{Orçamento}), sendo eles o TMP36, produzido pela \textit{Analog Devices}, e o LMP2012, produzido pela \textit{Texas Instruments}. Foi realizada uma tentativa de transformação da lista de componentes inicial por uma contendo mais componentes presentes nesse \textit{data base}, porém, além do alto custo, o \textit{lead time} de muitos deles era elevadíssimos e poderia comprometer o desenvolvimento do projeto.
-	
-	O TMP36, que é um sensor de temperatura, foi testado para \textit{SEL}, pela \textit{NASA} em 2002, pelos engenheiros espaciais Christian Poivey e Hak Kim, chegando a conclusão que a sensibilidade \textit{SEL} do componente não era um fator preocupante para aplicações espaciais.\footnote{No Anexo \ref{TMP36} é possível realizar a verificação do relatório de teste do TMP36.\textsuperscript{\cite{TMP36}}}
-	
-	O LMP2012, trata-se de um amplificador operacional, foi testado para \textit{SEE}, \textit{SEL}, \textit{SET} e \textit{Laser}, os testes foram realizados pelos engenheiros espaciais da \textit{NASA}, Michael Campola e Anthony Phan no final de 2012, concluindo que existem algumas áreas que param de funcionar após uma indução de \textit{laser} pulsado.\footnote{No Anexo \ref{LMP2012} é possível realizar a verificação do relatório de teste do LMP2012.\textsuperscript{\cite{LMP2012}}}
-	
-	
-\subsection[Ensaio térmico]{Ensaio térmico}
+\subsection[Ensaio do conversor principal de 12V]{Ensaio do conversor principal de 12V}
 
-	O ensaio térmico foi realizado em parceria com o laboratório da USP, coordenado pelo Dr. Fábio Rodrigues. Esse ensaio consistia em uma câmara refrigerada que atingia uma temperatura próxima aos -80 ºC. 
-	
-	Após a validação dos subconjuntos e a obtenção das assinaturas de tensão e corrente desses circuitos, as placas foram levadas a USP, onde o Dr. Fabio Rodrigues, as colocou nessa câmara para que fossem obtidas as assinaturas de tensão e corrente nessa condição de baixas temperaturas, dessa forma foi possível validar, de forma aproximada, como esses subconjuntos se comportariam no ambiente espacial onde as temperaturas podem chegar próximas de -170 ºC.
-
-\subsection[Ensaio de vácuo]{Ensaio de vácuo}	
-
-	O ensaio térmico foi realizado em parceria com o laboratório da USP, coordenado pelo Dr. Fábio Rodrigues. Esse ensaio consistia em uma câmara de vácuo que atingia uma pressão de aproximadamente 10\textsuperscript{-9} mbar. 
-	
-	Após a validação e a obtenção das assinaturas de tensão e corrente dos ensaios anteriores, o Dr. Fabio Rodrigues colocou os circuitos na câmera de vácuo para que fossem obtidas as assinaturas de tensão e corrente nessa condição de pressões baixas podendo avaliar o comportamento dos circuitos com pressões próximas as que existem na órbita \textit{LEO}.
-	
-\subsection[Ensaio de termovácuo]{Ensaio de termovácuo}
-
-	Por fim, após todas as validações anteriores os subconjuntos foram enviados para Vinhedo no Observatório Abrahão de Moraes onde o Dr. Douglas Galante, os colocou na câmera de termovácuo.
+	Para realizar o ensaio do conversor principal de 12V, foi realizado o mesmo procedimento para o teste do conversor de 5V, apresentando os resultados exibidos na Figura \ref{Fig_rend12}
 	
 	\begin{figure}[th]
-		\caption{CÂMERA DE TERMOCÁCUO}
-		\label{Fig_SubConj}
+		\caption{RENDIMENTO APRESENTADO PELO CONVERSOR 12V}
+		\label{Fig_rend12}
 		\centering
-		\includegraphics[width=0.5\linewidth]{./figs/termovacuo}
+		\includegraphics[width=0.9\linewidth]{./figs/rend12}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}		
+	\end{figure}	
+	
+	Para os ensaios realizados foram obtidos os rendimentos exibidos na Tabela \ref{Tab_rend12}.
+	
+	\begin{table}[th]
+	\caption{RENDIMENTO DO CONVERSOR DE 12V}
+	\label{Tab_rend12}
+	\centering
+		\begin{tabular}{p{2cm}|p{4cm}}
+			\textbf{Condição} & \textbf{Rendimento médio}\\
+			\hline
+			7,4V & 90,29\%\\
+			8,0V & 90,94\%\\
+			8,4V & 90,92\%\\
+		\end{tabular}	
+	
+	\begin{small}
+	\vspace{3pt}
+		FONTE: Elaborada pelos autores.
+	\end{small}
+	\end{table}
+	
+	O rendimento obtido no conversor principal de 12V (LT1941) foi de encontro com a informação fornecida no \textit{datasheet} do componente, por volta de 90\%.\footnote{No Apêndice \ref{An_rend12}, é possível verificar a tabela com os dados do ensaio.} 
+	
+	\subsection[Chave ideal do 5V]{Chave ideal do 5V}
+
+	Para a validação da chave ideal do 5V, foi realizado um ensaio que consistia em validar o funcionamento da chave e obter o rendimento das chaves, o que pode ser visualizado na Figura \ref{Fig_rendch5}.
+	
+	\begin{figure}[th]
+		\caption{RENDIMENTO APRESENTADO PELA CHAVE IDEAL DO 5V}
+		\label{Fig_rendch5}
+		\centering
+		\includegraphics[width=0.8\linewidth]{./figs/rendch5}
+			
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}		
+	\end{figure}
+
+	Para os ensaios realizados foram obtidos os rendimentos exibidos na Tabela \ref{Tab_rendch5}.
+	
+	\begin{table}[th]
+	\caption{RENDIMENTO DA CHAVE IDEAL DO 5V}
+	\label{Tab_rendch5}
+	\centering
+		\begin{tabular}{p{2cm}|p{4cm}}
+			\textbf{Fonte} & \textbf{Rendimento médio}\\
+			\hline
+			Principal & 96,25\%\\
+			\textit{Backup} & 96,23\%\\
+		\end{tabular}	
+	
+	\begin{small}
+	\vspace{3pt}
+		FONTE: Elaborada pelos autores.
+	\end{small}
+	\end{table}
+
+	Os resultados obtidos comprovam que as chaves ideias (LTC4412) utilizadas são de baixas perdas, o que reforça a robutez do sistema garantindo sempre o melhor desempenho na tensão fornecida no barramento.\footnote{No Apêndice \ref{An_rendch5}, é possível verificar a tabela com os dados do ensaio.} 
+	
+\section[Protótipo]{Protótipo}
+
+	Como o \textit{CubeSat} Mauá é um projeto multidisciplinar, cada um dos subsistemas foram desenvolvidos separadamente para serem integrados após as devidas validações. Dessa forma foi desenvolvido um protótipo de uma unidade dedicada ao Sistema de Gerenciamento de Energia para \textit{CubeSats}.	
+	
+	As placas de controle e do carregador ficaram fixadas nas arestas do cubo deixando a parte interna disponível, aumentando a área livre para a carga útil. Esse formato de construção foi um diferencial implementado no projeto, uma vez que na maioria dos \textit{CubeSats} as placas são colocadas de forma horizontal no interior do cubo, dispostas como um \textit{rack}.
+	
+	Na Figura \ref{Fig_cube} é possível visualizar o protótipo da unidade do Sistema de Gerenciamento de Energia do \textit{CubeSat} Mauá.
+	
+	\begin{figure}[th]
+		\caption{\textit{CUBESAT} MAUÁ}
+		\label{Fig_cube}
+		\centering
+		\includegraphics[width=0.5\linewidth]{./figs/cube}
 			
 		\begin{small}
 			FONTE: Foto tirada pelos autores.
-		\end{small}		
+		\end{small}
+		
+		\begin{footnotesize}
+			NOTA: Painéis solares meramente ilustrativos.
+		\end{footnotesize}
 	\end{figure}
 	
-	Nesse ensaio é possível atingir baixas pressões (10\textsuperscript{-9} mbar) e também baixas temperaturas (X ºC), também é possível visualizar no \textit{LabView} a curva da pressão, sendo fácil constatar se algum problema ocorreu caso na curva tenha alguma subida repentina de pressão.
 	
-	\begin{figure}[th]
-		\caption{CURVA DE PRESSÃO NO \textit{LABVIEW}}
-		\label{Fig_SubConj}
-		\centering
-		\includegraphics[width=1.0\linewidth]{./figs/labview}
-			
-		\begin{small}
-			FONTE: Foto tirada pelos autores.
-		\end{small}		
-	\end{figure}
-	
-\subsection[Avaliação dos ensaios]{Avaliação dos ensaios}
-% ----------------------------------------------------------
-% PLANO DE MARKETING
-% ----------------------------------------------------------
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\chapter[Plano de marketing]{Plano de marketing}
-
-% ----------------------------------------------------------
-% PLANO OPERACIONAL
-% ----------------------------------------------------------
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\chapter[Plano operacional]{Plano operacional}
-
-% ----------------------------------------------------------
-%PLANILHA FINANCEIRA 
-% ----------------------------------------------------------
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\chapter[Planilha financeira]{Planilha financeira}
 
 % ----------------------------------------------------------
 % CONCLUSÕES
 % ----------------------------------------------------------
-\chapter[Conclusões]{Conclusões} \label{ultimo_capitulo}
+\chapter[Conclusões e sugestões para trabalhos futuros]{Conclusões e sugestões para trabalhos futuros} \label{ultimo_capitulo}
 
+	A seguir será apresentada a conclusão do projeto desenvolvido e sugestões para trabalhos futuros.
+	
+\section[Conclusões gerais]{Conclusões gerais}
 
+	Frente aos objetivos traçados inicialmente durante os estudos deste trabalho, o resultado foi alcançado parcialmente. O foco principal do sistema ficou sobre o estudo de potência, com os conversores CC/CC onde foi possível obter altas eficiências de conversão de energia com a utilização de componentes comerciais.
+	
+	 Dentre as dificuldades encontradas para o desenvolvimento do projeto, a falta de fornecedores sediados no Brasil, resultou na importação de todos os componentes utilizados, que devido a logística necessária para a entrega deles afetou no tempo que seria dedicado aos ensaios. A burocracia no processo de aprovação das compras também impactou nesse processo.
+	 
+	 A solução implementada para a aumentar a vida útil do Sistema de Gerenciamento de Energia, utilizando uma fonte \textit{backup} se montou bastante eficaz, o chaveamento entre as fontes de energia principal e \textit{backup} com o uso de chaves ideal se mostrou bastante funcional por apresentar baixa perda e não ocasionar pertubações a carga, que continua operando normalmente. 
+	
+	O sistema da forma que foi implementado se tornar uma plataforma didática para estudos de eletrônica de potência na área aeroespacial, respeitando as normas especificadas pela \textit{Cal Poly}. 
+
+	As redundâncias funcionaram como projetado pelo grupo, fazendo com que caso o conversor principal diminua sua tensão, a ponto de ficar a baixo da tensão fornecida pelo conversor \textit{backup}, este toma seu lugar e começa, imediatamente, a fornecer a energia no barramento de saída, sem que a carga sinta a comutação entre as fontes. Isso ocorre individualmente para cada um dos conversores ou até para todos juntos, não prejudicando o fornecimento de energia aos demais subsistemas do \textit{CubeSat}.
+
+	Os tópicos que se destacaram no desenvolvimento do projeto foram:
+	
+	\begin{itemize}
+		\item Alta eficiência atingida com conversores de baixo custo;
+		\item Fontes de redundância de alta eficiência;
+		\item Chaveamento instantâneo entre fontes;
+		\item Utilização de componentes de fácil acesso;
+		\item Otimização da área útil do \textit{CubeSat};
+		\item Desenvolvimento de \textit{software} supervisório;
+		\item Desenvolvimento de um simulador de falhas.
+	\end{itemize}
+
+\section[Sugestões para trabalhos futuros]{Sugestões para trabalhos futuros}
+	
+	Como o objetivo do \textit{CubeSat} Mauá é ser lançado e também tornar-se um projeto de estudo constante do NSEE, alguns pontos do projeto podem ser melhorados, sendo eles:
+	
+	\begin{itemize}
+		\item Realizar os ensaios de determinação do rendimento no conversor principal de 3,3V e no conversor \textit{backup};
+		\item Montagem e ensaio do sistema de carregamento de bateria;
+		\item Ensaio do painel solar;
+		\item Implementar a comunicação CAN;
+		\item Desenvolver um processo estruturado para a realização dos ensaios de radiação e termovácuo;\footnote{No Apêndice \ref{ensaios}, é possível ver mais informações sobre os ensaios propostos.}
+		\item Integração com demais subsistemas.
+	\end{itemize}
+	
 % ----------------------------------------------------------
 % REFERÊNCIAS BIBLIOGRÁFICAS
 % ----------------------------------------------------------
 \bibliography{TCC_Sist_Gerenciamento_Potencia}
 
 % ----------------------------------------------------------
-% Anexos
+% Apêndices
 % ----------------------------------------------------------
 
 % ---
-% Inicia os anexos
+% Inicia os Apêndices
 % ---
-\begin{anexosenv}
+\begin{apendicesenv}
 
-% Imprime uma página indicando o início dos anexos
-\partanexos
+% Imprime uma página indicando o início dos Apêndices
+\partapendices
 
 % ---
 \chapter[Orçamento dos componentes da Farnell]{Orçamento dos componentes da \textit{Farnell}} \label{Orçamento}
-% ---
+
 
 	Orçamento enviado pelo Sr. Helder Sant'ana Viana da \textit{Farnell Newark element14}.
 
@@ -1689,57 +2238,303 @@ desenvolvimento de software
 		\includegraphics[width=0.9\linewidth]{./anexos/Pedido1898453}	
 	\end{figure}
 	
-\chapter[Relatório de teste do TMP36]{Relatório de teste do TMP36} \label{TMP36}
-	
-	Relatório de teste do TMP36, realizado em 08 de Agosto de 2002 pelos engenheiros Christian Poivey e Hak Kim.\textsuperscript{\cite{TMP36}}
+\chapter[Forno de refusão ProtoFlow E]{Forno de refusão \textit{ProtoFlow E}} \label{ProtoFlow}
 	
 	\begin{figure}[th]
+		\caption{FORNO DE REFUSÃO \textit{PROTOFLOW E}}
 		\centering
-		\includegraphics[width=0.85\linewidth]{./anexos/tmp36_1}	
-	\end{figure}	
+		\includegraphics[width=0.75\linewidth]{./anexos/proto1}
+		
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}	
+	\end{figure}
 	
 	\begin{figure}[th]
+		\caption{PROCESSO DE ESTANHAMENTO DOS \textit{PADS} DAS FOTOCÉLULAS}
 		\centering
-		\includegraphics[width=0.85\linewidth]{./anexos/tmp36_2}	
-	\end{figure}	
+		\includegraphics[width=0.75\linewidth]{./anexos/proto2}
+		
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}	
+	\end{figure}
 	
 	\begin{figure}[th]
+		\caption{CURVA DE TEMPERATURA DO PROCESSO DE SOLDAGEM}
 		\centering
-		\includegraphics[width=0.85\linewidth]{./anexos/tmp36_3}	
-	\end{figure}	
+		\includegraphics[width=0.75\linewidth]{./anexos/configproto}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}		
+	\end{figure}
 	
 	\begin{figure}[th]
+		\caption{PAINEL SOLAR EM PROCESSO DE SOLDAGEM}
 		\centering
-		\includegraphics[width=0.85\linewidth]{./anexos/tmp36_4}	
-	\end{figure}			
-	
-\chapter[Relatório de teste do LMP2012]{Relatório de teste do LMP2012} \label{LMP2012}	
-	
-	Relatório de teste do LMP2012, realizado em 18 de Dezembro de 2012 pelos engenheiros Michael Campola e Anthony Phan.\textsuperscript{\cite{LMP2012}}
-	
-		\begin{figure}[th]
-		\centering
-		\includegraphics[width=0.85\linewidth]{./anexos/lmp2012_1}	
-	\end{figure}	
+		\includegraphics[width=0.75\linewidth]{./anexos/proto3}
+		
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}	
+	\end{figure}
 	
 	\begin{figure}[th]
+		\caption{PROCESSO DE RESFRIAMENTO DO PAINEL SOLAR}
 		\centering
-		\includegraphics[width=0.85\linewidth]{./anexos/lmp2012_2}	
+		\includegraphics[width=0.75\linewidth]{./anexos/proto4}
+		
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}	
+	\end{figure}
+	
+
+\chapter[Placa do carregador]{Placa do carregador}\label{P_Carreg}
+
+	\begin{figure}[th]
+		\caption{\textit{LAYOUT} DA PLACA DO CARREGADOR}
+		\centering
+		\includegraphics[width=0.75\linewidth]{./anexos/placa_carreg}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
 	\end{figure}	
+	
+	
+\chapter[Placa de controle]{Placa de controle}\label{P_Cont}
+
+	\begin{figure}[th]
+		\caption{\textit{LAYOUT} DA PLACA DE CONTROLE}
+		\centering
+		\includegraphics[width=0.75\linewidth]{./anexos/placa_cont}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
+	\end{figure}
+	
+\chapter[Pontos de teste da placa de controle]{Pontos de teste da placa de controle}\label{T_Cont}
+
+	\begin{figure}[th]
+		\caption{PONTOS DE TESTE DA PLACA DE CONTROLE}
+		\centering
+		\includegraphics[width=0.75\linewidth]{./anexos/t_cont}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
+	\end{figure}
+	
+\chapter[Protocolo de comunicação]{Protocolo de comunicação}\label{Prot_Serial}
+
+	O protocolo de comunicação serial \textit{topx} possui a seguinte estrutura:
+
+	\begin{enumerate}
+		\item Identificação da tensão de 12V;
+		\item Identificação de fonte principal ou \textit{backup};
+		\item Primeiro dígito da tensão de 12V;
+		\item Segundo dígito da tensão de 12V;
+		\item Terceiro dígito da tensão de 12V;
+		\item Quarto dígito da tensão de 12V;
+		\item Identificação da tensão de 5V;
+		\item Identificação de fonte principal ou \textit{backup};
+		\item Primeiro dígito da tensão de 5V;
+		\item Segundo dígito da tensão de 5V;
+		\item Terceiro dígito da tensão de 5V;
+		\item Quarto dígito da tensão de 5V;
+		\item Identificação da tensão de 3,3V;
+		\item Identificação de fonte principal ou \textit{backup};
+		\item Primeiro dígito da tensão de 3,3V;
+		\item Segundo dígito da tensão de 3,3V;
+		\item Terceiro dígito da tensão de 3,3V;
+		\item Quarto dígito da tensão de 3,3V;
+		\item Identificação da tensão de V$ _{nreg} $;
+		\item Identificação de fonte principal ou \textit{backup};
+		\item Primeiro dígito da tensão de V$ _{nreg} $;
+		\item Segundo dígito da tensão de V$ _{nreg} $;
+		\item Terceiro dígito da tensão de V$ _{nreg} $;
+		\item Quarto dígito da tensão de V$ _{nreg} $;
+		\item Terminador.
+	\end{enumerate}
+	
+\chapter[Resultados do ensaio realizado no conjunto de fotocélulas]{Resultados do ensaio realizado no conjunto de fotocélulas}\label{An_cell4}
+
+	\begin{figure}[th]
+		\caption{RESULTADOS OBTIDOS NO PAINEL SOLAR}
+		\centering
+		\includegraphics[width=0.35\linewidth]{./anexos/cell4}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
+	\end{figure}
+	
+\chapter[Resultados do ensaio realizado no conversor de 5V]{Resultados do ensaio realizado no conversor de 5V}\label{An_rend5}
+
+	\begin{figure}[th]
+		\caption{RESULTADOS OBTIDOS NO CONVERSOR DE 5V}
+		\centering
+		\includegraphics[width=0.75\linewidth]{./anexos/rend5_1}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
+		
+		\begin{footnotesize}
+		NOTA: Ensaio realizado com bateria descarregada (7,4V)
+		\end{footnotesize}
+	\end{figure}
 	
 	\begin{figure}[th]
+		\caption{RESULTADOS OBTIDOS NO CONVERSOR DE 5V}
 		\centering
-		\includegraphics[width=0.85\linewidth]{./anexos/lmp2012_3}	
-	\end{figure}	
+		\includegraphics[width=0.75\linewidth]{./anexos/rend5_2}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
+		
+		\begin{footnotesize}
+		NOTA: Ensaio realizado com bateria carregada (8,0V)
+		\end{footnotesize}
+	\end{figure}
 	
 	\begin{figure}[th]
+		\caption{RESULTADOS OBTIDOS NO CONVERSOR DE 5V}
 		\centering
-		\includegraphics[width=0.85\linewidth]{./anexos/lmp2012_4}	
+		\includegraphics[width=0.75\linewidth]{./anexos/rend5_3}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
+		
+		\begin{footnotesize}
+		NOTA: Ensaio realizado com bateria completamente carregada (8,4V)
+		\end{footnotesize}
+	\end{figure}
+	
+\chapter[Resultados do ensaio realizado no conversor de 12V]{Resultados do ensaio realizado no conversor de 12V}\label{An_rend12}
+
+	\begin{figure}[th]
+		\caption{RESULTADOS OBTIDOS NO CONVERSOR DE 12V}
+		\centering
+		\includegraphics[width=0.75\linewidth]{./anexos/rend12_1}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
+		
+		\begin{footnotesize}
+		NOTA: Ensaio realizado com bateria descarregada (7,4V).
+		\end{footnotesize}
+	\end{figure}
+	
+	\begin{figure}[th]
+		\caption{RESULTADOS OBTIDOS NO CONVERSOR DE 12V}
+		\centering
+		\includegraphics[width=0.75\linewidth]{./anexos/rend12_2}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
+		
+		\begin{footnotesize}
+		NOTA: Ensaio realizado com bateria carregada (8,0V).
+		\end{footnotesize}
+	\end{figure}
+	
+	\begin{figure}[th]
+		\caption{RESULTADOS OBTIDOS NO CONVERSOR DE 12V}
+		\centering
+		\includegraphics[width=0.75\linewidth]{./anexos/rend12_3}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
+		
+		\begin{footnotesize}
+		NOTA: Ensaio realizado com bateria completamente carregada (8,4V).
+		\end{footnotesize}
 	\end{figure}	
 	
+\chapter[Resultados do ensaio realizado na chave ideal do 5V]{Resultados do ensaio realizado na chave ideal do 5V}\label{An_rendch5}
+
+	\begin{figure}[th]
+		\caption{RESULTADOS OBTIDOS NA CHAVE IDEAL DO 5V}
+		\centering
+		\includegraphics[width=0.75\linewidth]{./anexos/chavep}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
+		
+		\begin{footnotesize}
+		NOTA: Ensaio realizado com chave fornecendo tensão do conversor principal.
+		\end{footnotesize}
+	\end{figure}
+	
+	\begin{figure}[th]
+		\caption{RESULTADOS OBTIDOS NA CHAVE IDEAL DO 5V}
+		\centering
+		\includegraphics[width=0.75\linewidth]{./anexos/chaveb}
+		
+		\begin{small}
+			FONTE: Elaborado pelos autores.
+		\end{small}	
+		
+		\begin{footnotesize}
+		NOTA: Ensaio realizado com chave fornecendo tensão do conversor \textit{backup}.
+		\end{footnotesize}
+	\end{figure}
+	
+\chapter[Ensaios futuros]{Ensaios futuros}\label{ensaios}
+	
+\section[Ensaio de radiação]{Ensaio de radiação}	
+
+	O ensaio de radiação consiste na emissão de radiação nos semicondutores a fim de se obter a assinatura da tensão e corrente após a exposição a radiação. Para esse ensaio é necessário que os semicondutores estejam decapados, ou seja, é necessário que a dopagem de sílicio do semicondutor fique exposta para que a emissão da radiação seja direta no componente, fato que não ocorrerá no espaço, uma vez que a película do componente estará presente o que, por sua vez, acaba dando uma pequena filtrada na radiação. Esse teste pode ser realizado em conjunto com o Centro Universitário da Faculdade de Engenharia Industrial (FEI), com a Dr. Marcilei Guazzelli da FEI.	
+	
+\section[Ensaio térmico]{Ensaio térmico}
+
+	O ensaio térmico pode ser realizado em parceria com o laboratório da USP, coordenado pelo Dr. Fábio Rodrigues. Esse ensaio consiste em uma câmara refrigerada que atinge uma temperatura próxima aos -80 ºC. 
+
+\section[Ensaio de vácuo]{Ensaio de vácuo}	
+
+	O ensaio térmico pode ser realizado em parceria com o laboratório da USP, coordenado pelo Dr. Fábio Rodrigues. Esse ensaio consiste em uma câmara de vácuo que atinge uma pressão de aproximadamente 10\textsuperscript{-9} mbar. 
+	
+\section[Ensaio de termovácuo]{Ensaio de termovácuo}
+
+	Por fim, após todas as validações anteriores os subconjuntos podem ser enviados para Vinhedo no Observatório Abrahão de Moraes onde o Dr. Douglas Galante, poderá realizar o ensaio de termovácuo.
+	
+	\begin{figure}[th]
+		\caption{CÂMERA DE TERMOCÁCUO}
+		\label{Fig_SubConj}
+		\centering
+		\includegraphics[width=0.5\linewidth]{./figs/termovacuo}
+			
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}		
+	\end{figure}
+	\pagebreak
+	
+	Nesse ensaio é possível atingir baixas pressões (10\textsuperscript{-9} mbar) e também baixas temperaturas, sendo possível visualizar no \textit{LabView} a curva da pressão, onde é fácil constatar se algum problema ocorreu caso na curva tenha alguma subida repentina de pressão.
+	
+	\begin{figure}[th]
+		\caption{CURVA DE PRESSÃO NO \textit{LABVIEW}}
+		\label{Fig_SubConj}
+		\centering
+		\includegraphics[width=0.8\linewidth]{./figs/labview}
+			
+		\begin{small}
+			FONTE: Foto tirada pelos autores.
+		\end{small}		
+	\end{figure}
 	
 	
-\end{anexosenv}
+\end{apendicesenv}
 
 
 

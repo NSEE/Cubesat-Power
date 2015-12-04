@@ -1,11 +1,16 @@
 \select@language {brazil}
-\contentsline {table}{\numberline {1}{\ignorespaces COMPARATIVO DAS TECNOLOGIAS UTILIZADAS}}{20}{table.2.1}
-\contentsline {table}{\numberline {2}{\ignorespaces COMPARATIVO DAS FOTOC\IeC {\'E}LULAS DA \textit {SPECTROLAB}}}{28}{table.2.2}
-\contentsline {table}{\numberline {3}{\ignorespaces COMPARATIVO DAS FOTOC\IeC {\'E}LULAS DA \textit {EMCORE}}}{29}{table.2.3}
-\contentsline {table}{\numberline {4}{\ignorespaces COMPARATIVO DAS FOTOC\IeC {\'E}LULAS DA \textit {AZURSPACE}}}{29}{table.2.4}
-\contentsline {table}{\numberline {5}{\ignorespaces OR\IeC {\c C}AMENTO DAS FOTOC\IeC {\'E}LULAS DA \textit {AZURSPACE}}}{43}{table.3.5}
-\contentsline {table}{\numberline {6}{\ignorespaces OR\IeC {\c C}AMENTO DAS FOTOC\IeC {\'E}LULAS DA \textit {TRISOLX}}}{44}{table.3.6}
-\contentsline {table}{\numberline {7}{\ignorespaces RESISTORES}}{45}{table.3.7}
-\contentsline {table}{\numberline {8}{\ignorespaces INDUTORES}}{45}{table.3.8}
-\contentsline {table}{\numberline {9}{\ignorespaces CAPACITORES}}{46}{table.3.9}
-\contentsline {table}{\numberline {10}{\ignorespaces SIMULA\IeC {\c C}\IeC {\~A}O DE FALHAS}}{50}{table.4.10}
+\contentsline {table}{\numberline {1}{\ignorespaces COMPARATIVO DAS TECNOLOGIAS UTILIZADAS}}{23}{table.2.1}
+\contentsline {table}{\numberline {2}{\ignorespaces COMPARATIVO DAS FOTOC\IeC {\'E}LULAS DA \textit {SPECTROLAB}}}{30}{table.2.2}
+\contentsline {table}{\numberline {3}{\ignorespaces COMPARATIVO DAS FOTOC\IeC {\'E}LULAS DA \textit {EMCORE}}}{31}{table.2.3}
+\contentsline {table}{\numberline {4}{\ignorespaces COMPARATIVO DAS FOTOC\IeC {\'E}LULAS DA \textit {AZURSPACE}}}{31}{table.2.4}
+\contentsline {table}{\numberline {5}{\ignorespaces OR\IeC {\c C}AMENTO DAS FOTOC\IeC {\'E}LULAS DA \textit {AZURSPACE}}}{45}{table.3.5}
+\contentsline {table}{\numberline {6}{\ignorespaces OR\IeC {\c C}AMENTO DAS FOTOC\IeC {\'E}LULAS DA \textit {TRISOLX}}}{46}{table.3.6}
+\contentsline {table}{\numberline {7}{\ignorespaces RESISTORES}}{47}{table.3.7}
+\contentsline {table}{\numberline {8}{\ignorespaces INDUTORES}}{47}{table.3.8}
+\contentsline {table}{\numberline {9}{\ignorespaces CAPACITORES}}{48}{table.3.9}
+\contentsline {table}{\numberline {10}{\ignorespaces RESIST\IeC {\^E}NCIAS DE CARGA UTILIZADAS NO TESTE}}{59}{table.3.10}
+\contentsline {table}{\numberline {11}{\ignorespaces ESTRUTURA DO PROTOCOLO \textit {TOPX}}}{65}{table.3.11}
+\contentsline {table}{\numberline {12}{\ignorespaces SIMULA\IeC {\c C}\IeC {\~A}O DE FALHAS}}{67}{table.3.12}
+\contentsline {table}{\numberline {13}{\ignorespaces RENDIMENTO DO CONVERSOR DE 5V}}{72}{table.4.13}
+\contentsline {table}{\numberline {14}{\ignorespaces RENDIMENTO DO CONVERSOR DE 12V}}{74}{table.4.14}
+\contentsline {table}{\numberline {15}{\ignorespaces RENDIMENTO DA CHAVE IDEAL DO 5V}}{74}{table.4.15}
